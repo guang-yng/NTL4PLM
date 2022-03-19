@@ -64,10 +64,8 @@ class TextClassificationJsonReaderWithSampling(TextClassificationJsonReader):
                  tokenizer: Tokenizer = None,
                  max_sequence_length: int = None,
                  sample: int = None,
-                 skip_label_indexing: bool = False,
-                 lazy: bool = False) -> None:
-        super().__init__(lazy=lazy,
-                         token_indexers=token_indexers,
+                 skip_label_indexing: bool = False) -> None:
+        super().__init__(token_indexers=token_indexers,
                          tokenizer=tokenizer,
                          max_sequence_length=max_sequence_length,
                          skip_label_indexing=skip_label_indexing)

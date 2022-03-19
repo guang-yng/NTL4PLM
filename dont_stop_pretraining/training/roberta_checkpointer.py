@@ -63,6 +63,7 @@ class DefaultRobertaCheckpointer(Checkpointer):
         epoch: Union[int, str],
         trainer: "allennlp.training.trainer.Trainer",
         is_best_so_far: bool = False,
+        save_model_only: bool = True,
     ) -> None:
         do_save = False
         if self._skip_early_stopping:

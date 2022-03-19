@@ -1,0 +1,107 @@
+2022-03-19 18:42:40,617 - INFO - allennlp.common.params - random_seed = 4154841054
+2022-03-19 18:42:40,624 - INFO - allennlp.common.params - numpy_seed = 4154841054
+2022-03-19 18:42:40,626 - INFO - allennlp.common.params - pytorch_seed = 4154841054
+2022-03-19 18:42:40,629 - INFO - allennlp.common.checks - Pytorch version: 1.8.0+cu111
+2022-03-19 18:42:40,633 - INFO - allennlp.common.params - type = default
+2022-03-19 18:42:40,638 - INFO - allennlp.common.params - dataset_reader.type = text_classification_json_with_sampling
+2022-03-19 18:42:40,640 - INFO - allennlp.common.params - dataset_reader.token_indexers.tokens.type = pretrained_transformer
+2022-03-19 18:42:40,642 - INFO - allennlp.common.params - dataset_reader.token_indexers.tokens.token_min_padding_length = 0
+2022-03-19 18:42:40,643 - INFO - allennlp.common.params - dataset_reader.token_indexers.tokens.model_name = roberta-base
+2022-03-19 18:42:40,645 - INFO - allennlp.common.params - dataset_reader.token_indexers.tokens.namespace = tags
+2022-03-19 18:42:40,647 - INFO - allennlp.common.params - dataset_reader.token_indexers.tokens.max_length = 512
+2022-03-19 18:42:40,648 - INFO - allennlp.common.params - dataset_reader.token_indexers.tokens.tokenizer_kwargs = None
+2022-03-19 18:42:53,426 - INFO - allennlp.common.params - dataset_reader.tokenizer.type = pretrained_transformer
+2022-03-19 18:42:53,432 - INFO - allennlp.common.params - dataset_reader.tokenizer.model_name = roberta-base
+2022-03-19 18:42:53,434 - INFO - allennlp.common.params - dataset_reader.tokenizer.add_special_tokens = True
+2022-03-19 18:42:53,436 - INFO - allennlp.common.params - dataset_reader.tokenizer.max_length = 512
+2022-03-19 18:42:53,437 - INFO - allennlp.common.params - dataset_reader.tokenizer.stride = 0
+2022-03-19 18:42:53,439 - INFO - allennlp.common.params - dataset_reader.tokenizer.tokenizer_kwargs = None
+2022-03-19 18:42:53,441 - INFO - allennlp.common.params - dataset_reader.max_sequence_length = 512
+2022-03-19 18:42:53,442 - INFO - allennlp.common.params - dataset_reader.sample = None
+2022-03-19 18:42:53,444 - INFO - allennlp.common.params - dataset_reader.skip_label_indexing = False
+2022-03-19 18:42:53,446 - INFO - allennlp.common.params - train_data_path = datasets/rct-20k/train.jsonl
+2022-03-19 18:42:53,448 - INFO - allennlp.common.params - vocabulary = <allennlp.common.lazy.Lazy object at 0x7fc15d6ca1d0>
+2022-03-19 18:42:53,450 - INFO - allennlp.common.params - datasets_for_vocab_creation = None
+2022-03-19 18:42:53,452 - INFO - allennlp.common.params - validation_dataset_reader.type = text_classification_json_with_sampling
+2022-03-19 18:42:53,453 - INFO - allennlp.common.params - validation_dataset_reader.token_indexers.tokens.type = pretrained_transformer
+2022-03-19 18:42:53,455 - INFO - allennlp.common.params - validation_dataset_reader.token_indexers.tokens.token_min_padding_length = 0
+2022-03-19 18:42:53,457 - INFO - allennlp.common.params - validation_dataset_reader.token_indexers.tokens.model_name = roberta-base
+2022-03-19 18:42:53,458 - INFO - allennlp.common.params - validation_dataset_reader.token_indexers.tokens.namespace = tags
+2022-03-19 18:42:53,460 - INFO - allennlp.common.params - validation_dataset_reader.token_indexers.tokens.max_length = 512
+2022-03-19 18:42:53,461 - INFO - allennlp.common.params - validation_dataset_reader.token_indexers.tokens.tokenizer_kwargs = None
+2022-03-19 18:42:53,463 - INFO - allennlp.common.params - validation_dataset_reader.tokenizer.type = pretrained_transformer
+2022-03-19 18:42:53,465 - INFO - allennlp.common.params - validation_dataset_reader.tokenizer.model_name = roberta-base
+2022-03-19 18:42:53,467 - INFO - allennlp.common.params - validation_dataset_reader.tokenizer.add_special_tokens = True
+2022-03-19 18:42:53,468 - INFO - allennlp.common.params - validation_dataset_reader.tokenizer.max_length = 512
+2022-03-19 18:42:53,470 - INFO - allennlp.common.params - validation_dataset_reader.tokenizer.stride = 0
+2022-03-19 18:42:53,471 - INFO - allennlp.common.params - validation_dataset_reader.tokenizer.tokenizer_kwargs = None
+2022-03-19 18:42:53,473 - INFO - allennlp.common.params - validation_dataset_reader.max_sequence_length = 512
+2022-03-19 18:42:53,475 - INFO - allennlp.common.params - validation_dataset_reader.sample = None
+2022-03-19 18:42:53,477 - INFO - allennlp.common.params - validation_dataset_reader.skip_label_indexing = False
+2022-03-19 18:42:53,478 - INFO - allennlp.common.params - validation_data_path = datasets/rct-20k/dev.jsonl
+2022-03-19 18:42:53,479 - INFO - allennlp.common.params - validation_data_loader = None
+2022-03-19 18:42:53,481 - INFO - allennlp.common.params - test_data_path = datasets/rct-20k/test.jsonl
+2022-03-19 18:42:53,482 - INFO - allennlp.common.params - evaluate_on_test = True
+2022-03-19 18:42:53,484 - INFO - allennlp.common.params - batch_weight_key = 
+2022-03-19 18:42:53,485 - INFO - allennlp.common.params - data_loader.type = multiprocess
+2022-03-19 18:42:53,487 - INFO - allennlp.common.params - data_loader.batch_size = None
+2022-03-19 18:42:53,489 - INFO - allennlp.common.params - data_loader.drop_last = False
+2022-03-19 18:42:53,490 - INFO - allennlp.common.params - data_loader.shuffle = False
+2022-03-19 18:42:53,492 - INFO - allennlp.common.params - data_loader.batch_sampler.type = bucket
+2022-03-19 18:42:53,495 - INFO - allennlp.common.params - data_loader.batch_sampler.batch_size = 16
+2022-03-19 18:42:53,497 - INFO - allennlp.common.params - data_loader.batch_sampler.sorting_keys = None
+2022-03-19 18:42:53,498 - INFO - allennlp.common.params - data_loader.batch_sampler.padding_noise = 0.1
+2022-03-19 18:42:53,500 - INFO - allennlp.common.params - data_loader.batch_sampler.drop_last = False
+2022-03-19 18:42:53,501 - INFO - allennlp.common.params - data_loader.batches_per_epoch = None
+2022-03-19 18:42:53,503 - INFO - allennlp.common.params - data_loader.num_workers = 0
+2022-03-19 18:42:53,505 - INFO - allennlp.common.params - data_loader.max_instances_in_memory = None
+2022-03-19 18:42:53,506 - INFO - allennlp.common.params - data_loader.start_method = fork
+2022-03-19 18:42:53,510 - INFO - allennlp.common.params - data_loader.cuda_device = None
+2022-03-19 18:42:53,513 - INFO - tqdm - loading instances: 0it [00:00, ?it/s]
+2022-03-19 18:42:54,687 - CRITICAL - root - Uncaught exception
+Traceback (most recent call last):
+  File "/home/yangguang/miniconda3/envs/NTL4PLM/bin/allennlp", line 8, in <module>
+    sys.exit(run())
+  File "/home/yangguang/miniconda3/envs/NTL4PLM/lib/python3.7/site-packages/allennlp/__main__.py", line 34, in run
+    main(prog="allennlp")
+  File "/home/yangguang/miniconda3/envs/NTL4PLM/lib/python3.7/site-packages/allennlp/commands/__init__.py", line 119, in main
+    args.func(args)
+  File "/home/yangguang/miniconda3/envs/NTL4PLM/lib/python3.7/site-packages/allennlp/commands/train.py", line 119, in train_model_from_args
+    file_friendly_logging=args.file_friendly_logging,
+  File "/home/yangguang/miniconda3/envs/NTL4PLM/lib/python3.7/site-packages/allennlp/commands/train.py", line 178, in train_model_from_file
+    file_friendly_logging=file_friendly_logging,
+  File "/home/yangguang/miniconda3/envs/NTL4PLM/lib/python3.7/site-packages/allennlp/commands/train.py", line 242, in train_model
+    file_friendly_logging=file_friendly_logging,
+  File "/home/yangguang/miniconda3/envs/NTL4PLM/lib/python3.7/site-packages/allennlp/commands/train.py", line 456, in _train_worker
+    local_rank=process_rank,
+  File "/home/yangguang/miniconda3/envs/NTL4PLM/lib/python3.7/site-packages/allennlp/common/from_params.py", line 593, in from_params
+    **extras,
+  File "/home/yangguang/miniconda3/envs/NTL4PLM/lib/python3.7/site-packages/allennlp/common/from_params.py", line 623, in from_params
+    return constructor_to_call(**kwargs)  # type: ignore
+  File "/home/yangguang/miniconda3/envs/NTL4PLM/lib/python3.7/site-packages/allennlp/commands/train.py", line 658, in from_partial_objects
+    "train": data_loader.construct(reader=dataset_reader, data_path=train_data_path)
+  File "/home/yangguang/miniconda3/envs/NTL4PLM/lib/python3.7/site-packages/allennlp/common/lazy.py", line 80, in construct
+    return self.constructor(**contructor_kwargs)
+  File "/home/yangguang/miniconda3/envs/NTL4PLM/lib/python3.7/site-packages/allennlp/common/lazy.py", line 66, in constructor_to_use
+    **kwargs,
+  File "/home/yangguang/miniconda3/envs/NTL4PLM/lib/python3.7/site-packages/allennlp/common/from_params.py", line 593, in from_params
+    **extras,
+  File "/home/yangguang/miniconda3/envs/NTL4PLM/lib/python3.7/site-packages/allennlp/common/from_params.py", line 623, in from_params
+    return constructor_to_call(**kwargs)  # type: ignore
+  File "/home/yangguang/miniconda3/envs/NTL4PLM/lib/python3.7/site-packages/allennlp/data/data_loaders/multiprocess_data_loader.py", line 281, in __init__
+    deque(self.iter_instances(), maxlen=0)
+  File "/home/yangguang/miniconda3/envs/NTL4PLM/lib/python3.7/site-packages/allennlp/data/data_loaders/multiprocess_data_loader.py", line 350, in iter_instances
+    self.reader.read(self.data_path), desc="loading instances"
+  File "/home/yangguang/miniconda3/envs/NTL4PLM/lib/python3.7/site-packages/tqdm/std.py", line 1195, in __iter__
+    for obj in iterable:
+  File "/home/yangguang/miniconda3/envs/NTL4PLM/lib/python3.7/site-packages/allennlp/data/dataset_readers/dataset_reader.py", line 192, in read
+    for instance in self._multi_worker_islice(self._read(file_path)):  # type: ignore
+  File "/home/yangguang/NTL4PLM/dont_stop_pretraining/data/dataset_readers/text_classification_json_reader_with_sampling.py", line 128, in _read
+    items = json.loads(line)
+  File "/home/yangguang/miniconda3/envs/NTL4PLM/lib/python3.7/json/__init__.py", line 348, in loads
+    return _default_decoder.decode(s)
+  File "/home/yangguang/miniconda3/envs/NTL4PLM/lib/python3.7/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/home/yangguang/miniconda3/envs/NTL4PLM/lib/python3.7/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Unterminated string starting at: line 1 column 30 (char 29)

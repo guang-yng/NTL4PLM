@@ -1,0 +1,14 @@
+# Python Cache File
+.mypy_cache/
+__pycache__/
+
+# Datasets File
+datasets/
+
+# Model Logs File
+*.th
+*.tar.gz
+.lock
+
+# Temperal Commands
+tmp.sh

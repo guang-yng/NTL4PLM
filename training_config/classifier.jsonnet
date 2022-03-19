@@ -14,7 +14,7 @@ local SEED = std.parseInt(std.extVar("SEED"));
 // number of epochs
 local NUM_EPOCHS = std.parseInt(std.extVar("NUM_EPOCHS"));
 // lazy mode
-local LAZY = std.parseInt(std.extVar("LAZY")) == 1;
+// local LAZY = std.parseInt(std.extVar("LAZY")) == 1;
 // batch size
 local BATCH_SIZE = std.parseInt(std.extVar("BATCH_SIZE"));
 // will sample this amount of training data, if set
@@ -109,14 +109,14 @@ local ENCODER_OUTPUT_DIM = PRETRAINED_ROBERTA_FIELDS(ROBERTA_TRAINABLE)['embeddi
     "random_seed": SEED, 
     "dataset_reader": {
         "type": "text_classification_json_with_sampling",
-        "lazy": LAZY,
+        //"lazy": LAZY,
         "tokenizer": PRETRAINED_ROBERTA_FIELDS(ROBERTA_TRAINABLE)['tokenizer'],
         "max_sequence_length": 512,
         "token_indexers": PRETRAINED_ROBERTA_FIELDS(ROBERTA_TRAINABLE)['indexer'],
     } + if TRAIN_THROTTLE > -1 then {"sample": TRAIN_THROTTLE} else {},
     "validation_dataset_reader": {
         "type": "text_classification_json_with_sampling",
-        "lazy": LAZY,
+        //"lazy": LAZY,
         "tokenizer": PRETRAINED_ROBERTA_FIELDS(ROBERTA_TRAINABLE)['tokenizer'],
         "max_sequence_length": 512,
         "token_indexers": PRETRAINED_ROBERTA_FIELDS(ROBERTA_TRAINABLE)['indexer'],
