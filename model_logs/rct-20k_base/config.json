@@ -84,9 +84,9 @@
         }
     },
     "evaluate_on_test": true,
-    "numpy_seed": 4154841054,
-    "pytorch_seed": 4154841054,
-    "random_seed": 4154841054,
+    "numpy_seed": 2322624587,
+    "pytorch_seed": 2322624587,
+    "random_seed": 2322624587,
     "validation_dataset_reader": {
         "type": "text_classification_json_with_sampling",
         "max_sequence_length": 512,

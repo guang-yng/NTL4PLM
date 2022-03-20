@@ -45,7 +45,7 @@ CLASSIFICATION_DATASETS = {
     },
     "hyperpartisan_news": {
         # "data_dir": "s3://suching-dev/textcat/news/hyperpartisan_by_article/",
-        "data_dir": "datasets/hyperpartisan_by_article/"
+        "data_dir": "datasets/hyperpartisan_news/"
     },
     "biased_news": {
         # "data_dir": "s3://suching-dev/textcat/news/biased_news/",
