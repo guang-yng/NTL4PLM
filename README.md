@@ -3,9 +3,23 @@
 
 ## Installation
 
+First, create a conda environment with python 3.7:
 ```
-conda env create -f environment.yml
-conda activate domains
+conda create -n NTL4PLM python=3.7
+conda activate NTL4PLM
+```
+
+Then, install the allennlp and overrides package:
+```
+pip install allennlp==2.9.2 overrides==4.1.2
+```
+
+Finally, if needed, you can re-install an appropriate pytorch version for your machine.
+You can look up at [Pytorch](https://pytorch.org) and find the correct command.
+Notice that the pytorch version should be compatible with allennlp 2.9.2.
+For example:
+```
+pip install torch==1.9.0+cu111 torchvision==0.10.0+cu111 -f https://download.pytorch.org/whl/torch_stable.html
 ```
 
 ## Models

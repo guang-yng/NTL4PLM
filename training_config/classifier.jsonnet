@@ -85,9 +85,7 @@ local PRETRAINED_ROBERTA_FIELDS(TRAINABLE) = {
       "cut_frac": 0.06
     },
   "checkpointer": {
-    "type": "roberta_default",
-    "num_epochs": NUM_EPOCHS,
-    "skip_early_stopping": SKIP_EARLY_STOPPING
+    "type": "default",
   },
   "embedding_dim": 768
 };
