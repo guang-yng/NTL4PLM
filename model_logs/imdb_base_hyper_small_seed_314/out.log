@@ -1,0 +1,1245 @@
+2022-03-22 14:28:33,376 - INFO - allennlp.common.params - random_seed = 314
+2022-03-22 14:28:33,377 - INFO - allennlp.common.params - numpy_seed = 314
+2022-03-22 14:28:33,377 - INFO - allennlp.common.params - pytorch_seed = 314
+2022-03-22 14:28:33,378 - INFO - allennlp.common.checks - Pytorch version: 1.8.0+cu111
+2022-03-22 14:28:33,378 - INFO - allennlp.common.params - type = default
+2022-03-22 14:28:33,379 - INFO - allennlp.common.params - dataset_reader.type = text_classification_json_with_sampling
+2022-03-22 14:28:33,379 - INFO - allennlp.common.params - dataset_reader.token_indexers.tokens.type = pretrained_transformer
+2022-03-22 14:28:33,379 - INFO - allennlp.common.params - dataset_reader.token_indexers.tokens.token_min_padding_length = 0
+2022-03-22 14:28:33,379 - INFO - allennlp.common.params - dataset_reader.token_indexers.tokens.model_name = roberta-base
+2022-03-22 14:28:33,379 - INFO - allennlp.common.params - dataset_reader.token_indexers.tokens.namespace = tags
+2022-03-22 14:28:33,379 - INFO - allennlp.common.params - dataset_reader.token_indexers.tokens.max_length = 512
+2022-03-22 14:28:33,379 - INFO - allennlp.common.params - dataset_reader.token_indexers.tokens.tokenizer_kwargs = None
+2022-03-22 14:28:46,460 - INFO - allennlp.common.params - dataset_reader.tokenizer.type = pretrained_transformer
+2022-03-22 14:28:46,460 - INFO - allennlp.common.params - dataset_reader.tokenizer.model_name = roberta-base
+2022-03-22 14:28:46,460 - INFO - allennlp.common.params - dataset_reader.tokenizer.add_special_tokens = True
+2022-03-22 14:28:46,460 - INFO - allennlp.common.params - dataset_reader.tokenizer.max_length = 512
+2022-03-22 14:28:46,460 - INFO - allennlp.common.params - dataset_reader.tokenizer.stride = 0
+2022-03-22 14:28:46,460 - INFO - allennlp.common.params - dataset_reader.tokenizer.tokenizer_kwargs = None
+2022-03-22 14:28:46,461 - INFO - allennlp.common.params - dataset_reader.max_sequence_length = 512
+2022-03-22 14:28:46,461 - INFO - allennlp.common.params - dataset_reader.sample = None
+2022-03-22 14:28:46,461 - INFO - allennlp.common.params - dataset_reader.skip_label_indexing = False
+2022-03-22 14:28:46,461 - INFO - allennlp.common.params - train_data_path = datasets/imdb/train.jsonl
+2022-03-22 14:28:46,461 - INFO - allennlp.common.params - vocabulary = <allennlp.common.lazy.Lazy object at 0x7f9c06062210>
+2022-03-22 14:28:46,462 - INFO - allennlp.common.params - datasets_for_vocab_creation = None
+2022-03-22 14:28:46,462 - INFO - allennlp.common.params - validation_dataset_reader.type = text_classification_json_with_sampling
+2022-03-22 14:28:46,462 - INFO - allennlp.common.params - validation_dataset_reader.token_indexers.tokens.type = pretrained_transformer
+2022-03-22 14:28:46,462 - INFO - allennlp.common.params - validation_dataset_reader.token_indexers.tokens.token_min_padding_length = 0
+2022-03-22 14:28:46,462 - INFO - allennlp.common.params - validation_dataset_reader.token_indexers.tokens.model_name = roberta-base
+2022-03-22 14:28:46,462 - INFO - allennlp.common.params - validation_dataset_reader.token_indexers.tokens.namespace = tags
+2022-03-22 14:28:46,462 - INFO - allennlp.common.params - validation_dataset_reader.token_indexers.tokens.max_length = 512
+2022-03-22 14:28:46,462 - INFO - allennlp.common.params - validation_dataset_reader.token_indexers.tokens.tokenizer_kwargs = None
+2022-03-22 14:28:46,463 - INFO - allennlp.common.params - validation_dataset_reader.tokenizer.type = pretrained_transformer
+2022-03-22 14:28:46,463 - INFO - allennlp.common.params - validation_dataset_reader.tokenizer.model_name = roberta-base
+2022-03-22 14:28:46,463 - INFO - allennlp.common.params - validation_dataset_reader.tokenizer.add_special_tokens = True
+2022-03-22 14:28:46,463 - INFO - allennlp.common.params - validation_dataset_reader.tokenizer.max_length = 512
+2022-03-22 14:28:46,463 - INFO - allennlp.common.params - validation_dataset_reader.tokenizer.stride = 0
+2022-03-22 14:28:46,463 - INFO - allennlp.common.params - validation_dataset_reader.tokenizer.tokenizer_kwargs = None
+2022-03-22 14:28:46,463 - INFO - allennlp.common.params - validation_dataset_reader.max_sequence_length = 512
+2022-03-22 14:28:46,464 - INFO - allennlp.common.params - validation_dataset_reader.sample = None
+2022-03-22 14:28:46,464 - INFO - allennlp.common.params - validation_dataset_reader.skip_label_indexing = False
+2022-03-22 14:28:46,464 - INFO - allennlp.common.params - validation_data_path = datasets/imdb/dev.jsonl
+2022-03-22 14:28:46,464 - INFO - allennlp.common.params - validation_data_loader = None
+2022-03-22 14:28:46,464 - INFO - allennlp.common.params - test_data_path = datasets/imdb/test.jsonl
+2022-03-22 14:28:46,464 - INFO - allennlp.common.params - evaluate_on_test = True
+2022-03-22 14:28:46,464 - INFO - allennlp.common.params - batch_weight_key = 
+2022-03-22 14:28:46,464 - INFO - allennlp.common.params - data_loader.type = multiprocess
+2022-03-22 14:28:46,464 - INFO - allennlp.common.params - data_loader.batch_size = None
+2022-03-22 14:28:46,464 - INFO - allennlp.common.params - data_loader.drop_last = False
+2022-03-22 14:28:46,464 - INFO - allennlp.common.params - data_loader.shuffle = False
+2022-03-22 14:28:46,465 - INFO - allennlp.common.params - data_loader.batch_sampler.type = bucket
+2022-03-22 14:28:46,465 - INFO - allennlp.common.params - data_loader.batch_sampler.batch_size = 16
+2022-03-22 14:28:46,465 - INFO - allennlp.common.params - data_loader.batch_sampler.sorting_keys = None
+2022-03-22 14:28:46,465 - INFO - allennlp.common.params - data_loader.batch_sampler.padding_noise = 0.1
+2022-03-22 14:28:46,465 - INFO - allennlp.common.params - data_loader.batch_sampler.drop_last = False
+2022-03-22 14:28:46,465 - INFO - allennlp.common.params - data_loader.batches_per_epoch = None
+2022-03-22 14:28:46,465 - INFO - allennlp.common.params - data_loader.num_workers = 0
+2022-03-22 14:28:46,465 - INFO - allennlp.common.params - data_loader.max_instances_in_memory = None
+2022-03-22 14:28:46,465 - INFO - allennlp.common.params - data_loader.start_method = fork
+2022-03-22 14:28:46,465 - INFO - allennlp.common.params - data_loader.cuda_device = None
+2022-03-22 14:28:46,466 - INFO - tqdm - loading instances: 0it [00:00, ?it/s]
+2022-03-22 14:28:56,472 - INFO - tqdm - loading instances: 6009it [00:10, 459.17it/s]
+2022-03-22 14:29:06,731 - INFO - tqdm - loading instances: 12478it [00:20, 248.43it/s]
+2022-03-22 14:29:16,781 - INFO - tqdm - loading instances: 19272it [00:30, 740.33it/s]
+2022-03-22 14:29:17,728 - INFO - allennlp.common.params - data_loader.type = multiprocess
+2022-03-22 14:29:17,728 - INFO - allennlp.common.params - data_loader.batch_size = None
+2022-03-22 14:29:17,729 - INFO - allennlp.common.params - data_loader.drop_last = False
+2022-03-22 14:29:17,729 - INFO - allennlp.common.params - data_loader.shuffle = False
+2022-03-22 14:29:17,729 - INFO - allennlp.common.params - data_loader.batch_sampler.type = bucket
+2022-03-22 14:29:17,729 - INFO - allennlp.common.params - data_loader.batch_sampler.batch_size = 16
+2022-03-22 14:29:17,729 - INFO - allennlp.common.params - data_loader.batch_sampler.sorting_keys = None
+2022-03-22 14:29:17,729 - INFO - allennlp.common.params - data_loader.batch_sampler.padding_noise = 0.1
+2022-03-22 14:29:17,729 - INFO - allennlp.common.params - data_loader.batch_sampler.drop_last = False
+2022-03-22 14:29:17,729 - INFO - allennlp.common.params - data_loader.batches_per_epoch = None
+2022-03-22 14:29:17,729 - INFO - allennlp.common.params - data_loader.num_workers = 0
+2022-03-22 14:29:17,729 - INFO - allennlp.common.params - data_loader.max_instances_in_memory = None
+2022-03-22 14:29:17,729 - INFO - allennlp.common.params - data_loader.start_method = fork
+2022-03-22 14:29:17,729 - INFO - allennlp.common.params - data_loader.cuda_device = None
+2022-03-22 14:29:17,730 - INFO - tqdm - loading instances: 0it [00:00, ?it/s]
+2022-03-22 14:29:25,797 - INFO - allennlp.common.params - data_loader.type = multiprocess
+2022-03-22 14:29:25,798 - INFO - allennlp.common.params - data_loader.batch_size = None
+2022-03-22 14:29:25,798 - INFO - allennlp.common.params - data_loader.drop_last = False
+2022-03-22 14:29:25,798 - INFO - allennlp.common.params - data_loader.shuffle = False
+2022-03-22 14:29:25,798 - INFO - allennlp.common.params - data_loader.batch_sampler.type = bucket
+2022-03-22 14:29:25,798 - INFO - allennlp.common.params - data_loader.batch_sampler.batch_size = 16
+2022-03-22 14:29:25,798 - INFO - allennlp.common.params - data_loader.batch_sampler.sorting_keys = None
+2022-03-22 14:29:25,798 - INFO - allennlp.common.params - data_loader.batch_sampler.padding_noise = 0.1
+2022-03-22 14:29:25,798 - INFO - allennlp.common.params - data_loader.batch_sampler.drop_last = False
+2022-03-22 14:29:25,798 - INFO - allennlp.common.params - data_loader.batches_per_epoch = None
+2022-03-22 14:29:25,798 - INFO - allennlp.common.params - data_loader.num_workers = 0
+2022-03-22 14:29:25,798 - INFO - allennlp.common.params - data_loader.max_instances_in_memory = None
+2022-03-22 14:29:25,798 - INFO - allennlp.common.params - data_loader.start_method = fork
+2022-03-22 14:29:25,798 - INFO - allennlp.common.params - data_loader.cuda_device = None
+2022-03-22 14:29:25,799 - INFO - tqdm - loading instances: 0it [00:00, ?it/s]
+2022-03-22 14:29:35,874 - INFO - tqdm - loading instances: 6422it [00:10, 707.95it/s]
+2022-03-22 14:29:45,940 - INFO - tqdm - loading instances: 12585it [00:20, 696.51it/s]
+2022-03-22 14:29:56,031 - INFO - tqdm - loading instances: 17946it [00:30, 706.08it/s]
+2022-03-22 14:30:05,863 - INFO - allennlp.common.params - type = from_instances
+2022-03-22 14:30:05,863 - INFO - allennlp.common.params - min_count = None
+2022-03-22 14:30:05,863 - INFO - allennlp.common.params - max_vocab_size = None
+2022-03-22 14:30:05,863 - INFO - allennlp.common.params - non_padded_namespaces = ('*tags', '*labels')
+2022-03-22 14:30:05,863 - INFO - allennlp.common.params - pretrained_files = None
+2022-03-22 14:30:05,863 - INFO - allennlp.common.params - only_include_pretrained_words = False
+2022-03-22 14:30:05,863 - INFO - allennlp.common.params - tokens_to_add = None
+2022-03-22 14:30:05,864 - INFO - allennlp.common.params - min_pretrained_embeddings = None
+2022-03-22 14:30:05,864 - INFO - allennlp.common.params - padding_token = @@PADDING@@
+2022-03-22 14:30:05,864 - INFO - allennlp.common.params - oov_token = @@UNKNOWN@@
+2022-03-22 14:30:05,864 - INFO - allennlp.data.vocabulary - Fitting token dictionary from dataset.
+2022-03-22 14:30:05,864 - INFO - tqdm - building vocab: 0it [00:00, ?it/s]
+2022-03-22 14:30:07,375 - INFO - allennlp.common.params - model.type = basic_classifier_with_f1
+2022-03-22 14:30:07,375 - INFO - allennlp.common.params - model.text_field_embedder.type = basic
+2022-03-22 14:30:07,375 - INFO - allennlp.common.params - model.text_field_embedder.token_embedders.tokens.type = pretrained_transformer
+2022-03-22 14:30:07,376 - INFO - allennlp.common.params - model.text_field_embedder.token_embedders.tokens.model_name = roberta-base
+2022-03-22 14:30:07,376 - INFO - allennlp.common.params - model.text_field_embedder.token_embedders.tokens.max_length = 512
+2022-03-22 14:30:07,376 - INFO - allennlp.common.params - model.text_field_embedder.token_embedders.tokens.sub_module = None
+2022-03-22 14:30:07,376 - INFO - allennlp.common.params - model.text_field_embedder.token_embedders.tokens.train_parameters = True
+2022-03-22 14:30:07,376 - INFO - allennlp.common.params - model.text_field_embedder.token_embedders.tokens.last_layer_only = True
+2022-03-22 14:30:07,376 - INFO - allennlp.common.params - model.text_field_embedder.token_embedders.tokens.override_weights_file = None
+2022-03-22 14:30:07,376 - INFO - allennlp.common.params - model.text_field_embedder.token_embedders.tokens.override_weights_strip_prefix = None
+2022-03-22 14:30:07,376 - INFO - allennlp.common.params - model.text_field_embedder.token_embedders.tokens.gradient_checkpointing = None
+2022-03-22 14:30:07,376 - INFO - allennlp.common.params - model.text_field_embedder.token_embedders.tokens.tokenizer_kwargs = None
+2022-03-22 14:30:07,376 - INFO - allennlp.common.params - model.text_field_embedder.token_embedders.tokens.transformer_kwargs = None
+2022-03-22 14:30:12,988 - INFO - allennlp.common.params - model.seq2vec_encoder.type = cls_pooler
+2022-03-22 14:30:12,988 - INFO - allennlp.common.params - model.seq2vec_encoder.embedding_dim = 768
+2022-03-22 14:30:12,989 - INFO - allennlp.common.params - model.seq2vec_encoder.cls_is_last_token = False
+2022-03-22 14:30:12,989 - INFO - allennlp.common.params - model.feedforward_layer.input_dim = 768
+2022-03-22 14:30:12,989 - INFO - allennlp.common.params - model.feedforward_layer.num_layers = 1
+2022-03-22 14:30:12,989 - INFO - allennlp.common.params - model.feedforward_layer.hidden_dims = 768
+2022-03-22 14:30:12,989 - INFO - allennlp.common.params - model.feedforward_layer.activations = tanh
+2022-03-22 14:30:12,989 - INFO - allennlp.common.params - type = tanh
+2022-03-22 14:30:12,989 - INFO - allennlp.common.params - model.feedforward_layer.dropout = 0.0
+2022-03-22 14:30:12,993 - INFO - allennlp.common.params - model.seq2seq_encoder = None
+2022-03-22 14:30:12,993 - INFO - allennlp.common.params - model.dropout = 0.1
+2022-03-22 14:30:12,993 - INFO - allennlp.common.params - model.num_labels = None
+2022-03-22 14:30:12,993 - INFO - allennlp.common.params - model.label_namespace = labels
+2022-03-22 14:30:12,993 - INFO - allennlp.common.params - model.initializer = <allennlp.nn.initializers.InitializerApplicator object at 0x7f9c06077e50>
+2022-03-22 14:30:12,993 - INFO - allennlp.common.params - model.regularizer = None
+2022-03-22 14:30:12,993 - INFO - allennlp.common.params - model.track_weights = False
+2022-03-22 14:30:12,993 - INFO - allennlp.common.params - model.disable_layers = []
+2022-03-22 14:30:12,994 - INFO - allennlp.nn.initializers - Initializing parameters
+2022-03-22 14:30:12,994 - INFO - allennlp.nn.initializers - Done initializing parameters; the following parameters are using their default initialization from their code
+2022-03-22 14:30:12,994 - INFO - allennlp.nn.initializers -    _classification_layer.bias
+2022-03-22 14:30:12,995 - INFO - allennlp.nn.initializers -    _classification_layer.weight
+2022-03-22 14:30:12,995 - INFO - allennlp.nn.initializers -    _feedforward_layer._linear_layers.0.bias
+2022-03-22 14:30:12,995 - INFO - allennlp.nn.initializers -    _feedforward_layer._linear_layers.0.weight
+2022-03-22 14:30:12,995 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.embeddings.LayerNorm.bias
+2022-03-22 14:30:12,995 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.embeddings.LayerNorm.weight
+2022-03-22 14:30:12,995 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.embeddings.position_embeddings.weight
+2022-03-22 14:30:12,995 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.embeddings.token_type_embeddings.weight
+2022-03-22 14:30:12,995 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.embeddings.word_embeddings.weight
+2022-03-22 14:30:12,995 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.0.attention.output.LayerNorm.bias
+2022-03-22 14:30:12,995 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.0.attention.output.LayerNorm.weight
+2022-03-22 14:30:12,995 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.0.attention.output.dense.bias
+2022-03-22 14:30:12,995 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.0.attention.output.dense.weight
+2022-03-22 14:30:12,995 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.0.attention.self.key.bias
+2022-03-22 14:30:12,995 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.0.attention.self.key.weight
+2022-03-22 14:30:12,995 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.0.attention.self.query.bias
+2022-03-22 14:30:12,995 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.0.attention.self.query.weight
+2022-03-22 14:30:12,995 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.0.attention.self.value.bias
+2022-03-22 14:30:12,995 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.0.attention.self.value.weight
+2022-03-22 14:30:12,995 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.0.intermediate.dense.bias
+2022-03-22 14:30:12,995 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.0.intermediate.dense.weight
+2022-03-22 14:30:12,995 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.0.output.LayerNorm.bias
+2022-03-22 14:30:12,995 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.0.output.LayerNorm.weight
+2022-03-22 14:30:12,995 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.0.output.dense.bias
+2022-03-22 14:30:12,995 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.0.output.dense.weight
+2022-03-22 14:30:12,995 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.1.attention.output.LayerNorm.bias
+2022-03-22 14:30:12,996 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.1.attention.output.LayerNorm.weight
+2022-03-22 14:30:12,996 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.1.attention.output.dense.bias
+2022-03-22 14:30:12,996 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.1.attention.output.dense.weight
+2022-03-22 14:30:12,996 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.1.attention.self.key.bias
+2022-03-22 14:30:12,996 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.1.attention.self.key.weight
+2022-03-22 14:30:12,996 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.1.attention.self.query.bias
+2022-03-22 14:30:12,996 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.1.attention.self.query.weight
+2022-03-22 14:30:12,996 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.1.attention.self.value.bias
+2022-03-22 14:30:12,996 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.1.attention.self.value.weight
+2022-03-22 14:30:12,996 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.1.intermediate.dense.bias
+2022-03-22 14:30:12,996 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.1.intermediate.dense.weight
+2022-03-22 14:30:12,996 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.1.output.LayerNorm.bias
+2022-03-22 14:30:12,996 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.1.output.LayerNorm.weight
+2022-03-22 14:30:12,996 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.1.output.dense.bias
+2022-03-22 14:30:12,996 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.1.output.dense.weight
+2022-03-22 14:30:12,996 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.10.attention.output.LayerNorm.bias
+2022-03-22 14:30:12,996 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.10.attention.output.LayerNorm.weight
+2022-03-22 14:30:12,996 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.10.attention.output.dense.bias
+2022-03-22 14:30:12,996 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.10.attention.output.dense.weight
+2022-03-22 14:30:12,996 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.10.attention.self.key.bias
+2022-03-22 14:30:12,996 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.10.attention.self.key.weight
+2022-03-22 14:30:12,996 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.10.attention.self.query.bias
+2022-03-22 14:30:12,996 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.10.attention.self.query.weight
+2022-03-22 14:30:12,996 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.10.attention.self.value.bias
+2022-03-22 14:30:12,996 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.10.attention.self.value.weight
+2022-03-22 14:30:12,996 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.10.intermediate.dense.bias
+2022-03-22 14:30:12,996 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.10.intermediate.dense.weight
+2022-03-22 14:30:12,996 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.10.output.LayerNorm.bias
+2022-03-22 14:30:12,997 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.10.output.LayerNorm.weight
+2022-03-22 14:30:12,997 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.10.output.dense.bias
+2022-03-22 14:30:12,997 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.10.output.dense.weight
+2022-03-22 14:30:12,997 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.11.attention.output.LayerNorm.bias
+2022-03-22 14:30:12,997 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.11.attention.output.LayerNorm.weight
+2022-03-22 14:30:12,997 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.11.attention.output.dense.bias
+2022-03-22 14:30:12,997 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.11.attention.output.dense.weight
+2022-03-22 14:30:12,997 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.11.attention.self.key.bias
+2022-03-22 14:30:12,997 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.11.attention.self.key.weight
+2022-03-22 14:30:12,997 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.11.attention.self.query.bias
+2022-03-22 14:30:12,997 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.11.attention.self.query.weight
+2022-03-22 14:30:12,997 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.11.attention.self.value.bias
+2022-03-22 14:30:12,997 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.11.attention.self.value.weight
+2022-03-22 14:30:12,997 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.11.intermediate.dense.bias
+2022-03-22 14:30:12,997 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.11.intermediate.dense.weight
+2022-03-22 14:30:12,997 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.11.output.LayerNorm.bias
+2022-03-22 14:30:12,997 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.11.output.LayerNorm.weight
+2022-03-22 14:30:12,997 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.11.output.dense.bias
+2022-03-22 14:30:12,997 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.11.output.dense.weight
+2022-03-22 14:30:12,997 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.2.attention.output.LayerNorm.bias
+2022-03-22 14:30:12,997 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.2.attention.output.LayerNorm.weight
+2022-03-22 14:30:12,997 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.2.attention.output.dense.bias
+2022-03-22 14:30:12,997 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.2.attention.output.dense.weight
+2022-03-22 14:30:12,997 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.2.attention.self.key.bias
+2022-03-22 14:30:12,997 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.2.attention.self.key.weight
+2022-03-22 14:30:12,997 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.2.attention.self.query.bias
+2022-03-22 14:30:12,997 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.2.attention.self.query.weight
+2022-03-22 14:30:12,998 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.2.attention.self.value.bias
+2022-03-22 14:30:12,998 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.2.attention.self.value.weight
+2022-03-22 14:30:12,998 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.2.intermediate.dense.bias
+2022-03-22 14:30:12,998 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.2.intermediate.dense.weight
+2022-03-22 14:30:12,998 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.2.output.LayerNorm.bias
+2022-03-22 14:30:12,998 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.2.output.LayerNorm.weight
+2022-03-22 14:30:12,998 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.2.output.dense.bias
+2022-03-22 14:30:12,998 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.2.output.dense.weight
+2022-03-22 14:30:12,998 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.3.attention.output.LayerNorm.bias
+2022-03-22 14:30:12,998 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.3.attention.output.LayerNorm.weight
+2022-03-22 14:30:12,998 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.3.attention.output.dense.bias
+2022-03-22 14:30:12,998 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.3.attention.output.dense.weight
+2022-03-22 14:30:12,998 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.3.attention.self.key.bias
+2022-03-22 14:30:12,998 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.3.attention.self.key.weight
+2022-03-22 14:30:12,998 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.3.attention.self.query.bias
+2022-03-22 14:30:12,998 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.3.attention.self.query.weight
+2022-03-22 14:30:12,998 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.3.attention.self.value.bias
+2022-03-22 14:30:12,998 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.3.attention.self.value.weight
+2022-03-22 14:30:12,998 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.3.intermediate.dense.bias
+2022-03-22 14:30:12,998 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.3.intermediate.dense.weight
+2022-03-22 14:30:12,998 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.3.output.LayerNorm.bias
+2022-03-22 14:30:12,998 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.3.output.LayerNorm.weight
+2022-03-22 14:30:12,998 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.3.output.dense.bias
+2022-03-22 14:30:12,998 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.3.output.dense.weight
+2022-03-22 14:30:12,998 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.4.attention.output.LayerNorm.bias
+2022-03-22 14:30:12,998 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.4.attention.output.LayerNorm.weight
+2022-03-22 14:30:12,998 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.4.attention.output.dense.bias
+2022-03-22 14:30:12,998 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.4.attention.output.dense.weight
+2022-03-22 14:30:12,999 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.4.attention.self.key.bias
+2022-03-22 14:30:12,999 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.4.attention.self.key.weight
+2022-03-22 14:30:12,999 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.4.attention.self.query.bias
+2022-03-22 14:30:12,999 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.4.attention.self.query.weight
+2022-03-22 14:30:12,999 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.4.attention.self.value.bias
+2022-03-22 14:30:12,999 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.4.attention.self.value.weight
+2022-03-22 14:30:12,999 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.4.intermediate.dense.bias
+2022-03-22 14:30:12,999 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.4.intermediate.dense.weight
+2022-03-22 14:30:12,999 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.4.output.LayerNorm.bias
+2022-03-22 14:30:12,999 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.4.output.LayerNorm.weight
+2022-03-22 14:30:12,999 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.4.output.dense.bias
+2022-03-22 14:30:12,999 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.4.output.dense.weight
+2022-03-22 14:30:12,999 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.5.attention.output.LayerNorm.bias
+2022-03-22 14:30:12,999 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.5.attention.output.LayerNorm.weight
+2022-03-22 14:30:12,999 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.5.attention.output.dense.bias
+2022-03-22 14:30:12,999 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.5.attention.output.dense.weight
+2022-03-22 14:30:12,999 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.5.attention.self.key.bias
+2022-03-22 14:30:12,999 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.5.attention.self.key.weight
+2022-03-22 14:30:12,999 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.5.attention.self.query.bias
+2022-03-22 14:30:12,999 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.5.attention.self.query.weight
+2022-03-22 14:30:12,999 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.5.attention.self.value.bias
+2022-03-22 14:30:12,999 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.5.attention.self.value.weight
+2022-03-22 14:30:12,999 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.5.intermediate.dense.bias
+2022-03-22 14:30:12,999 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.5.intermediate.dense.weight
+2022-03-22 14:30:12,999 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.5.output.LayerNorm.bias
+2022-03-22 14:30:12,999 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.5.output.LayerNorm.weight
+2022-03-22 14:30:12,999 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.5.output.dense.bias
+2022-03-22 14:30:12,999 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.5.output.dense.weight
+2022-03-22 14:30:13,000 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.6.attention.output.LayerNorm.bias
+2022-03-22 14:30:13,000 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.6.attention.output.LayerNorm.weight
+2022-03-22 14:30:13,000 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.6.attention.output.dense.bias
+2022-03-22 14:30:13,000 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.6.attention.output.dense.weight
+2022-03-22 14:30:13,000 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.6.attention.self.key.bias
+2022-03-22 14:30:13,000 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.6.attention.self.key.weight
+2022-03-22 14:30:13,000 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.6.attention.self.query.bias
+2022-03-22 14:30:13,000 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.6.attention.self.query.weight
+2022-03-22 14:30:13,000 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.6.attention.self.value.bias
+2022-03-22 14:30:13,000 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.6.attention.self.value.weight
+2022-03-22 14:30:13,000 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.6.intermediate.dense.bias
+2022-03-22 14:30:13,000 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.6.intermediate.dense.weight
+2022-03-22 14:30:13,000 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.6.output.LayerNorm.bias
+2022-03-22 14:30:13,000 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.6.output.LayerNorm.weight
+2022-03-22 14:30:13,000 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.6.output.dense.bias
+2022-03-22 14:30:13,000 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.6.output.dense.weight
+2022-03-22 14:30:13,000 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.7.attention.output.LayerNorm.bias
+2022-03-22 14:30:13,000 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.7.attention.output.LayerNorm.weight
+2022-03-22 14:30:13,000 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.7.attention.output.dense.bias
+2022-03-22 14:30:13,000 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.7.attention.output.dense.weight
+2022-03-22 14:30:13,000 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.7.attention.self.key.bias
+2022-03-22 14:30:13,000 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.7.attention.self.key.weight
+2022-03-22 14:30:13,000 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.7.attention.self.query.bias
+2022-03-22 14:30:13,000 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.7.attention.self.query.weight
+2022-03-22 14:30:13,000 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.7.attention.self.value.bias
+2022-03-22 14:30:13,000 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.7.attention.self.value.weight
+2022-03-22 14:30:13,000 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.7.intermediate.dense.bias
+2022-03-22 14:30:13,001 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.7.intermediate.dense.weight
+2022-03-22 14:30:13,001 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.7.output.LayerNorm.bias
+2022-03-22 14:30:13,001 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.7.output.LayerNorm.weight
+2022-03-22 14:30:13,001 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.7.output.dense.bias
+2022-03-22 14:30:13,001 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.7.output.dense.weight
+2022-03-22 14:30:13,001 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.8.attention.output.LayerNorm.bias
+2022-03-22 14:30:13,001 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.8.attention.output.LayerNorm.weight
+2022-03-22 14:30:13,001 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.8.attention.output.dense.bias
+2022-03-22 14:30:13,001 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.8.attention.output.dense.weight
+2022-03-22 14:30:13,001 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.8.attention.self.key.bias
+2022-03-22 14:30:13,001 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.8.attention.self.key.weight
+2022-03-22 14:30:13,001 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.8.attention.self.query.bias
+2022-03-22 14:30:13,001 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.8.attention.self.query.weight
+2022-03-22 14:30:13,001 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.8.attention.self.value.bias
+2022-03-22 14:30:13,001 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.8.attention.self.value.weight
+2022-03-22 14:30:13,001 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.8.intermediate.dense.bias
+2022-03-22 14:30:13,001 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.8.intermediate.dense.weight
+2022-03-22 14:30:13,001 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.8.output.LayerNorm.bias
+2022-03-22 14:30:13,001 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.8.output.LayerNorm.weight
+2022-03-22 14:30:13,001 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.8.output.dense.bias
+2022-03-22 14:30:13,001 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.8.output.dense.weight
+2022-03-22 14:30:13,001 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.9.attention.output.LayerNorm.bias
+2022-03-22 14:30:13,001 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.9.attention.output.LayerNorm.weight
+2022-03-22 14:30:13,001 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.9.attention.output.dense.bias
+2022-03-22 14:30:13,001 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.9.attention.output.dense.weight
+2022-03-22 14:30:13,001 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.9.attention.self.key.bias
+2022-03-22 14:30:13,001 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.9.attention.self.key.weight
+2022-03-22 14:30:13,002 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.9.attention.self.query.bias
+2022-03-22 14:30:13,002 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.9.attention.self.query.weight
+2022-03-22 14:30:13,002 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.9.attention.self.value.bias
+2022-03-22 14:30:13,002 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.9.attention.self.value.weight
+2022-03-22 14:30:13,002 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.9.intermediate.dense.bias
+2022-03-22 14:30:13,002 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.9.intermediate.dense.weight
+2022-03-22 14:30:13,002 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.9.output.LayerNorm.bias
+2022-03-22 14:30:13,002 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.9.output.LayerNorm.weight
+2022-03-22 14:30:13,002 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.9.output.dense.bias
+2022-03-22 14:30:13,002 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.9.output.dense.weight
+2022-03-22 14:30:13,002 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.pooler.dense.bias
+2022-03-22 14:30:13,002 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.pooler.dense.weight
+2022-03-22 14:30:21,288 - INFO - allennlp.common.params - trainer.type = gradient_descent
+2022-03-22 14:30:21,289 - INFO - allennlp.common.params - trainer.patience = 3
+2022-03-22 14:30:21,289 - INFO - allennlp.common.params - trainer.validation_metric = +f1
+2022-03-22 14:30:21,289 - INFO - allennlp.common.params - trainer.num_epochs = 10
+2022-03-22 14:30:21,289 - INFO - allennlp.common.params - trainer.cuda_device = 2
+2022-03-22 14:30:21,289 - INFO - allennlp.common.params - trainer.grad_norm = None
+2022-03-22 14:30:21,289 - INFO - allennlp.common.params - trainer.grad_clipping = None
+2022-03-22 14:30:21,289 - INFO - allennlp.common.params - trainer.distributed = False
+2022-03-22 14:30:21,289 - INFO - allennlp.common.params - trainer.world_size = 1
+2022-03-22 14:30:21,289 - INFO - allennlp.common.params - trainer.num_gradient_accumulation_steps = 1
+2022-03-22 14:30:21,289 - INFO - allennlp.common.params - trainer.use_amp = False
+2022-03-22 14:30:21,289 - INFO - allennlp.common.params - trainer.no_grad = None
+2022-03-22 14:30:21,289 - INFO - allennlp.common.params - trainer.learning_rate_scheduler = None
+2022-03-22 14:30:21,290 - INFO - allennlp.common.params - trainer.momentum_scheduler = None
+2022-03-22 14:30:21,290 - INFO - allennlp.common.params - trainer.moving_average = None
+2022-03-22 14:30:21,290 - INFO - allennlp.common.params - trainer.callbacks = None
+2022-03-22 14:30:21,290 - INFO - allennlp.common.params - trainer.enable_default_callbacks = True
+2022-03-22 14:30:29,645 - INFO - allennlp.common.params - trainer.optimizer.type = huggingface_adamw_str_lr
+2022-03-22 14:30:29,646 - INFO - allennlp.common.params - trainer.optimizer.lr = 2e-05
+2022-03-22 14:30:29,646 - INFO - allennlp.common.params - trainer.optimizer.betas = [0.9, 0.98]
+2022-03-22 14:30:29,646 - INFO - allennlp.common.params - trainer.optimizer.eps = 1e-06
+2022-03-22 14:30:29,646 - INFO - allennlp.common.params - trainer.optimizer.weight_decay = 0.1
+2022-03-22 14:30:29,646 - INFO - allennlp.common.params - trainer.optimizer.correct_bias = False
+2022-03-22 14:30:29,648 - INFO - allennlp.training.optimizers - Done constructing parameter groups.
+2022-03-22 14:30:29,648 - INFO - allennlp.training.optimizers - Group 0: ['_text_field_embedder.token_embedder_tokens.transformer_model.embeddings.LayerNorm.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.11.attention.output.LayerNorm.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.7.attention.output.LayerNorm.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.3.attention.self.value.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.2.output.LayerNorm.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.0.output.dense.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.7.attention.output.LayerNorm.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.9.output.dense.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.2.attention.self.value.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.0.output.LayerNorm.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.3.output.LayerNorm.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.3.attention.output.dense.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.10.intermediate.dense.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.4.attention.output.LayerNorm.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.2.attention.output.LayerNorm.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.1.attention.self.value.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.11.attention.self.key.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.5.attention.self.key.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.6.attention.output.dense.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.11.intermediate.dense.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.5.attention.self.value.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.7.attention.self.key.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.pooler.dense.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.2.intermediate.dense.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.5.output.dense.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.10.attention.output.LayerNorm.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.7.output.LayerNorm.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.3.attention.output.LayerNorm.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.8.attention.output.LayerNorm.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.10.attention.output.LayerNorm.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.9.attention.self.key.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.9.output.LayerNorm.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.10.output.LayerNorm.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.4.attention.output.dense.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.11.attention.output.dense.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.1.attention.self.key.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.3.output.dense.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.9.intermediate.dense.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.9.output.LayerNorm.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.10.output.LayerNorm.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.6.intermediate.dense.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.10.attention.output.dense.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.8.output.LayerNorm.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.6.output.dense.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.8.output.dense.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.2.attention.output.LayerNorm.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.9.attention.output.LayerNorm.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.9.attention.self.value.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.1.output.dense.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.2.attention.self.key.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.3.attention.output.LayerNorm.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.5.output.LayerNorm.weight', '_feedforward_layer._linear_layers.0.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.5.output.LayerNorm.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.6.output.LayerNorm.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.4.attention.self.value.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.0.attention.self.value.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.2.output.dense.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.7.attention.self.value.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.0.attention.output.LayerNorm.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.3.output.LayerNorm.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.4.attention.self.query.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.6.attention.self.key.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.11.output.LayerNorm.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.0.attention.self.key.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.1.attention.output.dense.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.8.output.LayerNorm.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.1.attention.output.LayerNorm.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.9.attention.output.dense.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.4.output.LayerNorm.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.4.intermediate.dense.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.5.attention.self.query.bias', '_classification_layer.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.5.attention.output.LayerNorm.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.5.intermediate.dense.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.6.attention.self.query.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.10.attention.self.key.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.0.intermediate.dense.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.4.output.dense.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.1.attention.self.query.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.11.attention.self.query.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.3.attention.self.query.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.0.attention.self.query.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.2.output.LayerNorm.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.6.output.LayerNorm.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.1.attention.output.LayerNorm.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.6.attention.output.LayerNorm.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.2.attention.output.dense.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.4.attention.output.LayerNorm.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.11.attention.self.value.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.1.intermediate.dense.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.10.attention.self.value.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.11.output.LayerNorm.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.4.attention.self.key.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.7.output.LayerNorm.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.embeddings.LayerNorm.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.8.attention.output.LayerNorm.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.6.attention.output.LayerNorm.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.0.attention.output.LayerNorm.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.3.intermediate.dense.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.8.attention.self.key.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.8.intermediate.dense.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.4.output.LayerNorm.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.0.output.LayerNorm.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.9.attention.output.LayerNorm.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.8.attention.output.dense.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.7.attention.output.dense.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.2.attention.self.query.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.7.intermediate.dense.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.6.attention.self.value.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.9.attention.self.query.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.1.output.LayerNorm.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.8.attention.self.value.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.8.attention.self.query.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.3.attention.self.key.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.5.attention.output.dense.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.11.output.dense.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.5.attention.output.LayerNorm.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.11.attention.output.LayerNorm.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.7.attention.self.query.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.10.attention.self.query.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.10.output.dense.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.7.output.dense.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.1.output.LayerNorm.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.0.attention.output.dense.bias'], {'weight_decay': 0}
+2022-03-22 14:30:29,648 - INFO - allennlp.training.optimizers - Group 1: ['_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.5.attention.output.dense.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.6.attention.self.key.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.1.attention.self.key.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.4.attention.output.dense.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.11.output.dense.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.9.intermediate.dense.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.8.intermediate.dense.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.9.output.dense.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.0.attention.self.query.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.1.output.dense.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.2.attention.output.dense.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.8.attention.self.query.weight', '_feedforward_layer._linear_layers.0.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.6.attention.self.value.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.8.output.dense.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.7.output.dense.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.11.attention.self.query.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.3.attention.self.key.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.1.intermediate.dense.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.5.attention.self.value.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.embeddings.word_embeddings.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.3.intermediate.dense.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.8.attention.self.value.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.embeddings.token_type_embeddings.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.7.attention.self.value.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.11.attention.output.dense.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.4.intermediate.dense.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.pooler.dense.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.4.attention.self.key.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.4.attention.self.value.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.5.intermediate.dense.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.7.intermediate.dense.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.4.attention.self.query.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.0.attention.output.dense.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.4.output.dense.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.7.attention.output.dense.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.9.attention.self.value.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.9.attention.self.query.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.10.attention.self.query.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.8.attention.output.dense.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.0.intermediate.dense.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.3.attention.self.query.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.11.attention.self.key.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.2.attention.self.query.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.6.attention.output.dense.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.7.attention.self.key.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.3.output.dense.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.10.attention.self.value.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.10.attention.self.key.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.8.attention.self.key.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.2.attention.self.value.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.6.attention.self.query.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.11.intermediate.dense.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.6.output.dense.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.5.attention.self.key.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.10.output.dense.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.1.attention.output.dense.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.1.attention.self.query.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.2.intermediate.dense.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.6.intermediate.dense.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.10.intermediate.dense.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.embeddings.position_embeddings.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.0.attention.self.value.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.3.attention.self.value.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.2.output.dense.weight', '_classification_layer.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.10.attention.output.dense.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.0.attention.self.key.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.9.attention.output.dense.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.9.attention.self.key.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.2.attention.self.key.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.7.attention.self.query.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.5.output.dense.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.11.attention.self.value.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.5.attention.self.query.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.1.attention.self.value.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.3.attention.output.dense.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.0.output.dense.weight'], {}
+2022-03-22 14:30:29,648 - WARNING - allennlp.training.optimizers - When constructing parameter groups, layer_norm.weight does not match any parameter name
+2022-03-22 14:30:29,649 - INFO - allennlp.training.optimizers - Number of trainable parameters: 125237762
+2022-03-22 14:30:29,650 - INFO - allennlp.common.util - The following parameters are Frozen (without gradient):
+2022-03-22 14:30:29,651 - INFO - allennlp.common.util - The following parameters are Tunable (with gradient):
+2022-03-22 14:30:29,651 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.embeddings.word_embeddings.weight
+2022-03-22 14:30:29,651 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.embeddings.position_embeddings.weight
+2022-03-22 14:30:29,651 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.embeddings.token_type_embeddings.weight
+2022-03-22 14:30:29,651 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.embeddings.LayerNorm.weight
+2022-03-22 14:30:29,651 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.embeddings.LayerNorm.bias
+2022-03-22 14:30:29,651 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.0.attention.self.query.weight
+2022-03-22 14:30:29,651 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.0.attention.self.query.bias
+2022-03-22 14:30:29,651 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.0.attention.self.key.weight
+2022-03-22 14:30:29,651 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.0.attention.self.key.bias
+2022-03-22 14:30:29,651 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.0.attention.self.value.weight
+2022-03-22 14:30:29,651 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.0.attention.self.value.bias
+2022-03-22 14:30:29,651 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.0.attention.output.dense.weight
+2022-03-22 14:30:29,651 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.0.attention.output.dense.bias
+2022-03-22 14:30:29,651 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.0.attention.output.LayerNorm.weight
+2022-03-22 14:30:29,651 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.0.attention.output.LayerNorm.bias
+2022-03-22 14:30:29,651 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.0.intermediate.dense.weight
+2022-03-22 14:30:29,651 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.0.intermediate.dense.bias
+2022-03-22 14:30:29,651 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.0.output.dense.weight
+2022-03-22 14:30:29,651 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.0.output.dense.bias
+2022-03-22 14:30:29,651 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.0.output.LayerNorm.weight
+2022-03-22 14:30:29,652 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.0.output.LayerNorm.bias
+2022-03-22 14:30:29,652 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.1.attention.self.query.weight
+2022-03-22 14:30:29,652 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.1.attention.self.query.bias
+2022-03-22 14:30:29,652 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.1.attention.self.key.weight
+2022-03-22 14:30:29,652 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.1.attention.self.key.bias
+2022-03-22 14:30:29,652 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.1.attention.self.value.weight
+2022-03-22 14:30:29,652 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.1.attention.self.value.bias
+2022-03-22 14:30:29,652 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.1.attention.output.dense.weight
+2022-03-22 14:30:29,652 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.1.attention.output.dense.bias
+2022-03-22 14:30:29,652 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.1.attention.output.LayerNorm.weight
+2022-03-22 14:30:29,652 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.1.attention.output.LayerNorm.bias
+2022-03-22 14:30:29,652 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.1.intermediate.dense.weight
+2022-03-22 14:30:29,652 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.1.intermediate.dense.bias
+2022-03-22 14:30:29,652 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.1.output.dense.weight
+2022-03-22 14:30:29,652 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.1.output.dense.bias
+2022-03-22 14:30:29,652 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.1.output.LayerNorm.weight
+2022-03-22 14:30:29,652 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.1.output.LayerNorm.bias
+2022-03-22 14:30:29,652 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.2.attention.self.query.weight
+2022-03-22 14:30:29,652 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.2.attention.self.query.bias
+2022-03-22 14:30:29,652 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.2.attention.self.key.weight
+2022-03-22 14:30:29,652 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.2.attention.self.key.bias
+2022-03-22 14:30:29,652 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.2.attention.self.value.weight
+2022-03-22 14:30:29,652 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.2.attention.self.value.bias
+2022-03-22 14:30:29,653 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.2.attention.output.dense.weight
+2022-03-22 14:30:29,653 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.2.attention.output.dense.bias
+2022-03-22 14:30:29,653 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.2.attention.output.LayerNorm.weight
+2022-03-22 14:30:29,653 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.2.attention.output.LayerNorm.bias
+2022-03-22 14:30:29,653 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.2.intermediate.dense.weight
+2022-03-22 14:30:29,653 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.2.intermediate.dense.bias
+2022-03-22 14:30:29,653 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.2.output.dense.weight
+2022-03-22 14:30:29,653 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.2.output.dense.bias
+2022-03-22 14:30:29,653 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.2.output.LayerNorm.weight
+2022-03-22 14:30:29,653 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.2.output.LayerNorm.bias
+2022-03-22 14:30:29,653 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.3.attention.self.query.weight
+2022-03-22 14:30:29,653 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.3.attention.self.query.bias
+2022-03-22 14:30:29,653 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.3.attention.self.key.weight
+2022-03-22 14:30:29,653 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.3.attention.self.key.bias
+2022-03-22 14:30:29,653 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.3.attention.self.value.weight
+2022-03-22 14:30:29,653 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.3.attention.self.value.bias
+2022-03-22 14:30:29,653 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.3.attention.output.dense.weight
+2022-03-22 14:30:29,653 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.3.attention.output.dense.bias
+2022-03-22 14:30:29,653 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.3.attention.output.LayerNorm.weight
+2022-03-22 14:30:29,653 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.3.attention.output.LayerNorm.bias
+2022-03-22 14:30:29,653 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.3.intermediate.dense.weight
+2022-03-22 14:30:29,653 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.3.intermediate.dense.bias
+2022-03-22 14:30:29,654 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.3.output.dense.weight
+2022-03-22 14:30:29,654 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.3.output.dense.bias
+2022-03-22 14:30:29,654 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.3.output.LayerNorm.weight
+2022-03-22 14:30:29,654 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.3.output.LayerNorm.bias
+2022-03-22 14:30:29,654 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.4.attention.self.query.weight
+2022-03-22 14:30:29,654 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.4.attention.self.query.bias
+2022-03-22 14:30:29,654 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.4.attention.self.key.weight
+2022-03-22 14:30:29,654 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.4.attention.self.key.bias
+2022-03-22 14:30:29,654 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.4.attention.self.value.weight
+2022-03-22 14:30:29,654 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.4.attention.self.value.bias
+2022-03-22 14:30:29,654 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.4.attention.output.dense.weight
+2022-03-22 14:30:29,654 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.4.attention.output.dense.bias
+2022-03-22 14:30:29,654 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.4.attention.output.LayerNorm.weight
+2022-03-22 14:30:29,654 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.4.attention.output.LayerNorm.bias
+2022-03-22 14:30:29,654 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.4.intermediate.dense.weight
+2022-03-22 14:30:29,654 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.4.intermediate.dense.bias
+2022-03-22 14:30:29,654 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.4.output.dense.weight
+2022-03-22 14:30:29,654 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.4.output.dense.bias
+2022-03-22 14:30:29,654 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.4.output.LayerNorm.weight
+2022-03-22 14:30:29,654 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.4.output.LayerNorm.bias
+2022-03-22 14:30:29,654 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.5.attention.self.query.weight
+2022-03-22 14:30:29,654 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.5.attention.self.query.bias
+2022-03-22 14:30:29,654 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.5.attention.self.key.weight
+2022-03-22 14:30:29,654 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.5.attention.self.key.bias
+2022-03-22 14:30:29,655 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.5.attention.self.value.weight
+2022-03-22 14:30:29,655 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.5.attention.self.value.bias
+2022-03-22 14:30:29,655 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.5.attention.output.dense.weight
+2022-03-22 14:30:29,655 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.5.attention.output.dense.bias
+2022-03-22 14:30:29,655 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.5.attention.output.LayerNorm.weight
+2022-03-22 14:30:29,655 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.5.attention.output.LayerNorm.bias
+2022-03-22 14:30:29,655 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.5.intermediate.dense.weight
+2022-03-22 14:30:29,655 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.5.intermediate.dense.bias
+2022-03-22 14:30:29,655 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.5.output.dense.weight
+2022-03-22 14:30:29,655 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.5.output.dense.bias
+2022-03-22 14:30:29,655 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.5.output.LayerNorm.weight
+2022-03-22 14:30:29,655 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.5.output.LayerNorm.bias
+2022-03-22 14:30:29,655 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.6.attention.self.query.weight
+2022-03-22 14:30:29,655 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.6.attention.self.query.bias
+2022-03-22 14:30:29,655 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.6.attention.self.key.weight
+2022-03-22 14:30:29,655 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.6.attention.self.key.bias
+2022-03-22 14:30:29,655 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.6.attention.self.value.weight
+2022-03-22 14:30:29,655 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.6.attention.self.value.bias
+2022-03-22 14:30:29,655 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.6.attention.output.dense.weight
+2022-03-22 14:30:29,655 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.6.attention.output.dense.bias
+2022-03-22 14:30:29,655 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.6.attention.output.LayerNorm.weight
+2022-03-22 14:30:29,655 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.6.attention.output.LayerNorm.bias
+2022-03-22 14:30:29,655 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.6.intermediate.dense.weight
+2022-03-22 14:30:29,656 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.6.intermediate.dense.bias
+2022-03-22 14:30:29,656 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.6.output.dense.weight
+2022-03-22 14:30:29,656 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.6.output.dense.bias
+2022-03-22 14:30:29,656 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.6.output.LayerNorm.weight
+2022-03-22 14:30:29,656 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.6.output.LayerNorm.bias
+2022-03-22 14:30:29,656 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.7.attention.self.query.weight
+2022-03-22 14:30:29,656 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.7.attention.self.query.bias
+2022-03-22 14:30:29,656 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.7.attention.self.key.weight
+2022-03-22 14:30:29,656 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.7.attention.self.key.bias
+2022-03-22 14:30:29,656 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.7.attention.self.value.weight
+2022-03-22 14:30:29,656 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.7.attention.self.value.bias
+2022-03-22 14:30:29,656 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.7.attention.output.dense.weight
+2022-03-22 14:30:29,656 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.7.attention.output.dense.bias
+2022-03-22 14:30:29,656 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.7.attention.output.LayerNorm.weight
+2022-03-22 14:30:29,656 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.7.attention.output.LayerNorm.bias
+2022-03-22 14:30:29,656 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.7.intermediate.dense.weight
+2022-03-22 14:30:29,656 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.7.intermediate.dense.bias
+2022-03-22 14:30:29,656 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.7.output.dense.weight
+2022-03-22 14:30:29,656 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.7.output.dense.bias
+2022-03-22 14:30:29,656 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.7.output.LayerNorm.weight
+2022-03-22 14:30:29,656 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.7.output.LayerNorm.bias
+2022-03-22 14:30:29,656 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.8.attention.self.query.weight
+2022-03-22 14:30:29,656 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.8.attention.self.query.bias
+2022-03-22 14:30:29,656 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.8.attention.self.key.weight
+2022-03-22 14:30:29,657 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.8.attention.self.key.bias
+2022-03-22 14:30:29,657 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.8.attention.self.value.weight
+2022-03-22 14:30:29,657 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.8.attention.self.value.bias
+2022-03-22 14:30:29,657 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.8.attention.output.dense.weight
+2022-03-22 14:30:29,657 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.8.attention.output.dense.bias
+2022-03-22 14:30:29,657 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.8.attention.output.LayerNorm.weight
+2022-03-22 14:30:29,657 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.8.attention.output.LayerNorm.bias
+2022-03-22 14:30:29,657 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.8.intermediate.dense.weight
+2022-03-22 14:30:29,657 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.8.intermediate.dense.bias
+2022-03-22 14:30:29,657 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.8.output.dense.weight
+2022-03-22 14:30:29,657 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.8.output.dense.bias
+2022-03-22 14:30:29,657 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.8.output.LayerNorm.weight
+2022-03-22 14:30:29,657 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.8.output.LayerNorm.bias
+2022-03-22 14:30:29,657 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.9.attention.self.query.weight
+2022-03-22 14:30:29,657 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.9.attention.self.query.bias
+2022-03-22 14:30:29,657 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.9.attention.self.key.weight
+2022-03-22 14:30:29,657 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.9.attention.self.key.bias
+2022-03-22 14:30:29,657 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.9.attention.self.value.weight
+2022-03-22 14:30:29,657 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.9.attention.self.value.bias
+2022-03-22 14:30:29,657 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.9.attention.output.dense.weight
+2022-03-22 14:30:29,657 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.9.attention.output.dense.bias
+2022-03-22 14:30:29,657 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.9.attention.output.LayerNorm.weight
+2022-03-22 14:30:29,658 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.9.attention.output.LayerNorm.bias
+2022-03-22 14:30:29,658 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.9.intermediate.dense.weight
+2022-03-22 14:30:29,658 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.9.intermediate.dense.bias
+2022-03-22 14:30:29,658 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.9.output.dense.weight
+2022-03-22 14:30:29,658 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.9.output.dense.bias
+2022-03-22 14:30:29,658 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.9.output.LayerNorm.weight
+2022-03-22 14:30:29,658 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.9.output.LayerNorm.bias
+2022-03-22 14:30:29,658 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.10.attention.self.query.weight
+2022-03-22 14:30:29,658 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.10.attention.self.query.bias
+2022-03-22 14:30:29,658 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.10.attention.self.key.weight
+2022-03-22 14:30:29,658 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.10.attention.self.key.bias
+2022-03-22 14:30:29,658 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.10.attention.self.value.weight
+2022-03-22 14:30:29,658 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.10.attention.self.value.bias
+2022-03-22 14:30:29,658 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.10.attention.output.dense.weight
+2022-03-22 14:30:29,658 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.10.attention.output.dense.bias
+2022-03-22 14:30:29,658 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.10.attention.output.LayerNorm.weight
+2022-03-22 14:30:29,658 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.10.attention.output.LayerNorm.bias
+2022-03-22 14:30:29,658 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.10.intermediate.dense.weight
+2022-03-22 14:30:29,658 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.10.intermediate.dense.bias
+2022-03-22 14:30:29,658 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.10.output.dense.weight
+2022-03-22 14:30:29,658 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.10.output.dense.bias
+2022-03-22 14:30:29,658 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.10.output.LayerNorm.weight
+2022-03-22 14:30:29,658 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.10.output.LayerNorm.bias
+2022-03-22 14:30:29,658 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.11.attention.self.query.weight
+2022-03-22 14:30:29,659 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.11.attention.self.query.bias
+2022-03-22 14:30:29,659 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.11.attention.self.key.weight
+2022-03-22 14:30:29,659 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.11.attention.self.key.bias
+2022-03-22 14:30:29,659 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.11.attention.self.value.weight
+2022-03-22 14:30:29,659 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.11.attention.self.value.bias
+2022-03-22 14:30:29,659 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.11.attention.output.dense.weight
+2022-03-22 14:30:29,659 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.11.attention.output.dense.bias
+2022-03-22 14:30:29,659 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.11.attention.output.LayerNorm.weight
+2022-03-22 14:30:29,659 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.11.attention.output.LayerNorm.bias
+2022-03-22 14:30:29,659 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.11.intermediate.dense.weight
+2022-03-22 14:30:29,659 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.11.intermediate.dense.bias
+2022-03-22 14:30:29,659 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.11.output.dense.weight
+2022-03-22 14:30:29,659 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.11.output.dense.bias
+2022-03-22 14:30:29,659 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.11.output.LayerNorm.weight
+2022-03-22 14:30:29,659 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.11.output.LayerNorm.bias
+2022-03-22 14:30:29,659 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.pooler.dense.weight
+2022-03-22 14:30:29,659 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.pooler.dense.bias
+2022-03-22 14:30:29,659 - INFO - allennlp.common.util - _feedforward_layer._linear_layers.0.weight
+2022-03-22 14:30:29,659 - INFO - allennlp.common.util - _feedforward_layer._linear_layers.0.bias
+2022-03-22 14:30:29,659 - INFO - allennlp.common.util - _classification_layer.weight
+2022-03-22 14:30:29,659 - INFO - allennlp.common.util - _classification_layer.bias
+2022-03-22 14:30:29,660 - INFO - allennlp.common.params - trainer.checkpointer.type = roberta_default
+2022-03-22 14:30:29,660 - INFO - allennlp.common.params - trainer.checkpointer.keep_serialized_model_every_num_seconds = None
+2022-03-22 14:30:29,660 - INFO - allennlp.common.params - trainer.checkpointer.num_serialized_models_to_keep = 0
+2022-03-22 14:30:29,660 - INFO - allennlp.common.params - trainer.checkpointer.model_save_interval = None
+2022-03-22 14:30:29,660 - INFO - allennlp.common.params - trainer.checkpointer.num_epochs = 10
+2022-03-22 14:30:29,660 - INFO - allennlp.common.params - trainer.checkpointer.skip_early_stopping = False
+2022-03-22 14:30:29,661 - INFO - allennlp.training.trainer - Beginning training.
+2022-03-22 14:30:29,661 - INFO - allennlp.training.trainer - Epoch 0/9
+2022-03-22 14:30:29,661 - INFO - allennlp.training.trainer - Worker 0 memory usage: 9.6G
+2022-03-22 14:30:29,662 - INFO - allennlp.training.trainer - GPU 0 memory usage: 0B
+2022-03-22 14:30:29,662 - INFO - allennlp.training.trainer - Training
+2022-03-22 14:30:29,662 - INFO - tqdm - 0%|          | 0/1250 [00:00<?, ?it/s]
+2022-03-22 14:30:29,690 - INFO - allennlp.data.samplers.bucket_batch_sampler - No sorting keys given; trying to guess a good one
+2022-03-22 14:30:29,690 - INFO - allennlp.data.samplers.bucket_batch_sampler - Using ['tokens'] as the sorting keys
+2022-03-22 14:30:39,957 - INFO - tqdm - f1: 0.6891, accuracy: 0.6996, batch_loss: 0.5671, loss: 0.5389 ||:   2%|2         | 31/1250 [00:10<05:57,  3.41it/s]
+2022-03-22 14:30:50,189 - INFO - tqdm - f1: 0.7907, accuracy: 0.7926, batch_loss: 0.1648, loss: 0.4198 ||:   5%|5         | 66/1250 [00:20<06:23,  3.08it/s]
+2022-03-22 14:31:00,253 - INFO - tqdm - f1: 0.8223, accuracy: 0.8231, batch_loss: 0.3122, loss: 0.3787 ||:   8%|8         | 100/1250 [00:30<05:17,  3.62it/s]
+2022-03-22 14:31:10,338 - INFO - tqdm - f1: 0.8466, accuracy: 0.8470, batch_loss: 0.1732, loss: 0.3464 ||:  11%|#         | 136/1250 [00:40<05:32,  3.35it/s]
+2022-03-22 14:31:20,482 - INFO - tqdm - f1: 0.8659, accuracy: 0.8660, batch_loss: 0.3199, loss: 0.3096 ||:  14%|#3        | 174/1250 [00:50<04:39,  3.85it/s]
+2022-03-22 14:31:30,560 - INFO - tqdm - f1: 0.8765, accuracy: 0.8765, batch_loss: 0.2212, loss: 0.2917 ||:  17%|#6        | 211/1250 [01:00<04:43,  3.66it/s]
+2022-03-22 14:31:40,883 - INFO - tqdm - f1: 0.8810, accuracy: 0.8810, batch_loss: 0.5789, loss: 0.2846 ||:  20%|#9        | 248/1250 [01:11<04:52,  3.42it/s]
+2022-03-22 14:31:50,973 - INFO - tqdm - f1: 0.8878, accuracy: 0.8878, batch_loss: 0.0395, loss: 0.2732 ||:  23%|##2       | 283/1250 [01:21<04:13,  3.81it/s]
+2022-03-22 14:32:01,141 - INFO - tqdm - f1: 0.8932, accuracy: 0.8932, batch_loss: 0.0553, loss: 0.2633 ||:  26%|##5       | 322/1250 [01:31<04:04,  3.80it/s]
+2022-03-22 14:32:11,468 - INFO - tqdm - f1: 0.8980, accuracy: 0.8981, batch_loss: 0.1151, loss: 0.2525 ||:  28%|##8       | 355/1250 [01:41<05:39,  2.64it/s]
+2022-03-22 14:32:21,841 - INFO - tqdm - f1: 0.9004, accuracy: 0.9004, batch_loss: 0.3716, loss: 0.2481 ||:  31%|###1      | 391/1250 [01:52<04:41,  3.05it/s]
+2022-03-22 14:32:31,879 - INFO - tqdm - f1: 0.9019, accuracy: 0.9019, batch_loss: 0.0887, loss: 0.2440 ||:  34%|###4      | 427/1250 [02:02<04:16,  3.21it/s]
+2022-03-22 14:32:41,983 - INFO - tqdm - f1: 0.9042, accuracy: 0.9042, batch_loss: 0.0443, loss: 0.2378 ||:  37%|###7      | 464/1250 [02:12<03:39,  3.59it/s]
+2022-03-22 14:32:52,275 - INFO - tqdm - f1: 0.9050, accuracy: 0.9051, batch_loss: 0.0981, loss: 0.2378 ||:  40%|####      | 501/1250 [02:22<03:46,  3.30it/s]
+2022-03-22 14:33:02,652 - INFO - tqdm - f1: 0.9065, accuracy: 0.9065, batch_loss: 0.0975, loss: 0.2368 ||:  43%|####2     | 536/1250 [02:32<04:09,  2.86it/s]
+2022-03-22 14:33:12,829 - INFO - tqdm - f1: 0.9071, accuracy: 0.9071, batch_loss: 0.2209, loss: 0.2356 ||:  46%|####5     | 574/1250 [02:43<02:49,  3.98it/s]
+2022-03-22 14:33:22,968 - INFO - tqdm - f1: 0.9080, accuracy: 0.9080, batch_loss: 0.1830, loss: 0.2331 ||:  49%|####8     | 611/1250 [02:53<03:02,  3.51it/s]
+2022-03-22 14:33:32,972 - INFO - tqdm - f1: 0.9095, accuracy: 0.9095, batch_loss: 0.0634, loss: 0.2292 ||:  52%|#####2    | 650/1250 [03:03<02:31,  3.97it/s]
+2022-03-22 14:33:43,050 - INFO - tqdm - f1: 0.9104, accuracy: 0.9104, batch_loss: 0.0411, loss: 0.2260 ||:  55%|#####4    | 687/1250 [03:13<02:43,  3.44it/s]
+2022-03-22 14:33:53,222 - INFO - tqdm - f1: 0.9103, accuracy: 0.9104, batch_loss: 0.0742, loss: 0.2264 ||:  58%|#####7    | 723/1250 [03:23<02:19,  3.78it/s]
+2022-03-22 14:34:03,349 - INFO - tqdm - f1: 0.9107, accuracy: 0.9107, batch_loss: 0.0596, loss: 0.2261 ||:  61%|######    | 761/1250 [03:33<01:47,  4.55it/s]
+2022-03-22 14:34:13,447 - INFO - tqdm - f1: 0.9123, accuracy: 0.9123, batch_loss: 0.0457, loss: 0.2234 ||:  64%|######4   | 801/1250 [03:43<02:00,  3.73it/s]
+2022-03-22 14:34:23,727 - INFO - tqdm - f1: 0.9115, accuracy: 0.9115, batch_loss: 0.0833, loss: 0.2241 ||:  67%|######6   | 835/1250 [03:54<02:18,  3.00it/s]
+2022-03-22 14:34:33,899 - INFO - tqdm - f1: 0.9117, accuracy: 0.9117, batch_loss: 0.1835, loss: 0.2223 ||:  70%|######9   | 871/1250 [04:04<02:03,  3.07it/s]
+2022-03-22 14:34:43,943 - INFO - tqdm - f1: 0.9124, accuracy: 0.9124, batch_loss: 0.2443, loss: 0.2209 ||:  73%|#######2  | 907/1250 [04:14<01:47,  3.19it/s]
+2022-03-22 14:34:54,213 - INFO - tqdm - f1: 0.9128, accuracy: 0.9128, batch_loss: 0.6268, loss: 0.2198 ||:  75%|#######5  | 943/1250 [04:24<01:43,  2.97it/s]
+2022-03-22 14:35:04,215 - INFO - tqdm - f1: 0.9140, accuracy: 0.9140, batch_loss: 0.0157, loss: 0.2179 ||:  78%|#######8  | 977/1250 [04:34<01:18,  3.47it/s]
+2022-03-22 14:35:14,467 - INFO - tqdm - f1: 0.9153, accuracy: 0.9153, batch_loss: 0.1341, loss: 0.2152 ||:  81%|########1 | 1014/1250 [04:44<01:17,  3.04it/s]
+2022-03-22 14:35:24,666 - INFO - tqdm - f1: 0.9154, accuracy: 0.9154, batch_loss: 0.3126, loss: 0.2144 ||:  84%|########4 | 1052/1250 [04:55<01:00,  3.27it/s]
+2022-03-22 14:35:34,677 - INFO - tqdm - f1: 0.9160, accuracy: 0.9160, batch_loss: 0.0593, loss: 0.2133 ||:  87%|########7 | 1090/1250 [05:05<00:47,  3.36it/s]
+2022-03-22 14:35:44,726 - INFO - tqdm - f1: 0.9168, accuracy: 0.9168, batch_loss: 0.0634, loss: 0.2117 ||:  90%|######### | 1125/1250 [05:15<00:38,  3.29it/s]
+2022-03-22 14:35:54,748 - INFO - tqdm - f1: 0.9176, accuracy: 0.9176, batch_loss: 0.3923, loss: 0.2101 ||:  93%|#########3| 1163/1250 [05:25<00:20,  4.27it/s]
+2022-03-22 14:36:04,865 - INFO - tqdm - f1: 0.9182, accuracy: 0.9182, batch_loss: 0.0460, loss: 0.2096 ||:  96%|#########5| 1198/1250 [05:35<00:15,  3.45it/s]
+2022-03-22 14:36:15,163 - INFO - tqdm - f1: 0.9189, accuracy: 0.9189, batch_loss: 0.4149, loss: 0.2078 ||:  99%|#########9| 1239/1250 [05:45<00:03,  3.04it/s]
+2022-03-22 14:36:16,499 - INFO - tqdm - f1: 0.9188, accuracy: 0.9188, batch_loss: 0.2790, loss: 0.2078 ||: 100%|#########9| 1244/1250 [05:46<00:01,  3.79it/s]
+2022-03-22 14:36:16,745 - INFO - tqdm - f1: 0.9189, accuracy: 0.9189, batch_loss: 0.0832, loss: 0.2077 ||: 100%|#########9| 1245/1250 [05:47<00:01,  3.87it/s]
+2022-03-22 14:36:17,053 - INFO - tqdm - f1: 0.9189, accuracy: 0.9189, batch_loss: 0.0448, loss: 0.2076 ||: 100%|#########9| 1246/1250 [05:47<00:01,  3.66it/s]
+2022-03-22 14:36:17,259 - INFO - tqdm - f1: 0.9190, accuracy: 0.9190, batch_loss: 0.3519, loss: 0.2077 ||: 100%|#########9| 1247/1250 [05:47<00:00,  3.95it/s]
+2022-03-22 14:36:17,451 - INFO - tqdm - f1: 0.9190, accuracy: 0.9190, batch_loss: 0.1430, loss: 0.2077 ||: 100%|#########9| 1248/1250 [05:47<00:00,  4.26it/s]
+2022-03-22 14:36:17,674 - INFO - tqdm - f1: 0.9190, accuracy: 0.9190, batch_loss: 0.2459, loss: 0.2077 ||: 100%|#########9| 1249/1250 [05:48<00:00,  4.32it/s]
+2022-03-22 14:36:17,890 - INFO - tqdm - f1: 0.9190, accuracy: 0.9190, batch_loss: 0.2290, loss: 0.2077 ||: 100%|##########| 1250/1250 [05:48<00:00,  4.41it/s]
+2022-03-22 14:36:17,900 - INFO - tqdm - f1: 0.9190, accuracy: 0.9190, batch_loss: 0.2290, loss: 0.2077 ||: 100%|##########| 1250/1250 [05:48<00:00,  3.59it/s]
+2022-03-22 14:36:17,937 - INFO - allennlp.training.trainer - Validating
+2022-03-22 14:36:17,938 - INFO - tqdm - 0%|          | 0/313 [00:00<?, ?it/s]
+2022-03-22 14:36:17,944 - INFO - allennlp.data.samplers.bucket_batch_sampler - No sorting keys given; trying to guess a good one
+2022-03-22 14:36:17,944 - INFO - allennlp.data.samplers.bucket_batch_sampler - Using ['tokens'] as the sorting keys
+2022-03-22 14:36:28,058 - INFO - tqdm - f1: 0.9435, accuracy: 0.9436, batch_loss: 0.0958, loss: 0.1483 ||:  26%|##6       | 82/313 [00:10<00:31,  7.33it/s]
+2022-03-22 14:36:38,111 - INFO - tqdm - f1: 0.9443, accuracy: 0.9444, batch_loss: 0.2324, loss: 0.1502 ||:  52%|#####2    | 164/313 [00:20<00:18,  8.09it/s]
+2022-03-22 14:36:48,315 - INFO - tqdm - f1: 0.9469, accuracy: 0.9469, batch_loss: 0.0435, loss: 0.1481 ||:  80%|########  | 251/313 [00:30<00:07,  8.10it/s]
+2022-03-22 14:36:55,268 - INFO - tqdm - f1: 0.9476, accuracy: 0.9476, batch_loss: 0.1710, loss: 0.1461 ||: 100%|#########9| 312/313 [00:37<00:00, 10.69it/s]
+2022-03-22 14:36:55,393 - INFO - tqdm - f1: 0.9478, accuracy: 0.9478, batch_loss: 0.0655, loss: 0.1459 ||: 100%|##########| 313/313 [00:37<00:00,  8.36it/s]
+2022-03-22 14:36:55,414 - INFO - dont_stop_pretraining.training.roberta_checkpointer - Best validation performance so far. Copying weights to 'model_logs/imdb_base_hyper_small_seed_314/best.th'.
+2022-03-22 14:36:55,935 - INFO - allennlp.training.callbacks.console_logger -                        Training |  Validation
+2022-03-22 14:36:55,935 - INFO - allennlp.training.callbacks.console_logger - accuracy           |     0.919  |     0.948
+2022-03-22 14:36:55,935 - INFO - allennlp.training.callbacks.console_logger - f1                 |     0.919  |     0.948
+2022-03-22 14:36:55,935 - INFO - allennlp.training.callbacks.console_logger - gpu_0_memory_MB    |     0.000  |       N/A
+2022-03-22 14:36:55,935 - INFO - allennlp.training.callbacks.console_logger - loss               |     0.208  |     0.146
+2022-03-22 14:36:55,935 - INFO - allennlp.training.callbacks.console_logger - worker_0_memory_MB |  9851.551  |       N/A
+2022-03-22 14:36:55,935 - INFO - allennlp.training.trainer - Epoch duration: 0:06:26.273758
+2022-03-22 14:36:55,935 - INFO - allennlp.training.trainer - Estimated training time remaining: 0:57:56
+2022-03-22 14:36:55,936 - INFO - allennlp.training.trainer - Epoch 1/9
+2022-03-22 14:36:55,936 - INFO - allennlp.training.trainer - Worker 0 memory usage: 9.8G
+2022-03-22 14:36:55,936 - INFO - allennlp.training.trainer - GPU 0 memory usage: 0B
+2022-03-22 14:36:55,937 - INFO - allennlp.training.trainer - Training
+2022-03-22 14:36:55,937 - INFO - tqdm - 0%|          | 0/1250 [00:00<?, ?it/s]
+2022-03-22 14:37:06,059 - INFO - tqdm - f1: 0.9518, accuracy: 0.9522, batch_loss: 0.1401, loss: 0.1256 ||:   3%|2         | 34/1250 [00:10<04:51,  4.18it/s]
+2022-03-22 14:37:16,176 - INFO - tqdm - f1: 0.9619, accuracy: 0.9619, batch_loss: 0.3575, loss: 0.1111 ||:   9%|8         | 110/1250 [00:20<03:36,  5.26it/s]
+2022-03-22 14:37:26,184 - INFO - tqdm - f1: 0.9616, accuracy: 0.9616, batch_loss: 0.0481, loss: 0.1159 ||:  13%|#2        | 158/1250 [00:30<03:43,  4.89it/s]
+2022-03-22 14:37:36,262 - INFO - tqdm - f1: 0.9600, accuracy: 0.9600, batch_loss: 0.0767, loss: 0.1187 ||:  16%|#6        | 206/1250 [00:40<03:16,  5.30it/s]
+2022-03-22 14:37:46,321 - INFO - tqdm - f1: 0.9613, accuracy: 0.9613, batch_loss: 0.4001, loss: 0.1146 ||:  20%|##        | 252/1250 [00:50<04:44,  3.51it/s]
+2022-03-22 14:37:56,431 - INFO - tqdm - f1: 0.9627, accuracy: 0.9627, batch_loss: 0.0074, loss: 0.1104 ||:  23%|##3       | 290/1250 [01:00<04:27,  3.58it/s]
+2022-03-22 14:38:06,549 - INFO - tqdm - f1: 0.9616, accuracy: 0.9616, batch_loss: 0.0376, loss: 0.1145 ||:  26%|##5       | 324/1250 [01:10<05:14,  2.95it/s]
+2022-03-22 14:38:16,580 - INFO - tqdm - f1: 0.9625, accuracy: 0.9625, batch_loss: 0.1840, loss: 0.1141 ||:  29%|##8       | 358/1250 [01:20<04:10,  3.56it/s]
+2022-03-22 14:38:26,785 - INFO - tqdm - f1: 0.9630, accuracy: 0.9630, batch_loss: 0.0234, loss: 0.1121 ||:  32%|###1      | 394/1250 [01:30<04:03,  3.52it/s]
+2022-03-22 14:38:37,100 - INFO - tqdm - f1: 0.9631, accuracy: 0.9631, batch_loss: 0.0592, loss: 0.1115 ||:  35%|###4      | 432/1250 [01:41<04:21,  3.13it/s]
+2022-03-22 14:38:47,323 - INFO - tqdm - f1: 0.9634, accuracy: 0.9634, batch_loss: 0.1126, loss: 0.1128 ||:  38%|###7      | 471/1250 [01:51<03:12,  4.05it/s]
+2022-03-22 14:38:57,361 - INFO - tqdm - f1: 0.9634, accuracy: 0.9634, batch_loss: 0.0148, loss: 0.1141 ||:  41%|####      | 510/1250 [02:01<03:06,  3.96it/s]
+2022-03-22 14:39:07,421 - INFO - tqdm - f1: 0.9633, accuracy: 0.9634, batch_loss: 0.4061, loss: 0.1138 ||:  44%|####3     | 544/1250 [02:11<03:45,  3.13it/s]
+2022-03-22 14:39:17,667 - INFO - tqdm - f1: 0.9635, accuracy: 0.9635, batch_loss: 0.2684, loss: 0.1130 ||:  46%|####6     | 579/1250 [02:21<03:25,  3.27it/s]
+2022-03-22 14:39:27,851 - INFO - tqdm - f1: 0.9622, accuracy: 0.9622, batch_loss: 0.1695, loss: 0.1152 ||:  49%|####9     | 617/1250 [02:31<02:44,  3.86it/s]
+2022-03-22 14:39:38,198 - INFO - tqdm - f1: 0.9619, accuracy: 0.9619, batch_loss: 0.2380, loss: 0.1156 ||:  52%|#####2    | 654/1250 [02:42<02:54,  3.42it/s]
+2022-03-22 14:39:48,330 - INFO - tqdm - f1: 0.9620, accuracy: 0.9620, batch_loss: 0.0851, loss: 0.1156 ||:  55%|#####5    | 690/1250 [02:52<03:05,  3.02it/s]
+2022-03-22 14:39:58,357 - INFO - tqdm - f1: 0.9618, accuracy: 0.9618, batch_loss: 0.1014, loss: 0.1156 ||:  58%|#####8    | 725/1250 [03:02<02:31,  3.47it/s]
+2022-03-22 14:40:08,379 - INFO - tqdm - f1: 0.9611, accuracy: 0.9611, batch_loss: 0.2785, loss: 0.1159 ||:  61%|######    | 761/1250 [03:12<01:52,  4.35it/s]
+2022-03-22 14:40:18,637 - INFO - tqdm - f1: 0.9608, accuracy: 0.9608, batch_loss: 0.1661, loss: 0.1170 ||:  64%|######4   | 800/1250 [03:22<02:11,  3.43it/s]
+2022-03-22 14:40:28,758 - INFO - tqdm - f1: 0.9600, accuracy: 0.9600, batch_loss: 0.2703, loss: 0.1189 ||:  67%|######7   | 839/1250 [03:32<01:33,  4.38it/s]
+2022-03-22 14:40:38,837 - INFO - tqdm - f1: 0.9605, accuracy: 0.9605, batch_loss: 0.1397, loss: 0.1182 ||:  70%|#######   | 875/1250 [03:42<01:32,  4.06it/s]
+2022-03-22 14:40:48,979 - INFO - tqdm - f1: 0.9598, accuracy: 0.9598, batch_loss: 0.0502, loss: 0.1196 ||:  73%|#######3  | 914/1250 [03:53<01:37,  3.45it/s]
+2022-03-22 14:40:59,235 - INFO - tqdm - f1: 0.9598, accuracy: 0.9598, batch_loss: 0.2125, loss: 0.1193 ||:  76%|#######5  | 947/1250 [04:03<01:40,  3.01it/s]
+2022-03-22 14:41:09,340 - INFO - tqdm - f1: 0.9601, accuracy: 0.9601, batch_loss: 0.0042, loss: 0.1183 ||:  79%|#######8  | 982/1250 [04:13<01:10,  3.82it/s]
+2022-03-22 14:41:19,608 - INFO - tqdm - f1: 0.9603, accuracy: 0.9603, batch_loss: 0.0464, loss: 0.1182 ||:  81%|########1 | 1018/1250 [04:23<01:11,  3.26it/s]
+2022-03-22 14:41:29,813 - INFO - tqdm - f1: 0.9604, accuracy: 0.9604, batch_loss: 0.0538, loss: 0.1174 ||:  84%|########4 | 1056/1250 [04:33<00:52,  3.71it/s]
+2022-03-22 14:41:39,834 - INFO - tqdm - f1: 0.9607, accuracy: 0.9607, batch_loss: 0.0276, loss: 0.1175 ||:  88%|########7 | 1094/1250 [04:43<00:46,  3.33it/s]
+2022-03-22 14:41:50,001 - INFO - tqdm - f1: 0.9607, accuracy: 0.9607, batch_loss: 0.0111, loss: 0.1168 ||:  91%|######### | 1132/1250 [04:54<00:32,  3.64it/s]
+2022-03-22 14:42:00,056 - INFO - tqdm - f1: 0.9603, accuracy: 0.9603, batch_loss: 0.1034, loss: 0.1173 ||:  93%|#########3| 1166/1250 [05:04<00:22,  3.74it/s]
+2022-03-22 14:42:10,188 - INFO - tqdm - f1: 0.9597, accuracy: 0.9597, batch_loss: 0.2193, loss: 0.1186 ||:  96%|#########6| 1204/1250 [05:14<00:13,  3.43it/s]
+2022-03-22 14:42:20,370 - INFO - tqdm - f1: 0.9596, accuracy: 0.9596, batch_loss: 0.0724, loss: 0.1198 ||:  99%|#########9| 1241/1250 [05:24<00:02,  3.50it/s]
+2022-03-22 14:42:21,188 - INFO - tqdm - f1: 0.9597, accuracy: 0.9597, batch_loss: 0.0706, loss: 0.1197 ||: 100%|#########9| 1244/1250 [05:25<00:01,  3.66it/s]
+2022-03-22 14:42:21,433 - INFO - tqdm - f1: 0.9596, accuracy: 0.9596, batch_loss: 0.2212, loss: 0.1198 ||: 100%|#########9| 1245/1250 [05:25<00:01,  3.77it/s]
+2022-03-22 14:42:21,855 - INFO - tqdm - f1: 0.9596, accuracy: 0.9596, batch_loss: 0.2193, loss: 0.1199 ||: 100%|#########9| 1246/1250 [05:25<00:01,  3.21it/s]
+2022-03-22 14:42:22,016 - INFO - tqdm - f1: 0.9596, accuracy: 0.9596, batch_loss: 0.1315, loss: 0.1199 ||: 100%|#########9| 1247/1250 [05:26<00:00,  3.75it/s]
+2022-03-22 14:42:22,220 - INFO - tqdm - f1: 0.9596, accuracy: 0.9596, batch_loss: 0.1849, loss: 0.1200 ||: 100%|#########9| 1248/1250 [05:26<00:00,  4.03it/s]
+2022-03-22 14:42:22,633 - INFO - tqdm - f1: 0.9594, accuracy: 0.9594, batch_loss: 0.5661, loss: 0.1203 ||: 100%|#########9| 1249/1250 [05:26<00:00,  3.36it/s]
+2022-03-22 14:42:22,795 - INFO - tqdm - f1: 0.9594, accuracy: 0.9594, batch_loss: 0.2313, loss: 0.1204 ||: 100%|##########| 1250/1250 [05:26<00:00,  3.89it/s]
+2022-03-22 14:42:22,805 - INFO - tqdm - f1: 0.9594, accuracy: 0.9594, batch_loss: 0.2313, loss: 0.1204 ||: 100%|##########| 1250/1250 [05:26<00:00,  3.82it/s]
+2022-03-22 14:42:22,840 - INFO - allennlp.training.trainer - Validating
+2022-03-22 14:42:22,841 - INFO - tqdm - 0%|          | 0/313 [00:00<?, ?it/s]
+2022-03-22 14:42:32,925 - INFO - tqdm - f1: 0.9362, accuracy: 0.9363, batch_loss: 0.1399, loss: 0.1793 ||:  26%|##6       | 82/313 [00:10<00:30,  7.57it/s]
+2022-03-22 14:42:42,933 - INFO - tqdm - f1: 0.9356, accuracy: 0.9357, batch_loss: 0.1730, loss: 0.1639 ||:  51%|#####     | 159/313 [00:20<00:17,  8.83it/s]
+2022-03-22 14:42:53,070 - INFO - tqdm - f1: 0.9363, accuracy: 0.9363, batch_loss: 0.1214, loss: 0.1706 ||:  78%|#######8  | 245/313 [00:30<00:08,  7.81it/s]
+2022-03-22 14:43:00,919 - INFO - tqdm - f1: 0.9351, accuracy: 0.9352, batch_loss: 0.5296, loss: 0.1732 ||: 100%|#########9| 312/313 [00:38<00:00,  9.49it/s]
+2022-03-22 14:43:01,055 - INFO - tqdm - f1: 0.9353, accuracy: 0.9354, batch_loss: 0.0673, loss: 0.1729 ||: 100%|##########| 313/313 [00:38<00:00,  8.92it/s]
+2022-03-22 14:43:01,057 - INFO - tqdm - f1: 0.9353, accuracy: 0.9354, batch_loss: 0.0673, loss: 0.1729 ||: 100%|##########| 313/313 [00:38<00:00,  8.19it/s]
+2022-03-22 14:43:01,093 - INFO - allennlp.training.callbacks.console_logger -                        Training |  Validation
+2022-03-22 14:43:01,094 - INFO - allennlp.training.callbacks.console_logger - accuracy           |     0.959  |     0.935
+2022-03-22 14:43:01,094 - INFO - allennlp.training.callbacks.console_logger - f1                 |     0.959  |     0.935
+2022-03-22 14:43:01,094 - INFO - allennlp.training.callbacks.console_logger - gpu_0_memory_MB    |     0.000  |       N/A
+2022-03-22 14:43:01,094 - INFO - allennlp.training.callbacks.console_logger - loss               |     0.120  |     0.173
+2022-03-22 14:43:01,094 - INFO - allennlp.training.callbacks.console_logger - worker_0_memory_MB |  10049.129  |       N/A
+2022-03-22 14:43:01,094 - INFO - allennlp.training.trainer - Epoch duration: 0:06:05.158273
+2022-03-22 14:43:01,094 - INFO - allennlp.training.trainer - Estimated training time remaining: 0:50:05
+2022-03-22 14:43:01,094 - INFO - allennlp.training.trainer - Epoch 2/9
+2022-03-22 14:43:01,094 - INFO - allennlp.training.trainer - Worker 0 memory usage: 9.8G
+2022-03-22 14:43:01,094 - INFO - allennlp.training.trainer - GPU 0 memory usage: 0B
+2022-03-22 14:43:01,095 - INFO - allennlp.training.trainer - Training
+2022-03-22 14:43:01,095 - INFO - tqdm - 0%|          | 0/1250 [00:00<?, ?it/s]
+2022-03-22 14:43:11,335 - INFO - tqdm - f1: 0.9779, accuracy: 0.9779, batch_loss: 0.0136, loss: 0.0621 ||:   3%|2         | 34/1250 [00:10<05:53,  3.44it/s]
+2022-03-22 14:43:21,634 - INFO - tqdm - f1: 0.9789, accuracy: 0.9789, batch_loss: 0.0253, loss: 0.0680 ||:   6%|5         | 74/1250 [00:20<05:45,  3.40it/s]
+2022-03-22 14:43:31,777 - INFO - tqdm - f1: 0.9810, accuracy: 0.9810, batch_loss: 0.0129, loss: 0.0651 ||:   9%|8         | 112/1250 [00:30<06:04,  3.12it/s]
+2022-03-22 14:43:41,992 - INFO - tqdm - f1: 0.9827, accuracy: 0.9827, batch_loss: 0.0021, loss: 0.0580 ||:  12%|#1        | 148/1250 [00:40<05:25,  3.38it/s]
+2022-03-22 14:43:52,190 - INFO - tqdm - f1: 0.9785, accuracy: 0.9785, batch_loss: 0.2968, loss: 0.0705 ||:  15%|#4        | 186/1250 [00:51<05:32,  3.20it/s]
+2022-03-22 14:44:02,321 - INFO - tqdm - f1: 0.9763, accuracy: 0.9763, batch_loss: 0.0060, loss: 0.0732 ||:  18%|#7        | 224/1250 [01:01<04:54,  3.48it/s]
+2022-03-22 14:44:12,466 - INFO - tqdm - f1: 0.9771, accuracy: 0.9771, batch_loss: 0.0024, loss: 0.0701 ||:  21%|##        | 262/1250 [01:11<03:56,  4.17it/s]
+2022-03-22 14:44:22,552 - INFO - tqdm - f1: 0.9773, accuracy: 0.9773, batch_loss: 0.0582, loss: 0.0708 ||:  24%|##3       | 297/1250 [01:21<05:13,  3.04it/s]
+2022-03-22 14:44:32,706 - INFO - tqdm - f1: 0.9772, accuracy: 0.9772, batch_loss: 0.0160, loss: 0.0699 ||:  27%|##6       | 334/1250 [01:31<04:24,  3.46it/s]
+2022-03-22 14:44:42,860 - INFO - tqdm - f1: 0.9760, accuracy: 0.9760, batch_loss: 0.0110, loss: 0.0729 ||:  30%|##9       | 372/1250 [01:41<04:05,  3.58it/s]
+2022-03-22 14:44:52,957 - INFO - tqdm - f1: 0.9750, accuracy: 0.9750, batch_loss: 0.2502, loss: 0.0757 ||:  33%|###2      | 410/1250 [01:51<04:12,  3.33it/s]
+2022-03-22 14:45:03,000 - INFO - tqdm - f1: 0.9753, accuracy: 0.9753, batch_loss: 0.0020, loss: 0.0743 ||:  36%|###5      | 445/1250 [02:01<04:32,  2.96it/s]
+2022-03-22 14:45:13,422 - INFO - tqdm - f1: 0.9748, accuracy: 0.9748, batch_loss: 0.1057, loss: 0.0755 ||:  39%|###8      | 483/1250 [02:12<04:01,  3.18it/s]
+2022-03-22 14:45:23,657 - INFO - tqdm - f1: 0.9749, accuracy: 0.9749, batch_loss: 0.0868, loss: 0.0749 ||:  41%|####1     | 518/1250 [02:22<03:56,  3.10it/s]
+2022-03-22 14:45:33,720 - INFO - tqdm - f1: 0.9748, accuracy: 0.9748, batch_loss: 0.0110, loss: 0.0747 ||:  44%|####4     | 554/1250 [02:32<03:30,  3.31it/s]
+2022-03-22 14:45:43,740 - INFO - tqdm - f1: 0.9744, accuracy: 0.9744, batch_loss: 0.0217, loss: 0.0760 ||:  47%|####7     | 590/1250 [02:42<03:04,  3.57it/s]
+2022-03-22 14:45:53,876 - INFO - tqdm - f1: 0.9743, accuracy: 0.9743, batch_loss: 0.1797, loss: 0.0770 ||:  50%|#####     | 626/1250 [02:52<02:47,  3.73it/s]
+2022-03-22 14:46:04,020 - INFO - tqdm - f1: 0.9740, accuracy: 0.9740, batch_loss: 0.1303, loss: 0.0770 ||:  53%|#####2    | 661/1250 [03:02<02:37,  3.74it/s]
+2022-03-22 14:46:14,052 - INFO - tqdm - f1: 0.9735, accuracy: 0.9735, batch_loss: 0.0062, loss: 0.0787 ||:  56%|#####5    | 697/1250 [03:12<02:42,  3.40it/s]
+2022-03-22 14:46:24,333 - INFO - tqdm - f1: 0.9732, accuracy: 0.9732, batch_loss: 0.2742, loss: 0.0794 ||:  59%|#####8    | 732/1250 [03:23<02:39,  3.24it/s]
+2022-03-22 14:46:34,548 - INFO - tqdm - f1: 0.9734, accuracy: 0.9734, batch_loss: 0.0898, loss: 0.0787 ||:  62%|######1   | 772/1250 [03:33<02:00,  3.97it/s]
+2022-03-22 14:46:44,721 - INFO - tqdm - f1: 0.9736, accuracy: 0.9736, batch_loss: 0.3333, loss: 0.0775 ||:  65%|######4   | 807/1250 [03:43<02:23,  3.09it/s]
+2022-03-22 14:46:54,909 - INFO - tqdm - f1: 0.9738, accuracy: 0.9738, batch_loss: 0.0054, loss: 0.0763 ||:  67%|######7   | 842/1250 [03:53<02:16,  3.00it/s]
+2022-03-22 14:47:04,923 - INFO - tqdm - f1: 0.9739, accuracy: 0.9739, batch_loss: 0.1190, loss: 0.0760 ||:  70%|#######   | 878/1250 [04:03<01:28,  4.20it/s]
+2022-03-22 14:47:15,211 - INFO - tqdm - f1: 0.9742, accuracy: 0.9742, batch_loss: 0.2927, loss: 0.0757 ||:  73%|#######3  | 917/1250 [04:14<01:46,  3.11it/s]
+2022-03-22 14:47:25,241 - INFO - tqdm - f1: 0.9741, accuracy: 0.9741, batch_loss: 0.0073, loss: 0.0761 ||:  76%|#######6  | 950/1250 [04:24<01:15,  3.97it/s]
+2022-03-22 14:47:35,370 - INFO - tqdm - f1: 0.9744, accuracy: 0.9744, batch_loss: 0.0181, loss: 0.0759 ||:  79%|#######9  | 988/1250 [04:34<00:56,  4.64it/s]
+2022-03-22 14:47:45,393 - INFO - tqdm - f1: 0.9746, accuracy: 0.9746, batch_loss: 0.0216, loss: 0.0758 ||:  82%|########1 | 1024/1250 [04:44<00:55,  4.06it/s]
+2022-03-22 14:47:55,665 - INFO - tqdm - f1: 0.9746, accuracy: 0.9746, batch_loss: 0.0055, loss: 0.0755 ||:  85%|########4 | 1061/1250 [04:54<00:53,  3.54it/s]
+2022-03-22 14:48:05,747 - INFO - tqdm - f1: 0.9747, accuracy: 0.9747, batch_loss: 0.1742, loss: 0.0747 ||:  88%|########8 | 1100/1250 [05:04<00:46,  3.23it/s]
+2022-03-22 14:48:16,007 - INFO - tqdm - f1: 0.9748, accuracy: 0.9748, batch_loss: 0.0035, loss: 0.0746 ||:  91%|######### | 1137/1250 [05:14<00:28,  3.96it/s]
+2022-03-22 14:48:26,217 - INFO - tqdm - f1: 0.9748, accuracy: 0.9748, batch_loss: 0.0107, loss: 0.0752 ||:  94%|#########3| 1174/1250 [05:25<00:24,  3.05it/s]
+2022-03-22 14:48:36,361 - INFO - tqdm - f1: 0.9750, accuracy: 0.9750, batch_loss: 0.0106, loss: 0.0748 ||:  97%|#########6| 1209/1250 [05:35<00:11,  3.58it/s]
+2022-03-22 14:48:45,690 - INFO - tqdm - f1: 0.9749, accuracy: 0.9749, batch_loss: 0.0120, loss: 0.0753 ||: 100%|#########9| 1244/1250 [05:44<00:01,  4.27it/s]
+2022-03-22 14:48:45,938 - INFO - tqdm - f1: 0.9749, accuracy: 0.9749, batch_loss: 0.0426, loss: 0.0752 ||: 100%|#########9| 1245/1250 [05:44<00:01,  4.19it/s]
+2022-03-22 14:48:46,117 - INFO - tqdm - f1: 0.9750, accuracy: 0.9750, batch_loss: 0.0131, loss: 0.0752 ||: 100%|#########9| 1246/1250 [05:45<00:00,  4.53it/s]
+2022-03-22 14:48:46,380 - INFO - tqdm - f1: 0.9750, accuracy: 0.9750, batch_loss: 0.0514, loss: 0.0752 ||: 100%|#########9| 1247/1250 [05:45<00:00,  4.29it/s]
+2022-03-22 14:48:46,782 - INFO - tqdm - f1: 0.9750, accuracy: 0.9750, batch_loss: 0.0634, loss: 0.0751 ||: 100%|#########9| 1248/1250 [05:45<00:00,  3.52it/s]
+2022-03-22 14:48:46,989 - INFO - tqdm - f1: 0.9750, accuracy: 0.9750, batch_loss: 0.0150, loss: 0.0751 ||: 100%|#########9| 1249/1250 [05:45<00:00,  3.83it/s]
+2022-03-22 14:48:47,434 - INFO - tqdm - f1: 0.9750, accuracy: 0.9750, batch_loss: 0.0200, loss: 0.0751 ||: 100%|##########| 1250/1250 [05:46<00:00,  3.16it/s]
+2022-03-22 14:48:47,443 - INFO - tqdm - f1: 0.9750, accuracy: 0.9750, batch_loss: 0.0200, loss: 0.0751 ||: 100%|##########| 1250/1250 [05:46<00:00,  3.61it/s]
+2022-03-22 14:48:47,464 - INFO - allennlp.training.trainer - Validating
+2022-03-22 14:48:47,465 - INFO - tqdm - 0%|          | 0/313 [00:00<?, ?it/s]
+2022-03-22 14:48:57,473 - INFO - tqdm - f1: 0.9427, accuracy: 0.9428, batch_loss: 0.0287, loss: 0.1713 ||:  27%|##6       | 83/313 [00:10<00:27,  8.46it/s]
+2022-03-22 14:49:07,534 - INFO - tqdm - f1: 0.9454, accuracy: 0.9454, batch_loss: 0.3167, loss: 0.1788 ||:  53%|#####3    | 167/313 [00:20<00:18,  8.05it/s]
+2022-03-22 14:49:17,682 - INFO - tqdm - f1: 0.9513, accuracy: 0.9513, batch_loss: 0.1379, loss: 0.1582 ||:  79%|#######9  | 248/313 [00:30<00:07,  8.78it/s]
+2022-03-22 14:49:25,096 - INFO - tqdm - f1: 0.9482, accuracy: 0.9482, batch_loss: 0.0151, loss: 0.1673 ||: 100%|##########| 313/313 [00:37<00:00,  9.40it/s]
+2022-03-22 14:49:25,098 - INFO - tqdm - f1: 0.9482, accuracy: 0.9482, batch_loss: 0.0151, loss: 0.1673 ||: 100%|##########| 313/313 [00:37<00:00,  8.32it/s]
+2022-03-22 14:49:25,135 - INFO - dont_stop_pretraining.training.roberta_checkpointer - Best validation performance so far. Copying weights to 'model_logs/imdb_base_hyper_small_seed_314/best.th'.
+2022-03-22 14:49:25,683 - INFO - allennlp.training.callbacks.console_logger -                        Training |  Validation
+2022-03-22 14:49:25,683 - INFO - allennlp.training.callbacks.console_logger - accuracy           |     0.975  |     0.948
+2022-03-22 14:49:25,684 - INFO - allennlp.training.callbacks.console_logger - f1                 |     0.975  |     0.948
+2022-03-22 14:49:25,684 - INFO - allennlp.training.callbacks.console_logger - gpu_0_memory_MB    |     0.000  |       N/A
+2022-03-22 14:49:25,684 - INFO - allennlp.training.callbacks.console_logger - loss               |     0.075  |     0.167
+2022-03-22 14:49:25,684 - INFO - allennlp.training.callbacks.console_logger - worker_0_memory_MB |  10049.129  |       N/A
+2022-03-22 14:49:25,684 - INFO - allennlp.training.trainer - Epoch duration: 0:06:24.589799
+2022-03-22 14:49:25,684 - INFO - allennlp.training.trainer - Estimated training time remaining: 0:44:10
+2022-03-22 14:49:25,684 - INFO - allennlp.training.trainer - Epoch 3/9
+2022-03-22 14:49:25,684 - INFO - allennlp.training.trainer - Worker 0 memory usage: 9.8G
+2022-03-22 14:49:25,684 - INFO - allennlp.training.trainer - GPU 0 memory usage: 0B
+2022-03-22 14:49:25,685 - INFO - allennlp.training.trainer - Training
+2022-03-22 14:49:25,685 - INFO - tqdm - 0%|          | 0/1250 [00:00<?, ?it/s]
+2022-03-22 14:49:35,944 - INFO - tqdm - f1: 0.9791, accuracy: 0.9792, batch_loss: 0.0684, loss: 0.0569 ||:   3%|2         | 36/1250 [00:10<05:59,  3.37it/s]
+2022-03-22 14:49:45,990 - INFO - tqdm - f1: 0.9828, accuracy: 0.9829, batch_loss: 0.0070, loss: 0.0489 ||:   6%|5         | 73/1250 [00:20<04:51,  4.03it/s]
+2022-03-22 14:49:56,336 - INFO - tqdm - f1: 0.9841, accuracy: 0.9841, batch_loss: 0.0050, loss: 0.0488 ||:   9%|8         | 110/1250 [00:30<06:26,  2.95it/s]
+2022-03-22 14:50:06,531 - INFO - tqdm - f1: 0.9837, accuracy: 0.9837, batch_loss: 0.0015, loss: 0.0531 ||:  12%|#1        | 146/1250 [00:40<05:07,  3.59it/s]
+2022-03-22 14:50:16,589 - INFO - tqdm - f1: 0.9851, accuracy: 0.9851, batch_loss: 0.0145, loss: 0.0525 ||:  15%|#4        | 185/1250 [00:50<04:18,  4.12it/s]
+2022-03-22 14:50:26,870 - INFO - tqdm - f1: 0.9844, accuracy: 0.9844, batch_loss: 0.0127, loss: 0.0556 ||:  18%|#7        | 221/1250 [01:01<04:46,  3.59it/s]
+2022-03-22 14:50:36,963 - INFO - tqdm - f1: 0.9848, accuracy: 0.9848, batch_loss: 0.0033, loss: 0.0543 ||:  20%|##        | 255/1250 [01:11<05:04,  3.27it/s]
+2022-03-22 14:50:46,983 - INFO - tqdm - f1: 0.9857, accuracy: 0.9857, batch_loss: 0.0092, loss: 0.0504 ||:  23%|##3       | 289/1250 [01:21<04:58,  3.22it/s]
+2022-03-22 14:50:57,035 - INFO - tqdm - f1: 0.9870, accuracy: 0.9870, batch_loss: 0.0508, loss: 0.0475 ||:  26%|##6       | 326/1250 [01:31<04:05,  3.76it/s]
+2022-03-22 14:51:07,246 - INFO - tqdm - f1: 0.9860, accuracy: 0.9860, batch_loss: 0.3618, loss: 0.0496 ||:  29%|##8       | 362/1250 [01:41<03:59,  3.71it/s]
+2022-03-22 14:51:17,348 - INFO - tqdm - f1: 0.9861, accuracy: 0.9861, batch_loss: 0.0050, loss: 0.0496 ||:  32%|###2      | 400/1250 [01:51<03:49,  3.70it/s]
+2022-03-22 14:51:27,399 - INFO - tqdm - f1: 0.9868, accuracy: 0.9868, batch_loss: 0.0026, loss: 0.0474 ||:  35%|###4      | 436/1250 [02:01<03:24,  3.97it/s]
+2022-03-22 14:51:37,439 - INFO - tqdm - f1: 0.9864, accuracy: 0.9864, batch_loss: 0.0021, loss: 0.0483 ||:  38%|###7      | 472/1250 [02:11<03:25,  3.78it/s]
+2022-03-22 14:51:47,803 - INFO - tqdm - f1: 0.9858, accuracy: 0.9858, batch_loss: 0.1811, loss: 0.0482 ||:  41%|####      | 511/1250 [02:22<03:37,  3.40it/s]
+2022-03-22 14:51:58,005 - INFO - tqdm - f1: 0.9847, accuracy: 0.9847, batch_loss: 0.0142, loss: 0.0531 ||:  44%|####3     | 549/1250 [02:32<03:06,  3.76it/s]
+2022-03-22 14:52:08,095 - INFO - tqdm - f1: 0.9845, accuracy: 0.9845, batch_loss: 0.0070, loss: 0.0537 ||:  47%|####6     | 584/1250 [02:42<03:32,  3.14it/s]
+2022-03-22 14:52:18,381 - INFO - tqdm - f1: 0.9846, accuracy: 0.9846, batch_loss: 0.0102, loss: 0.0538 ||:  50%|####9     | 620/1250 [02:52<03:03,  3.44it/s]
+2022-03-22 14:52:28,633 - INFO - tqdm - f1: 0.9843, accuracy: 0.9843, batch_loss: 0.0098, loss: 0.0537 ||:  53%|#####2    | 657/1250 [03:02<02:43,  3.62it/s]
+2022-03-22 14:52:38,920 - INFO - tqdm - f1: 0.9845, accuracy: 0.9845, batch_loss: 0.1319, loss: 0.0527 ||:  55%|#####5    | 693/1250 [03:13<03:11,  2.91it/s]
+2022-03-22 14:52:49,072 - INFO - tqdm - f1: 0.9835, accuracy: 0.9835, batch_loss: 0.0775, loss: 0.0549 ||:  58%|#####8    | 729/1250 [03:23<02:04,  4.17it/s]
+2022-03-22 14:52:59,145 - INFO - tqdm - f1: 0.9830, accuracy: 0.9830, batch_loss: 0.0292, loss: 0.0561 ||:  61%|######1   | 764/1250 [03:33<02:05,  3.87it/s]
+2022-03-22 14:53:09,173 - INFO - tqdm - f1: 0.9829, accuracy: 0.9829, batch_loss: 0.0084, loss: 0.0552 ||:  64%|######4   | 801/1250 [03:43<01:52,  3.99it/s]
+2022-03-22 14:53:19,463 - INFO - tqdm - f1: 0.9828, accuracy: 0.9828, batch_loss: 0.0075, loss: 0.0564 ||:  67%|######7   | 841/1250 [03:53<02:16,  3.01it/s]
+2022-03-22 14:53:29,491 - INFO - tqdm - f1: 0.9829, accuracy: 0.9829, batch_loss: 0.0960, loss: 0.0557 ||:  70%|#######   | 879/1250 [04:03<01:21,  4.54it/s]
+2022-03-22 14:53:39,586 - INFO - tqdm - f1: 0.9830, accuracy: 0.9830, batch_loss: 0.0021, loss: 0.0554 ||:  73%|#######3  | 913/1250 [04:13<01:26,  3.88it/s]
+2022-03-22 14:53:49,826 - INFO - tqdm - f1: 0.9830, accuracy: 0.9830, batch_loss: 0.0104, loss: 0.0555 ||:  76%|#######6  | 950/1250 [04:24<01:18,  3.81it/s]
+2022-03-22 14:53:59,840 - INFO - tqdm - f1: 0.9832, accuracy: 0.9832, batch_loss: 0.0089, loss: 0.0554 ||:  79%|#######8  | 987/1250 [04:34<01:13,  3.58it/s]
+2022-03-22 14:54:10,084 - INFO - tqdm - f1: 0.9832, accuracy: 0.9832, batch_loss: 0.0487, loss: 0.0555 ||:  82%|########2 | 1025/1250 [04:44<01:06,  3.40it/s]
+2022-03-22 14:54:20,220 - INFO - tqdm - f1: 0.9834, accuracy: 0.9834, batch_loss: 0.0412, loss: 0.0547 ||:  85%|########4 | 1060/1250 [04:54<00:57,  3.29it/s]
+2022-03-22 14:54:30,453 - INFO - tqdm - f1: 0.9837, accuracy: 0.9837, batch_loss: 0.0014, loss: 0.0539 ||:  88%|########7 | 1098/1250 [05:04<00:48,  3.13it/s]
+2022-03-22 14:54:40,753 - INFO - tqdm - f1: 0.9836, accuracy: 0.9836, batch_loss: 0.3035, loss: 0.0537 ||:  91%|######### | 1136/1250 [05:15<00:36,  3.09it/s]
+2022-03-22 14:54:50,791 - INFO - tqdm - f1: 0.9839, accuracy: 0.9839, batch_loss: 0.0164, loss: 0.0530 ||:  94%|#########3| 1173/1250 [05:25<00:23,  3.26it/s]
+2022-03-22 14:55:00,923 - INFO - tqdm - f1: 0.9838, accuracy: 0.9838, batch_loss: 0.1097, loss: 0.0533 ||:  97%|#########6| 1209/1250 [05:35<00:11,  3.64it/s]
+2022-03-22 14:55:10,089 - INFO - tqdm - f1: 0.9839, accuracy: 0.9839, batch_loss: 0.1628, loss: 0.0531 ||: 100%|#########9| 1244/1250 [05:44<00:01,  3.56it/s]
+2022-03-22 14:55:10,516 - INFO - tqdm - f1: 0.9839, accuracy: 0.9839, batch_loss: 0.0186, loss: 0.0531 ||: 100%|#########9| 1245/1250 [05:44<00:01,  3.08it/s]
+2022-03-22 14:55:10,811 - INFO - tqdm - f1: 0.9839, accuracy: 0.9839, batch_loss: 0.1286, loss: 0.0531 ||: 100%|#########9| 1246/1250 [05:45<00:01,  3.17it/s]
+2022-03-22 14:55:11,063 - INFO - tqdm - f1: 0.9839, accuracy: 0.9839, batch_loss: 0.3511, loss: 0.0534 ||: 100%|#########9| 1247/1250 [05:45<00:00,  3.37it/s]
+2022-03-22 14:55:11,455 - INFO - tqdm - f1: 0.9838, accuracy: 0.9838, batch_loss: 0.2050, loss: 0.0535 ||: 100%|#########9| 1248/1250 [05:45<00:00,  3.07it/s]
+2022-03-22 14:55:11,807 - INFO - tqdm - f1: 0.9838, accuracy: 0.9838, batch_loss: 0.0041, loss: 0.0534 ||: 100%|#########9| 1249/1250 [05:46<00:00,  3.00it/s]
+2022-03-22 14:55:12,014 - INFO - tqdm - f1: 0.9838, accuracy: 0.9839, batch_loss: 0.0457, loss: 0.0534 ||: 100%|##########| 1250/1250 [05:46<00:00,  3.39it/s]
+2022-03-22 14:55:12,023 - INFO - tqdm - f1: 0.9838, accuracy: 0.9839, batch_loss: 0.0457, loss: 0.0534 ||: 100%|##########| 1250/1250 [05:46<00:00,  3.61it/s]
+2022-03-22 14:55:12,048 - INFO - allennlp.training.trainer - Validating
+2022-03-22 14:55:12,049 - INFO - tqdm - 0%|          | 0/313 [00:00<?, ?it/s]
+2022-03-22 14:55:22,088 - INFO - tqdm - f1: 0.9455, accuracy: 0.9455, batch_loss: 0.3020, loss: 0.1766 ||:  27%|##7       | 86/313 [00:10<00:25,  8.88it/s]
+2022-03-22 14:55:32,131 - INFO - tqdm - f1: 0.9469, accuracy: 0.9469, batch_loss: 0.4386, loss: 0.1691 ||:  53%|#####3    | 167/313 [00:20<00:17,  8.22it/s]
+2022-03-22 14:55:42,178 - INFO - tqdm - f1: 0.9443, accuracy: 0.9443, batch_loss: 0.0376, loss: 0.1759 ||:  81%|########1 | 255/313 [00:30<00:07,  7.28it/s]
+2022-03-22 14:55:49,475 - INFO - tqdm - f1: 0.9448, accuracy: 0.9448, batch_loss: 0.4013, loss: 0.1760 ||: 100%|##########| 313/313 [00:37<00:00,  8.96it/s]
+2022-03-22 14:55:49,478 - INFO - tqdm - f1: 0.9448, accuracy: 0.9448, batch_loss: 0.4013, loss: 0.1760 ||: 100%|##########| 313/313 [00:37<00:00,  8.36it/s]
+2022-03-22 14:55:49,515 - INFO - allennlp.training.callbacks.console_logger -                        Training |  Validation
+2022-03-22 14:55:49,515 - INFO - allennlp.training.callbacks.console_logger - accuracy           |     0.984  |     0.945
+2022-03-22 14:55:49,515 - INFO - allennlp.training.callbacks.console_logger - f1                 |     0.984  |     0.945
+2022-03-22 14:55:49,515 - INFO - allennlp.training.callbacks.console_logger - gpu_0_memory_MB    |     0.000  |       N/A
+2022-03-22 14:55:49,515 - INFO - allennlp.training.callbacks.console_logger - loss               |     0.053  |     0.176
+2022-03-22 14:55:49,515 - INFO - allennlp.training.callbacks.console_logger - worker_0_memory_MB |  10049.434  |       N/A
+2022-03-22 14:55:49,515 - INFO - allennlp.training.trainer - Epoch duration: 0:06:23.831009
+2022-03-22 14:55:49,515 - INFO - allennlp.training.trainer - Estimated training time remaining: 0:37:59
+2022-03-22 14:55:49,515 - INFO - allennlp.training.trainer - Epoch 4/9
+2022-03-22 14:55:49,515 - INFO - allennlp.training.trainer - Worker 0 memory usage: 9.8G
+2022-03-22 14:55:49,515 - INFO - allennlp.training.trainer - GPU 0 memory usage: 0B
+2022-03-22 14:55:49,516 - INFO - allennlp.training.trainer - Training
+2022-03-22 14:55:49,516 - INFO - tqdm - 0%|          | 0/1250 [00:00<?, ?it/s]
+2022-03-22 14:55:59,559 - INFO - tqdm - f1: 0.9801, accuracy: 0.9801, batch_loss: 0.0118, loss: 0.0578 ||:   4%|3         | 44/1250 [00:10<02:06,  9.53it/s]
+2022-03-22 14:56:09,633 - INFO - tqdm - f1: 0.9827, accuracy: 0.9827, batch_loss: 0.0037, loss: 0.0540 ||:   9%|8         | 112/1250 [00:20<04:27,  4.25it/s]
+2022-03-22 14:56:19,725 - INFO - tqdm - f1: 0.9855, accuracy: 0.9855, batch_loss: 0.2017, loss: 0.0472 ||:  13%|#2        | 159/1250 [00:30<03:19,  5.47it/s]
+2022-03-22 14:56:29,810 - INFO - tqdm - f1: 0.9870, accuracy: 0.9870, batch_loss: 0.0141, loss: 0.0429 ||:  16%|#6        | 206/1250 [00:40<05:05,  3.41it/s]
+2022-03-22 14:56:39,905 - INFO - tqdm - f1: 0.9871, accuracy: 0.9871, batch_loss: 0.0717, loss: 0.0434 ||:  20%|#9        | 247/1250 [00:50<04:13,  3.95it/s]
+2022-03-22 14:56:50,039 - INFO - tqdm - f1: 0.9881, accuracy: 0.9881, batch_loss: 0.0032, loss: 0.0401 ||:  23%|##2       | 283/1250 [01:00<05:34,  2.89it/s]
+2022-03-22 14:57:00,262 - INFO - tqdm - f1: 0.9864, accuracy: 0.9864, batch_loss: 0.0858, loss: 0.0433 ||:  25%|##5       | 318/1250 [01:10<04:34,  3.39it/s]
+2022-03-22 14:57:10,406 - INFO - tqdm - f1: 0.9873, accuracy: 0.9873, batch_loss: 0.0015, loss: 0.0410 ||:  28%|##8       | 353/1250 [01:20<03:35,  4.16it/s]
+2022-03-22 14:57:20,734 - INFO - tqdm - f1: 0.9874, accuracy: 0.9874, batch_loss: 0.4051, loss: 0.0410 ||:  31%|###1      | 391/1250 [01:31<04:12,  3.40it/s]
+2022-03-22 14:57:30,967 - INFO - tqdm - f1: 0.9877, accuracy: 0.9877, batch_loss: 0.0045, loss: 0.0400 ||:  34%|###4      | 426/1250 [01:41<04:05,  3.36it/s]
+2022-03-22 14:57:41,025 - INFO - tqdm - f1: 0.9869, accuracy: 0.9869, batch_loss: 0.0121, loss: 0.0436 ||:  37%|###7      | 463/1250 [01:51<03:51,  3.40it/s]
+2022-03-22 14:57:51,106 - INFO - tqdm - f1: 0.9868, accuracy: 0.9868, batch_loss: 0.0064, loss: 0.0431 ||:  40%|###9      | 498/1250 [02:01<03:20,  3.74it/s]
+2022-03-22 14:58:01,252 - INFO - tqdm - f1: 0.9868, accuracy: 0.9868, batch_loss: 0.0039, loss: 0.0428 ||:  43%|####2     | 537/1250 [02:11<02:33,  4.65it/s]
+2022-03-22 14:58:11,394 - INFO - tqdm - f1: 0.9870, accuracy: 0.9870, batch_loss: 0.0932, loss: 0.0421 ||:  46%|####6     | 575/1250 [02:21<03:05,  3.64it/s]
+2022-03-22 14:58:21,505 - INFO - tqdm - f1: 0.9871, accuracy: 0.9871, batch_loss: 0.0095, loss: 0.0417 ||:  49%|####8     | 611/1250 [02:31<03:25,  3.12it/s]
+2022-03-22 14:58:31,595 - INFO - tqdm - f1: 0.9875, accuracy: 0.9875, batch_loss: 0.2557, loss: 0.0406 ||:  52%|#####1    | 649/1250 [02:42<02:19,  4.32it/s]
+2022-03-22 14:58:41,838 - INFO - tqdm - f1: 0.9876, accuracy: 0.9876, batch_loss: 0.0082, loss: 0.0406 ||:  55%|#####5    | 688/1250 [02:52<02:05,  4.48it/s]
+2022-03-22 14:58:51,900 - INFO - tqdm - f1: 0.9873, accuracy: 0.9873, batch_loss: 0.0019, loss: 0.0412 ||:  58%|#####7    | 724/1250 [03:02<02:22,  3.70it/s]
+2022-03-22 14:59:02,159 - INFO - tqdm - f1: 0.9876, accuracy: 0.9876, batch_loss: 0.0016, loss: 0.0405 ||:  61%|######    | 760/1250 [03:12<02:19,  3.50it/s]
+2022-03-22 14:59:12,385 - INFO - tqdm - f1: 0.9877, accuracy: 0.9877, batch_loss: 0.0016, loss: 0.0401 ||:  64%|######3   | 798/1250 [03:22<01:59,  3.77it/s]
+2022-03-22 14:59:22,471 - INFO - tqdm - f1: 0.9876, accuracy: 0.9876, batch_loss: 0.0201, loss: 0.0402 ||:  67%|######6   | 835/1250 [03:32<01:53,  3.65it/s]
+2022-03-22 14:59:32,547 - INFO - tqdm - f1: 0.9876, accuracy: 0.9876, batch_loss: 0.0954, loss: 0.0407 ||:  70%|######9   | 871/1250 [03:43<01:55,  3.28it/s]
+2022-03-22 14:59:42,636 - INFO - tqdm - f1: 0.9874, accuracy: 0.9874, batch_loss: 0.0027, loss: 0.0413 ||:  72%|#######2  | 905/1250 [03:53<01:43,  3.32it/s]
+2022-03-22 14:59:52,749 - INFO - tqdm - f1: 0.9875, accuracy: 0.9875, batch_loss: 0.0032, loss: 0.0411 ||:  76%|#######5  | 944/1250 [04:03<01:13,  4.16it/s]
+2022-03-22 15:00:02,938 - INFO - tqdm - f1: 0.9876, accuracy: 0.9876, batch_loss: 0.0049, loss: 0.0409 ||:  78%|#######8  | 981/1250 [04:13<01:04,  4.16it/s]
+2022-03-22 15:00:13,087 - INFO - tqdm - f1: 0.9877, accuracy: 0.9877, batch_loss: 0.0120, loss: 0.0408 ||:  82%|########1 | 1019/1250 [04:23<01:06,  3.46it/s]
+2022-03-22 15:00:23,342 - INFO - tqdm - f1: 0.9876, accuracy: 0.9876, batch_loss: 0.0018, loss: 0.0408 ||:  85%|########4 | 1059/1250 [04:33<00:47,  3.99it/s]
+2022-03-22 15:00:33,428 - INFO - tqdm - f1: 0.9877, accuracy: 0.9877, batch_loss: 0.0015, loss: 0.0404 ||:  88%|########7 | 1096/1250 [04:43<00:33,  4.58it/s]
+2022-03-22 15:00:43,484 - INFO - tqdm - f1: 0.9877, accuracy: 0.9877, batch_loss: 0.2818, loss: 0.0409 ||:  91%|######### | 1132/1250 [04:53<00:31,  3.73it/s]
+2022-03-22 15:00:53,561 - INFO - tqdm - f1: 0.9879, accuracy: 0.9879, batch_loss: 0.0090, loss: 0.0403 ||:  93%|#########3| 1167/1250 [05:04<00:26,  3.12it/s]
+2022-03-22 15:01:03,658 - INFO - tqdm - f1: 0.9877, accuracy: 0.9877, batch_loss: 0.0116, loss: 0.0405 ||:  96%|#########6| 1204/1250 [05:14<00:12,  3.57it/s]
+2022-03-22 15:01:13,875 - INFO - tqdm - f1: 0.9874, accuracy: 0.9874, batch_loss: 0.0050, loss: 0.0406 ||:  99%|#########9| 1243/1250 [05:24<00:01,  4.12it/s]
+2022-03-22 15:01:14,142 - INFO - tqdm - f1: 0.9874, accuracy: 0.9874, batch_loss: 0.0016, loss: 0.0405 ||: 100%|#########9| 1244/1250 [05:24<00:01,  4.00it/s]
+2022-03-22 15:01:14,425 - INFO - tqdm - f1: 0.9874, accuracy: 0.9874, batch_loss: 0.0165, loss: 0.0405 ||: 100%|#########9| 1245/1250 [05:24<00:01,  3.85it/s]
+2022-03-22 15:01:14,691 - INFO - tqdm - f1: 0.9875, accuracy: 0.9875, batch_loss: 0.0064, loss: 0.0405 ||: 100%|#########9| 1246/1250 [05:25<00:01,  3.82it/s]
+2022-03-22 15:01:14,943 - INFO - tqdm - f1: 0.9875, accuracy: 0.9875, batch_loss: 0.0077, loss: 0.0404 ||: 100%|#########9| 1247/1250 [05:25<00:00,  3.86it/s]
+2022-03-22 15:01:15,284 - INFO - tqdm - f1: 0.9875, accuracy: 0.9875, batch_loss: 0.0023, loss: 0.0404 ||: 100%|#########9| 1248/1250 [05:25<00:00,  3.53it/s]
+2022-03-22 15:01:15,480 - INFO - tqdm - f1: 0.9875, accuracy: 0.9875, batch_loss: 0.0281, loss: 0.0404 ||: 100%|#########9| 1249/1250 [05:25<00:00,  3.89it/s]
+2022-03-22 15:01:15,726 - INFO - tqdm - f1: 0.9875, accuracy: 0.9875, batch_loss: 0.0970, loss: 0.0405 ||: 100%|##########| 1250/1250 [05:26<00:00,  3.94it/s]
+2022-03-22 15:01:15,735 - INFO - tqdm - f1: 0.9875, accuracy: 0.9875, batch_loss: 0.0970, loss: 0.0405 ||: 100%|##########| 1250/1250 [05:26<00:00,  3.83it/s]
+2022-03-22 15:01:15,738 - INFO - allennlp.training.trainer - Validating
+2022-03-22 15:01:15,739 - INFO - tqdm - 0%|          | 0/313 [00:00<?, ?it/s]
+2022-03-22 15:01:25,839 - INFO - tqdm - f1: 0.9494, accuracy: 0.9494, batch_loss: 0.4782, loss: 0.2247 ||:  26%|##6       | 82/313 [00:10<00:30,  7.46it/s]
+2022-03-22 15:01:35,944 - INFO - tqdm - f1: 0.9461, accuracy: 0.9461, batch_loss: 0.1768, loss: 0.2339 ||:  52%|#####2    | 164/313 [00:20<00:16,  9.00it/s]
+2022-03-22 15:01:46,204 - INFO - tqdm - f1: 0.9468, accuracy: 0.9468, batch_loss: 0.0005, loss: 0.2381 ||:  81%|########  | 253/313 [00:30<00:06,  8.73it/s]
+2022-03-22 15:01:53,449 - INFO - tqdm - f1: 0.9494, accuracy: 0.9494, batch_loss: 0.5080, loss: 0.2279 ||: 100%|#########9| 312/313 [00:37<00:00,  7.60it/s]
+2022-03-22 15:01:53,571 - INFO - tqdm - f1: 0.9494, accuracy: 0.9494, batch_loss: 0.2214, loss: 0.2279 ||: 100%|##########| 313/313 [00:37<00:00,  7.75it/s]
+2022-03-22 15:01:53,573 - INFO - tqdm - f1: 0.9494, accuracy: 0.9494, batch_loss: 0.2214, loss: 0.2279 ||: 100%|##########| 313/313 [00:37<00:00,  8.27it/s]
+2022-03-22 15:01:53,609 - INFO - dont_stop_pretraining.training.roberta_checkpointer - Best validation performance so far. Copying weights to 'model_logs/imdb_base_hyper_small_seed_314/best.th'.
+2022-03-22 15:01:54,149 - INFO - allennlp.training.callbacks.console_logger -                        Training |  Validation
+2022-03-22 15:01:54,149 - INFO - allennlp.training.callbacks.console_logger - accuracy           |     0.987  |     0.949
+2022-03-22 15:01:54,149 - INFO - allennlp.training.callbacks.console_logger - f1                 |     0.987  |     0.949
+2022-03-22 15:01:54,149 - INFO - allennlp.training.callbacks.console_logger - gpu_0_memory_MB    |     0.000  |       N/A
+2022-03-22 15:01:54,149 - INFO - allennlp.training.callbacks.console_logger - loss               |     0.040  |     0.228
+2022-03-22 15:01:54,149 - INFO - allennlp.training.callbacks.console_logger - worker_0_memory_MB |  10049.434  |       N/A
+2022-03-22 15:01:54,149 - INFO - allennlp.training.trainer - Epoch duration: 0:06:04.633992
+2022-03-22 15:01:54,149 - INFO - allennlp.training.trainer - Estimated training time remaining: 0:31:24
+2022-03-22 15:01:54,149 - INFO - allennlp.training.trainer - Epoch 5/9
+2022-03-22 15:01:54,149 - INFO - allennlp.training.trainer - Worker 0 memory usage: 9.8G
+2022-03-22 15:01:54,149 - INFO - allennlp.training.trainer - GPU 0 memory usage: 0B
+2022-03-22 15:01:54,150 - INFO - allennlp.training.trainer - Training
+2022-03-22 15:01:54,151 - INFO - tqdm - 0%|          | 0/1250 [00:00<?, ?it/s]
+2022-03-22 15:02:04,259 - INFO - tqdm - f1: 0.9949, accuracy: 0.9949, batch_loss: 0.0007, loss: 0.0082 ||:   3%|2         | 37/1250 [00:10<05:35,  3.62it/s]
+2022-03-22 15:02:14,471 - INFO - tqdm - f1: 0.9925, accuracy: 0.9925, batch_loss: 0.0006, loss: 0.0146 ||:   6%|6         | 75/1250 [00:20<06:13,  3.15it/s]
+2022-03-22 15:02:24,632 - INFO - tqdm - f1: 0.9916, accuracy: 0.9916, batch_loss: 0.0452, loss: 0.0183 ||:   9%|8         | 112/1250 [00:30<05:27,  3.48it/s]
+2022-03-22 15:02:34,809 - INFO - tqdm - f1: 0.9924, accuracy: 0.9924, batch_loss: 0.0100, loss: 0.0194 ||:  12%|#1        | 148/1250 [00:40<04:11,  4.39it/s]
+2022-03-22 15:02:44,831 - INFO - tqdm - f1: 0.9913, accuracy: 0.9913, batch_loss: 0.0051, loss: 0.0292 ||:  15%|#4        | 187/1250 [00:50<05:27,  3.25it/s]
+2022-03-22 15:02:55,052 - INFO - tqdm - f1: 0.9910, accuracy: 0.9910, batch_loss: 0.0031, loss: 0.0304 ||:  18%|#7        | 222/1250 [01:00<05:05,  3.37it/s]
+2022-03-22 15:03:05,282 - INFO - tqdm - f1: 0.9908, accuracy: 0.9908, batch_loss: 0.0036, loss: 0.0316 ||:  21%|##        | 259/1250 [01:11<05:41,  2.90it/s]
+2022-03-22 15:03:15,647 - INFO - tqdm - f1: 0.9909, accuracy: 0.9909, batch_loss: 0.0081, loss: 0.0315 ||:  24%|##3       | 295/1250 [01:21<05:04,  3.14it/s]
+2022-03-22 15:03:25,807 - INFO - tqdm - f1: 0.9905, accuracy: 0.9905, batch_loss: 0.0070, loss: 0.0328 ||:  26%|##6       | 328/1250 [01:31<04:44,  3.24it/s]
+2022-03-22 15:03:35,846 - INFO - tqdm - f1: 0.9904, accuracy: 0.9904, batch_loss: 0.0018, loss: 0.0330 ||:  29%|##9       | 366/1250 [01:41<03:30,  4.20it/s]
+2022-03-22 15:03:46,007 - INFO - tqdm - f1: 0.9912, accuracy: 0.9912, batch_loss: 0.0007, loss: 0.0302 ||:  33%|###2      | 407/1250 [01:51<03:46,  3.72it/s]
+2022-03-22 15:03:56,273 - INFO - tqdm - f1: 0.9914, accuracy: 0.9914, batch_loss: 0.0692, loss: 0.0296 ||:  35%|###5      | 443/1250 [02:02<04:13,  3.19it/s]
+2022-03-22 15:04:06,453 - INFO - tqdm - f1: 0.9916, accuracy: 0.9916, batch_loss: 0.0013, loss: 0.0292 ||:  39%|###8      | 482/1250 [02:12<03:26,  3.72it/s]
+2022-03-22 15:04:16,575 - INFO - tqdm - f1: 0.9915, accuracy: 0.9915, batch_loss: 0.0008, loss: 0.0287 ||:  42%|####1     | 521/1250 [02:22<03:14,  3.76it/s]
+2022-03-22 15:04:26,614 - INFO - tqdm - f1: 0.9915, accuracy: 0.9915, batch_loss: 0.0413, loss: 0.0286 ||:  44%|####4     | 554/1250 [02:32<03:43,  3.11it/s]
+2022-03-22 15:04:36,672 - INFO - tqdm - f1: 0.9906, accuracy: 0.9906, batch_loss: 0.0040, loss: 0.0307 ||:  47%|####7     | 590/1250 [02:42<02:52,  3.82it/s]
+2022-03-22 15:04:46,743 - INFO - tqdm - f1: 0.9907, accuracy: 0.9907, batch_loss: 0.4468, loss: 0.0310 ||:  50%|#####     | 626/1250 [02:52<02:25,  4.28it/s]
+2022-03-22 15:04:56,874 - INFO - tqdm - f1: 0.9908, accuracy: 0.9908, batch_loss: 0.0012, loss: 0.0303 ||:  53%|#####2    | 661/1250 [03:02<02:46,  3.54it/s]
+2022-03-22 15:05:06,994 - INFO - tqdm - f1: 0.9908, accuracy: 0.9908, batch_loss: 0.1986, loss: 0.0299 ||:  56%|#####5    | 697/1250 [03:12<03:02,  3.03it/s]
+2022-03-22 15:05:17,327 - INFO - tqdm - f1: 0.9909, accuracy: 0.9909, batch_loss: 0.0115, loss: 0.0295 ||:  59%|#####8    | 736/1250 [03:23<02:39,  3.23it/s]
+2022-03-22 15:05:27,587 - INFO - tqdm - f1: 0.9909, accuracy: 0.9909, batch_loss: 0.1773, loss: 0.0298 ||:  62%|######1   | 772/1250 [03:33<02:17,  3.49it/s]
+2022-03-22 15:05:37,766 - INFO - tqdm - f1: 0.9909, accuracy: 0.9909, batch_loss: 0.0009, loss: 0.0292 ||:  65%|######4   | 809/1250 [03:43<01:35,  4.61it/s]
+2022-03-22 15:05:47,984 - INFO - tqdm - f1: 0.9910, accuracy: 0.9910, batch_loss: 0.0010, loss: 0.0295 ||:  68%|######7   | 845/1250 [03:53<02:07,  3.19it/s]
+2022-03-22 15:05:58,289 - INFO - tqdm - f1: 0.9909, accuracy: 0.9909, batch_loss: 0.0015, loss: 0.0301 ||:  71%|#######   | 882/1250 [04:04<01:39,  3.70it/s]
+2022-03-22 15:06:08,369 - INFO - tqdm - f1: 0.9912, accuracy: 0.9912, batch_loss: 0.2337, loss: 0.0294 ||:  73%|#######3  | 918/1250 [04:14<01:40,  3.30it/s]
+2022-03-22 15:06:18,575 - INFO - tqdm - f1: 0.9910, accuracy: 0.9910, batch_loss: 0.0194, loss: 0.0297 ||:  76%|#######6  | 956/1250 [04:24<01:04,  4.57it/s]
+2022-03-22 15:06:28,712 - INFO - tqdm - f1: 0.9907, accuracy: 0.9907, batch_loss: 0.0051, loss: 0.0311 ||:  79%|#######9  | 993/1250 [04:34<01:11,  3.60it/s]
+2022-03-22 15:06:38,781 - INFO - tqdm - f1: 0.9907, accuracy: 0.9907, batch_loss: 0.0051, loss: 0.0311 ||:  82%|########2 | 1029/1250 [04:44<00:58,  3.78it/s]
+2022-03-22 15:06:48,913 - INFO - tqdm - f1: 0.9905, accuracy: 0.9905, batch_loss: 0.0027, loss: 0.0314 ||:  85%|########5 | 1067/1250 [04:54<00:54,  3.34it/s]
+2022-03-22 15:06:59,211 - INFO - tqdm - f1: 0.9905, accuracy: 0.9905, batch_loss: 0.0311, loss: 0.0315 ||:  88%|########8 | 1106/1250 [05:05<00:46,  3.11it/s]
+2022-03-22 15:07:09,282 - INFO - tqdm - f1: 0.9906, accuracy: 0.9906, batch_loss: 0.0381, loss: 0.0310 ||:  91%|#########1| 1142/1250 [05:15<00:32,  3.34it/s]
+2022-03-22 15:07:19,345 - INFO - tqdm - f1: 0.9907, accuracy: 0.9907, batch_loss: 0.0085, loss: 0.0311 ||:  94%|#########4| 1177/1250 [05:25<00:21,  3.39it/s]
+2022-03-22 15:07:29,466 - INFO - tqdm - f1: 0.9907, accuracy: 0.9907, batch_loss: 0.1638, loss: 0.0313 ||:  97%|#########6| 1211/1250 [05:35<00:13,  2.99it/s]
+2022-03-22 15:07:38,631 - INFO - tqdm - f1: 0.9906, accuracy: 0.9906, batch_loss: 0.0025, loss: 0.0315 ||: 100%|#########9| 1244/1250 [05:44<00:01,  3.40it/s]
+2022-03-22 15:07:38,848 - INFO - tqdm - f1: 0.9905, accuracy: 0.9905, batch_loss: 0.1171, loss: 0.0316 ||: 100%|#########9| 1245/1250 [05:44<00:01,  3.69it/s]
+2022-03-22 15:07:39,225 - INFO - tqdm - f1: 0.9905, accuracy: 0.9905, batch_loss: 0.0040, loss: 0.0315 ||: 100%|#########9| 1246/1250 [05:45<00:01,  3.30it/s]
+2022-03-22 15:07:39,610 - INFO - tqdm - f1: 0.9905, accuracy: 0.9905, batch_loss: 0.0017, loss: 0.0315 ||: 100%|#########9| 1247/1250 [05:45<00:00,  3.05it/s]
+2022-03-22 15:07:39,713 - INFO - tqdm - f1: 0.9905, accuracy: 0.9905, batch_loss: 0.0042, loss: 0.0315 ||: 100%|#########9| 1248/1250 [05:45<00:00,  3.85it/s]
+2022-03-22 15:07:40,055 - INFO - tqdm - f1: 0.9905, accuracy: 0.9905, batch_loss: 0.0029, loss: 0.0315 ||: 100%|#########9| 1249/1250 [05:45<00:00,  3.51it/s]
+2022-03-22 15:07:40,453 - INFO - tqdm - f1: 0.9905, accuracy: 0.9906, batch_loss: 0.0029, loss: 0.0315 ||: 100%|##########| 1250/1250 [05:46<00:00,  3.14it/s]
+2022-03-22 15:07:40,463 - INFO - tqdm - f1: 0.9905, accuracy: 0.9906, batch_loss: 0.0029, loss: 0.0315 ||: 100%|##########| 1250/1250 [05:46<00:00,  3.61it/s]
+2022-03-22 15:07:40,498 - INFO - allennlp.training.trainer - Validating
+2022-03-22 15:07:40,499 - INFO - tqdm - 0%|          | 0/313 [00:00<?, ?it/s]
+2022-03-22 15:07:50,619 - INFO - tqdm - f1: 0.9501, accuracy: 0.9501, batch_loss: 0.7281, loss: 0.2118 ||:  27%|##6       | 84/313 [00:10<00:32,  7.00it/s]
+2022-03-22 15:08:00,667 - INFO - tqdm - f1: 0.9456, accuracy: 0.9456, batch_loss: 0.0139, loss: 0.2313 ||:  53%|#####3    | 166/313 [00:20<00:20,  7.25it/s]
+2022-03-22 15:08:10,824 - INFO - tqdm - f1: 0.9446, accuracy: 0.9446, batch_loss: 0.8629, loss: 0.2377 ||:  80%|########  | 251/313 [00:30<00:07,  8.41it/s]
+2022-03-22 15:08:18,565 - INFO - tqdm - f1: 0.9466, accuracy: 0.9466, batch_loss: 0.0247, loss: 0.2236 ||: 100%|#########9| 312/313 [00:38<00:00,  8.77it/s]
+2022-03-22 15:08:18,693 - INFO - tqdm - f1: 0.9468, accuracy: 0.9468, batch_loss: 0.0010, loss: 0.2229 ||: 100%|##########| 313/313 [00:38<00:00,  8.53it/s]
+2022-03-22 15:08:18,695 - INFO - tqdm - f1: 0.9468, accuracy: 0.9468, batch_loss: 0.0010, loss: 0.2229 ||: 100%|##########| 313/313 [00:38<00:00,  8.19it/s]
+2022-03-22 15:08:18,730 - INFO - allennlp.training.callbacks.console_logger -                        Training |  Validation
+2022-03-22 15:08:18,730 - INFO - allennlp.training.callbacks.console_logger - accuracy           |     0.991  |     0.947
+2022-03-22 15:08:18,730 - INFO - allennlp.training.callbacks.console_logger - f1                 |     0.991  |     0.947
+2022-03-22 15:08:18,730 - INFO - allennlp.training.callbacks.console_logger - gpu_0_memory_MB    |     0.000  |       N/A
+2022-03-22 15:08:18,730 - INFO - allennlp.training.callbacks.console_logger - loss               |     0.031  |     0.223
+2022-03-22 15:08:18,730 - INFO - allennlp.training.callbacks.console_logger - worker_0_memory_MB |  10049.504  |       N/A
+2022-03-22 15:08:18,730 - INFO - allennlp.training.trainer - Epoch duration: 0:06:24.580773
+2022-03-22 15:08:18,730 - INFO - allennlp.training.trainer - Estimated training time remaining: 0:25:12
+2022-03-22 15:08:18,730 - INFO - allennlp.training.trainer - Epoch 6/9
+2022-03-22 15:08:18,730 - INFO - allennlp.training.trainer - Worker 0 memory usage: 9.8G
+2022-03-22 15:08:18,730 - INFO - allennlp.training.trainer - GPU 0 memory usage: 0B
+2022-03-22 15:08:18,731 - INFO - allennlp.training.trainer - Training
+2022-03-22 15:08:18,731 - INFO - tqdm - 0%|          | 0/1250 [00:00<?, ?it/s]
+2022-03-22 15:08:28,991 - INFO - tqdm - f1: 0.9984, accuracy: 0.9984, batch_loss: 0.0013, loss: 0.0174 ||:   3%|3         | 38/1250 [00:10<05:58,  3.38it/s]
+2022-03-22 15:08:39,202 - INFO - tqdm - f1: 0.9976, accuracy: 0.9976, batch_loss: 0.0229, loss: 0.0122 ||:   6%|6         | 77/1250 [00:20<04:45,  4.12it/s]
+2022-03-22 15:08:49,245 - INFO - tqdm - f1: 0.9962, accuracy: 0.9962, batch_loss: 0.0056, loss: 0.0162 ||:   9%|9         | 115/1250 [00:30<06:32,  2.89it/s]
+2022-03-22 15:08:59,455 - INFO - tqdm - f1: 0.9954, accuracy: 0.9954, batch_loss: 0.0012, loss: 0.0194 ||:  12%|#2        | 151/1250 [00:40<04:52,  3.76it/s]
+2022-03-22 15:09:09,758 - INFO - tqdm - f1: 0.9964, accuracy: 0.9964, batch_loss: 0.0028, loss: 0.0158 ||:  15%|#5        | 190/1250 [00:51<04:57,  3.56it/s]
+2022-03-22 15:09:19,778 - INFO - tqdm - f1: 0.9966, accuracy: 0.9967, batch_loss: 0.0020, loss: 0.0143 ||:  18%|#7        | 224/1250 [01:01<05:58,  2.86it/s]
+2022-03-22 15:09:29,921 - INFO - tqdm - f1: 0.9962, accuracy: 0.9962, batch_loss: 0.0005, loss: 0.0161 ||:  21%|##        | 260/1250 [01:11<04:19,  3.82it/s]
+2022-03-22 15:09:40,261 - INFO - tqdm - f1: 0.9956, accuracy: 0.9956, batch_loss: 0.0041, loss: 0.0174 ||:  24%|##3       | 297/1250 [01:21<05:11,  3.06it/s]
+2022-03-22 15:09:50,480 - INFO - tqdm - f1: 0.9948, accuracy: 0.9948, batch_loss: 0.0008, loss: 0.0183 ||:  27%|##6       | 335/1250 [01:31<04:47,  3.19it/s]
+2022-03-22 15:10:00,771 - INFO - tqdm - f1: 0.9949, accuracy: 0.9949, batch_loss: 0.0007, loss: 0.0179 ||:  30%|##9       | 371/1250 [01:42<04:23,  3.34it/s]
+2022-03-22 15:10:10,981 - INFO - tqdm - f1: 0.9948, accuracy: 0.9948, batch_loss: 0.0055, loss: 0.0178 ||:  33%|###2      | 408/1250 [01:52<04:24,  3.18it/s]
+2022-03-22 15:10:21,359 - INFO - tqdm - f1: 0.9945, accuracy: 0.9945, batch_loss: 0.0070, loss: 0.0188 ||:  36%|###5      | 445/1250 [02:02<04:31,  2.96it/s]
+2022-03-22 15:10:31,396 - INFO - tqdm - f1: 0.9942, accuracy: 0.9942, batch_loss: 0.0419, loss: 0.0204 ||:  38%|###8      | 478/1250 [02:12<04:37,  2.78it/s]
+2022-03-22 15:10:41,411 - INFO - tqdm - f1: 0.9939, accuracy: 0.9939, batch_loss: 0.0036, loss: 0.0221 ||:  41%|####1     | 514/1250 [02:22<03:47,  3.24it/s]
+2022-03-22 15:10:51,412 - INFO - tqdm - f1: 0.9937, accuracy: 0.9938, batch_loss: 0.0031, loss: 0.0222 ||:  44%|####4     | 550/1250 [02:32<04:02,  2.88it/s]
+2022-03-22 15:11:01,540 - INFO - tqdm - f1: 0.9937, accuracy: 0.9937, batch_loss: 0.0109, loss: 0.0222 ||:  47%|####6     | 587/1250 [02:42<03:04,  3.59it/s]
+2022-03-22 15:11:11,676 - INFO - tqdm - f1: 0.9938, accuracy: 0.9938, batch_loss: 0.0015, loss: 0.0224 ||:  50%|####9     | 623/1250 [02:52<03:15,  3.20it/s]
+2022-03-22 15:11:21,717 - INFO - tqdm - f1: 0.9941, accuracy: 0.9941, batch_loss: 0.0006, loss: 0.0214 ||:  53%|#####2    | 659/1250 [03:02<02:58,  3.32it/s]
+2022-03-22 15:11:32,028 - INFO - tqdm - f1: 0.9937, accuracy: 0.9937, batch_loss: 0.0635, loss: 0.0219 ||:  55%|#####5    | 693/1250 [03:13<02:57,  3.13it/s]
+2022-03-22 15:11:42,084 - INFO - tqdm - f1: 0.9936, accuracy: 0.9936, batch_loss: 0.0128, loss: 0.0221 ||:  58%|#####8    | 729/1250 [03:23<02:30,  3.46it/s]
+2022-03-22 15:11:52,161 - INFO - tqdm - f1: 0.9934, accuracy: 0.9934, batch_loss: 0.1569, loss: 0.0225 ||:  61%|######1   | 767/1250 [03:33<01:59,  4.03it/s]
+2022-03-22 15:12:02,266 - INFO - tqdm - f1: 0.9936, accuracy: 0.9936, batch_loss: 0.1951, loss: 0.0224 ||:  64%|######4   | 806/1250 [03:43<02:02,  3.62it/s]
+2022-03-22 15:12:12,349 - INFO - tqdm - f1: 0.9936, accuracy: 0.9936, batch_loss: 0.0084, loss: 0.0223 ||:  67%|######7   | 841/1250 [03:53<02:01,  3.35it/s]
+2022-03-22 15:12:22,375 - INFO - tqdm - f1: 0.9936, accuracy: 0.9936, batch_loss: 0.0004, loss: 0.0224 ||:  70%|#######   | 877/1250 [04:03<02:03,  3.03it/s]
+2022-03-22 15:12:32,389 - INFO - tqdm - f1: 0.9938, accuracy: 0.9938, batch_loss: 0.0003, loss: 0.0215 ||:  73%|#######3  | 913/1250 [04:13<01:24,  3.98it/s]
+2022-03-22 15:12:42,571 - INFO - tqdm - f1: 0.9937, accuracy: 0.9937, batch_loss: 0.0024, loss: 0.0229 ||:  76%|#######5  | 947/1250 [04:23<01:25,  3.55it/s]
+2022-03-22 15:12:52,888 - INFO - tqdm - f1: 0.9936, accuracy: 0.9936, batch_loss: 0.0016, loss: 0.0234 ||:  79%|#######8  | 984/1250 [04:34<01:20,  3.30it/s]
+2022-03-22 15:13:02,959 - INFO - tqdm - f1: 0.9936, accuracy: 0.9936, batch_loss: 0.0016, loss: 0.0238 ||:  82%|########1 | 1021/1250 [04:44<01:00,  3.76it/s]
+2022-03-22 15:13:13,101 - INFO - tqdm - f1: 0.9937, accuracy: 0.9937, batch_loss: 0.0240, loss: 0.0236 ||:  85%|########4 | 1057/1250 [04:54<00:53,  3.59it/s]
+2022-03-22 15:13:23,215 - INFO - tqdm - f1: 0.9935, accuracy: 0.9935, batch_loss: 0.2801, loss: 0.0245 ||:  88%|########7 | 1097/1250 [05:04<00:33,  4.50it/s]
+2022-03-22 15:13:33,524 - INFO - tqdm - f1: 0.9934, accuracy: 0.9934, batch_loss: 0.0057, loss: 0.0243 ||:  91%|######### | 1135/1250 [05:14<00:30,  3.75it/s]
+2022-03-22 15:13:43,731 - INFO - tqdm - f1: 0.9933, accuracy: 0.9933, batch_loss: 0.0076, loss: 0.0248 ||:  94%|#########3| 1173/1250 [05:24<00:19,  3.92it/s]
+2022-03-22 15:13:53,864 - INFO - tqdm - f1: 0.9932, accuracy: 0.9932, batch_loss: 0.0019, loss: 0.0250 ||:  97%|#########6| 1211/1250 [05:35<00:10,  3.88it/s]
+2022-03-22 15:14:02,715 - INFO - tqdm - f1: 0.9929, accuracy: 0.9929, batch_loss: 0.0074, loss: 0.0259 ||: 100%|#########9| 1245/1250 [05:43<00:01,  4.76it/s]
+2022-03-22 15:14:02,998 - INFO - tqdm - f1: 0.9929, accuracy: 0.9929, batch_loss: 0.0396, loss: 0.0260 ||: 100%|#########9| 1246/1250 [05:44<00:00,  4.39it/s]
+2022-03-22 15:14:03,205 - INFO - tqdm - f1: 0.9929, accuracy: 0.9929, batch_loss: 0.0172, loss: 0.0260 ||: 100%|#########9| 1247/1250 [05:44<00:00,  4.49it/s]
+2022-03-22 15:14:03,515 - INFO - tqdm - f1: 0.9929, accuracy: 0.9929, batch_loss: 0.0338, loss: 0.0260 ||: 100%|#########9| 1248/1250 [05:44<00:00,  4.06it/s]
+2022-03-22 15:14:03,778 - INFO - tqdm - f1: 0.9929, accuracy: 0.9929, batch_loss: 0.0020, loss: 0.0259 ||: 100%|#########9| 1249/1250 [05:45<00:00,  3.98it/s]
+2022-03-22 15:14:04,160 - INFO - tqdm - f1: 0.9929, accuracy: 0.9929, batch_loss: 0.0063, loss: 0.0259 ||: 100%|##########| 1250/1250 [05:45<00:00,  3.47it/s]
+2022-03-22 15:14:04,168 - INFO - tqdm - f1: 0.9929, accuracy: 0.9929, batch_loss: 0.0063, loss: 0.0259 ||: 100%|##########| 1250/1250 [05:45<00:00,  3.62it/s]
+2022-03-22 15:14:04,202 - INFO - allennlp.training.trainer - Validating
+2022-03-22 15:14:04,203 - INFO - tqdm - 0%|          | 0/313 [00:00<?, ?it/s]
+2022-03-22 15:14:14,220 - INFO - tqdm - f1: 0.9450, accuracy: 0.9450, batch_loss: 0.5648, loss: 0.2188 ||:  27%|##6       | 83/313 [00:10<00:31,  7.36it/s]
+2022-03-22 15:14:24,328 - INFO - tqdm - f1: 0.9455, accuracy: 0.9455, batch_loss: 0.0032, loss: 0.2206 ||:  54%|#####3    | 169/313 [00:20<00:17,  8.35it/s]
+2022-03-22 15:14:34,330 - INFO - tqdm - f1: 0.9463, accuracy: 0.9463, batch_loss: 0.0017, loss: 0.2184 ||:  81%|########  | 252/313 [00:30<00:08,  6.86it/s]
+2022-03-22 15:14:41,986 - INFO - tqdm - f1: 0.9450, accuracy: 0.9450, batch_loss: 0.1061, loss: 0.2206 ||: 100%|#########9| 312/313 [00:37<00:00,  9.48it/s]
+2022-03-22 15:14:42,114 - INFO - tqdm - f1: 0.9452, accuracy: 0.9452, batch_loss: 0.0295, loss: 0.2200 ||: 100%|##########| 313/313 [00:37<00:00,  8.26it/s]
+2022-03-22 15:14:42,144 - INFO - allennlp.training.callbacks.console_logger -                        Training |  Validation
+2022-03-22 15:14:42,144 - INFO - allennlp.training.callbacks.console_logger - accuracy           |     0.993  |     0.945
+2022-03-22 15:14:42,144 - INFO - allennlp.training.callbacks.console_logger - f1                 |     0.993  |     0.945
+2022-03-22 15:14:42,144 - INFO - allennlp.training.callbacks.console_logger - gpu_0_memory_MB    |     0.000  |       N/A
+2022-03-22 15:14:42,144 - INFO - allennlp.training.callbacks.console_logger - loss               |     0.026  |     0.220
+2022-03-22 15:14:42,144 - INFO - allennlp.training.callbacks.console_logger - worker_0_memory_MB |  10049.504  |       N/A
+2022-03-22 15:14:42,144 - INFO - allennlp.training.trainer - Epoch duration: 0:06:23.413925
+2022-03-22 15:14:42,144 - INFO - allennlp.training.trainer - Estimated training time remaining: 0:18:56
+2022-03-22 15:14:42,144 - INFO - allennlp.training.trainer - Epoch 7/9
+2022-03-22 15:14:42,144 - INFO - allennlp.training.trainer - Worker 0 memory usage: 9.8G
+2022-03-22 15:14:42,144 - INFO - allennlp.training.trainer - GPU 0 memory usage: 0B
+2022-03-22 15:14:42,145 - INFO - allennlp.training.trainer - Training
+2022-03-22 15:14:42,145 - INFO - tqdm - 0%|          | 0/1250 [00:00<?, ?it/s]
+2022-03-22 15:14:52,290 - INFO - tqdm - f1: 0.9957, accuracy: 0.9957, batch_loss: 0.0009, loss: 0.0159 ||:   5%|4         | 58/1250 [00:10<01:49, 10.90it/s]
+2022-03-22 15:15:02,411 - INFO - tqdm - f1: 0.9963, accuracy: 0.9963, batch_loss: 0.0050, loss: 0.0198 ||:   9%|9         | 118/1250 [00:20<03:45,  5.02it/s]
+2022-03-22 15:15:12,597 - INFO - tqdm - f1: 0.9962, accuracy: 0.9962, batch_loss: 0.0006, loss: 0.0161 ||:  13%|#3        | 166/1250 [00:30<03:52,  4.66it/s]
+2022-03-22 15:15:22,743 - INFO - tqdm - f1: 0.9950, accuracy: 0.9950, batch_loss: 0.0017, loss: 0.0194 ||:  17%|#6        | 212/1250 [00:40<04:19,  4.00it/s]
+2022-03-22 15:15:32,841 - INFO - tqdm - f1: 0.9941, accuracy: 0.9941, batch_loss: 0.0027, loss: 0.0212 ||:  20%|##        | 254/1250 [00:50<04:43,  3.52it/s]
+2022-03-22 15:15:43,125 - INFO - tqdm - f1: 0.9946, accuracy: 0.9946, batch_loss: 0.0007, loss: 0.0195 ||:  23%|##3       | 292/1250 [01:00<04:48,  3.32it/s]
+2022-03-22 15:15:53,292 - INFO - tqdm - f1: 0.9945, accuracy: 0.9945, batch_loss: 0.0004, loss: 0.0185 ||:  26%|##6       | 330/1250 [01:11<03:57,  3.88it/s]
+2022-03-22 15:16:03,434 - INFO - tqdm - f1: 0.9949, accuracy: 0.9949, batch_loss: 0.0013, loss: 0.0171 ||:  29%|##9       | 367/1250 [01:21<04:04,  3.62it/s]
+2022-03-22 15:16:13,535 - INFO - tqdm - f1: 0.9947, accuracy: 0.9947, batch_loss: 0.0024, loss: 0.0196 ||:  32%|###2      | 404/1250 [01:31<04:04,  3.45it/s]
+2022-03-22 15:16:23,736 - INFO - tqdm - f1: 0.9943, accuracy: 0.9943, batch_loss: 0.1835, loss: 0.0204 ||:  35%|###4      | 437/1250 [01:41<03:59,  3.39it/s]
+2022-03-22 15:16:33,987 - INFO - tqdm - f1: 0.9943, accuracy: 0.9943, batch_loss: 0.0008, loss: 0.0205 ||:  38%|###7      | 471/1250 [01:51<03:51,  3.36it/s]
+2022-03-22 15:16:44,130 - INFO - tqdm - f1: 0.9944, accuracy: 0.9944, batch_loss: 0.0005, loss: 0.0199 ||:  41%|####      | 510/1250 [02:01<02:47,  4.42it/s]
+2022-03-22 15:16:54,177 - INFO - tqdm - f1: 0.9941, accuracy: 0.9941, batch_loss: 0.0069, loss: 0.0222 ||:  44%|####3     | 548/1250 [02:12<02:29,  4.68it/s]
+2022-03-22 15:17:04,576 - INFO - tqdm - f1: 0.9941, accuracy: 0.9941, batch_loss: 0.0010, loss: 0.0220 ||:  47%|####6     | 585/1250 [02:22<03:35,  3.09it/s]
+2022-03-22 15:17:14,648 - INFO - tqdm - f1: 0.9940, accuracy: 0.9940, batch_loss: 0.0013, loss: 0.0226 ||:  50%|####9     | 623/1250 [02:32<02:20,  4.48it/s]
+2022-03-22 15:17:24,701 - INFO - tqdm - f1: 0.9936, accuracy: 0.9936, batch_loss: 0.0105, loss: 0.0241 ||:  53%|#####2    | 659/1250 [02:42<02:17,  4.30it/s]
+2022-03-22 15:17:34,749 - INFO - tqdm - f1: 0.9932, accuracy: 0.9932, batch_loss: 0.0065, loss: 0.0247 ||:  56%|#####5    | 697/1250 [02:52<02:13,  4.15it/s]
+2022-03-22 15:17:44,755 - INFO - tqdm - f1: 0.9933, accuracy: 0.9933, batch_loss: 0.0011, loss: 0.0240 ||:  59%|#####8    | 733/1250 [03:02<02:12,  3.89it/s]
+2022-03-22 15:17:54,944 - INFO - tqdm - f1: 0.9933, accuracy: 0.9933, batch_loss: 0.0009, loss: 0.0239 ||:  62%|######1   | 769/1250 [03:12<02:12,  3.62it/s]
+2022-03-22 15:18:05,384 - INFO - tqdm - f1: 0.9934, accuracy: 0.9934, batch_loss: 0.0027, loss: 0.0242 ||:  65%|######4   | 807/1250 [03:23<02:37,  2.81it/s]
+2022-03-22 15:18:15,410 - INFO - tqdm - f1: 0.9932, accuracy: 0.9932, batch_loss: 0.0020, loss: 0.0255 ||:  67%|######7   | 842/1250 [03:33<01:59,  3.41it/s]
+2022-03-22 15:18:25,664 - INFO - tqdm - f1: 0.9934, accuracy: 0.9934, batch_loss: 0.0010, loss: 0.0247 ||:  70%|#######   | 878/1250 [03:43<02:16,  2.72it/s]
+2022-03-22 15:18:35,677 - INFO - tqdm - f1: 0.9934, accuracy: 0.9934, batch_loss: 0.0013, loss: 0.0249 ||:  73%|#######3  | 915/1250 [03:53<01:39,  3.36it/s]
+2022-03-22 15:18:45,744 - INFO - tqdm - f1: 0.9930, accuracy: 0.9930, batch_loss: 0.0303, loss: 0.0259 ||:  76%|#######6  | 952/1250 [04:03<01:23,  3.58it/s]
+2022-03-22 15:18:55,999 - INFO - tqdm - f1: 0.9930, accuracy: 0.9930, batch_loss: 0.0820, loss: 0.0258 ||:  80%|#######9  | 994/1250 [04:13<01:03,  4.06it/s]
+2022-03-22 15:19:06,094 - INFO - tqdm - f1: 0.9930, accuracy: 0.9930, batch_loss: 0.0009, loss: 0.0258 ||:  82%|########2 | 1030/1250 [04:23<01:03,  3.44it/s]
+2022-03-22 15:19:16,197 - INFO - tqdm - f1: 0.9931, accuracy: 0.9931, batch_loss: 0.0065, loss: 0.0254 ||:  85%|########5 | 1066/1250 [04:34<00:54,  3.40it/s]
+2022-03-22 15:19:26,406 - INFO - tqdm - f1: 0.9931, accuracy: 0.9931, batch_loss: 0.0012, loss: 0.0255 ||:  88%|########8 | 1100/1250 [04:44<00:40,  3.68it/s]
+2022-03-22 15:19:36,736 - INFO - tqdm - f1: 0.9929, accuracy: 0.9929, batch_loss: 0.0036, loss: 0.0256 ||:  91%|######### | 1136/1250 [04:54<00:34,  3.27it/s]
+2022-03-22 15:19:46,754 - INFO - tqdm - f1: 0.9930, accuracy: 0.9930, batch_loss: 0.0006, loss: 0.0254 ||:  94%|#########3| 1171/1250 [05:04<00:20,  3.94it/s]
+2022-03-22 15:19:56,814 - INFO - tqdm - f1: 0.9929, accuracy: 0.9929, batch_loss: 0.0018, loss: 0.0258 ||:  97%|#########6| 1207/1250 [05:14<00:14,  3.04it/s]
+2022-03-22 15:20:06,456 - INFO - tqdm - f1: 0.9928, accuracy: 0.9928, batch_loss: 0.0094, loss: 0.0261 ||: 100%|#########9| 1244/1250 [05:24<00:01,  4.29it/s]
+2022-03-22 15:20:06,633 - INFO - tqdm - f1: 0.9928, accuracy: 0.9928, batch_loss: 0.0202, loss: 0.0261 ||: 100%|#########9| 1245/1250 [05:24<00:01,  4.62it/s]
+2022-03-22 15:20:07,009 - INFO - tqdm - f1: 0.9928, accuracy: 0.9928, batch_loss: 0.0359, loss: 0.0261 ||: 100%|#########9| 1246/1250 [05:24<00:01,  3.78it/s]
+2022-03-22 15:20:07,177 - INFO - tqdm - f1: 0.9928, accuracy: 0.9928, batch_loss: 0.0040, loss: 0.0260 ||: 100%|#########9| 1247/1250 [05:25<00:00,  4.25it/s]
+2022-03-22 15:20:07,375 - INFO - tqdm - f1: 0.9928, accuracy: 0.9928, batch_loss: 0.0107, loss: 0.0260 ||: 100%|#########9| 1248/1250 [05:25<00:00,  4.46it/s]
+2022-03-22 15:20:07,597 - INFO - tqdm - f1: 0.9928, accuracy: 0.9928, batch_loss: 0.0079, loss: 0.0260 ||: 100%|#########9| 1249/1250 [05:25<00:00,  4.47it/s]
+2022-03-22 15:20:07,955 - INFO - tqdm - f1: 0.9928, accuracy: 0.9928, batch_loss: 0.0300, loss: 0.0260 ||: 100%|##########| 1250/1250 [05:25<00:00,  3.79it/s]
+2022-03-22 15:20:07,964 - INFO - tqdm - f1: 0.9928, accuracy: 0.9928, batch_loss: 0.0300, loss: 0.0260 ||: 100%|##########| 1250/1250 [05:25<00:00,  3.84it/s]
+2022-03-22 15:20:08,000 - INFO - allennlp.training.trainer - Validating
+2022-03-22 15:20:08,000 - INFO - tqdm - 0%|          | 0/313 [00:00<?, ?it/s]
+2022-03-22 15:20:18,094 - INFO - tqdm - f1: 0.9527, accuracy: 0.9527, batch_loss: 0.0032, loss: 0.2096 ||:  26%|##6       | 82/313 [00:10<00:30,  7.67it/s]
+2022-03-22 15:20:28,212 - INFO - tqdm - f1: 0.9524, accuracy: 0.9525, batch_loss: 0.1772, loss: 0.2008 ||:  53%|#####3    | 167/313 [00:20<00:15,  9.20it/s]
+2022-03-22 15:20:38,359 - INFO - tqdm - f1: 0.9494, accuracy: 0.9494, batch_loss: 0.4321, loss: 0.2138 ||:  80%|#######9  | 250/313 [00:30<00:08,  7.02it/s]
+2022-03-22 15:20:45,868 - INFO - tqdm - f1: 0.9500, accuracy: 0.9500, batch_loss: 0.0313, loss: 0.2071 ||: 100%|#########9| 312/313 [00:37<00:00,  7.69it/s]
+2022-03-22 15:20:45,939 - INFO - tqdm - f1: 0.9502, accuracy: 0.9502, batch_loss: 0.0073, loss: 0.2065 ||: 100%|##########| 313/313 [00:37<00:00,  8.25it/s]
+2022-03-22 15:20:45,944 - INFO - dont_stop_pretraining.training.roberta_checkpointer - Best validation performance so far. Copying weights to 'model_logs/imdb_base_hyper_small_seed_314/best.th'.
+2022-03-22 15:20:46,505 - INFO - allennlp.training.callbacks.console_logger -                        Training |  Validation
+2022-03-22 15:20:46,505 - INFO - allennlp.training.callbacks.console_logger - accuracy           |     0.993  |     0.950
+2022-03-22 15:20:46,505 - INFO - allennlp.training.callbacks.console_logger - f1                 |     0.993  |     0.950
+2022-03-22 15:20:46,505 - INFO - allennlp.training.callbacks.console_logger - gpu_0_memory_MB    |     0.000  |       N/A
+2022-03-22 15:20:46,505 - INFO - allennlp.training.callbacks.console_logger - loss               |     0.026  |     0.206
+2022-03-22 15:20:46,506 - INFO - allennlp.training.callbacks.console_logger - worker_0_memory_MB |  10049.504  |       N/A
+2022-03-22 15:20:46,506 - INFO - allennlp.training.trainer - Epoch duration: 0:06:04.361485
+2022-03-22 15:20:46,506 - INFO - allennlp.training.trainer - Estimated training time remaining: 0:12:34
+2022-03-22 15:20:46,506 - INFO - allennlp.training.trainer - Epoch 8/9
+2022-03-22 15:20:46,506 - INFO - allennlp.training.trainer - Worker 0 memory usage: 9.8G
+2022-03-22 15:20:46,506 - INFO - allennlp.training.trainer - GPU 0 memory usage: 0B
+2022-03-22 15:20:46,507 - INFO - allennlp.training.trainer - Training
+2022-03-22 15:20:46,507 - INFO - tqdm - 0%|          | 0/1250 [00:00<?, ?it/s]
+2022-03-22 15:20:56,624 - INFO - tqdm - f1: 0.9983, accuracy: 0.9983, batch_loss: 0.0006, loss: 0.0056 ||:   3%|2         | 37/1250 [00:10<05:39,  3.57it/s]
+2022-03-22 15:21:06,786 - INFO - tqdm - f1: 0.9966, accuracy: 0.9966, batch_loss: 0.0016, loss: 0.0189 ||:   6%|5         | 74/1250 [00:20<04:32,  4.32it/s]
+2022-03-22 15:21:16,802 - INFO - tqdm - f1: 0.9961, accuracy: 0.9961, batch_loss: 0.0025, loss: 0.0194 ||:   9%|9         | 113/1250 [00:30<04:36,  4.11it/s]
+2022-03-22 15:21:26,983 - INFO - tqdm - f1: 0.9958, accuracy: 0.9958, batch_loss: 0.4060, loss: 0.0213 ||:  12%|#1        | 148/1250 [00:40<05:56,  3.09it/s]
+2022-03-22 15:21:37,180 - INFO - tqdm - f1: 0.9939, accuracy: 0.9940, batch_loss: 0.1233, loss: 0.0249 ||:  15%|#4        | 186/1250 [00:50<04:28,  3.96it/s]
+2022-03-22 15:21:47,439 - INFO - tqdm - f1: 0.9938, accuracy: 0.9938, batch_loss: 0.0011, loss: 0.0237 ||:  18%|#7        | 221/1250 [01:00<05:45,  2.98it/s]
+2022-03-22 15:21:57,522 - INFO - tqdm - f1: 0.9940, accuracy: 0.9940, batch_loss: 0.0008, loss: 0.0228 ||:  21%|##        | 260/1250 [01:11<04:31,  3.64it/s]
+2022-03-22 15:22:07,565 - INFO - tqdm - f1: 0.9939, accuracy: 0.9939, batch_loss: 0.0008, loss: 0.0217 ||:  24%|##3       | 298/1250 [01:21<03:43,  4.27it/s]
+2022-03-22 15:22:17,662 - INFO - tqdm - f1: 0.9938, accuracy: 0.9938, batch_loss: 0.0012, loss: 0.0212 ||:  27%|##6       | 335/1250 [01:31<04:20,  3.51it/s]
+2022-03-22 15:22:27,721 - INFO - tqdm - f1: 0.9936, accuracy: 0.9936, batch_loss: 0.0039, loss: 0.0224 ||:  30%|##9       | 373/1250 [01:41<03:17,  4.44it/s]
+2022-03-22 15:22:37,760 - INFO - tqdm - f1: 0.9939, accuracy: 0.9939, batch_loss: 0.0596, loss: 0.0216 ||:  33%|###2      | 411/1250 [01:51<04:18,  3.25it/s]
+2022-03-22 15:22:47,873 - INFO - tqdm - f1: 0.9937, accuracy: 0.9937, batch_loss: 0.0131, loss: 0.0215 ||:  36%|###5      | 445/1250 [02:01<03:31,  3.81it/s]
+2022-03-22 15:22:58,284 - INFO - tqdm - f1: 0.9939, accuracy: 0.9939, batch_loss: 0.0004, loss: 0.0202 ||:  39%|###8      | 483/1250 [02:11<03:52,  3.30it/s]
+2022-03-22 15:23:08,382 - INFO - tqdm - f1: 0.9940, accuracy: 0.9940, batch_loss: 0.0587, loss: 0.0198 ||:  42%|####1     | 519/1250 [02:21<02:46,  4.39it/s]
+2022-03-22 15:23:18,536 - INFO - tqdm - f1: 0.9943, accuracy: 0.9943, batch_loss: 0.0002, loss: 0.0187 ||:  44%|####4     | 553/1250 [02:32<03:40,  3.17it/s]
+2022-03-22 15:23:28,642 - INFO - tqdm - f1: 0.9947, accuracy: 0.9947, batch_loss: 0.0005, loss: 0.0176 ||:  47%|####7     | 588/1250 [02:42<03:49,  2.89it/s]
+2022-03-22 15:23:38,963 - INFO - tqdm - f1: 0.9947, accuracy: 0.9947, batch_loss: 0.0004, loss: 0.0186 ||:  50%|####9     | 624/1250 [02:52<03:14,  3.22it/s]
+2022-03-22 15:23:49,068 - INFO - tqdm - f1: 0.9946, accuracy: 0.9946, batch_loss: 0.0003, loss: 0.0185 ||:  53%|#####2    | 660/1250 [03:02<03:01,  3.25it/s]
+2022-03-22 15:23:59,331 - INFO - tqdm - f1: 0.9947, accuracy: 0.9947, batch_loss: 0.0004, loss: 0.0178 ||:  56%|#####5    | 697/1250 [03:12<02:43,  3.38it/s]
+2022-03-22 15:24:09,637 - INFO - tqdm - f1: 0.9946, accuracy: 0.9946, batch_loss: 0.0338, loss: 0.0182 ||:  59%|#####8    | 735/1250 [03:23<02:38,  3.26it/s]
+2022-03-22 15:24:19,706 - INFO - tqdm - f1: 0.9945, accuracy: 0.9945, batch_loss: 0.0010, loss: 0.0181 ||:  62%|######1   | 772/1250 [03:33<01:56,  4.11it/s]
+2022-03-22 15:24:29,846 - INFO - tqdm - f1: 0.9945, accuracy: 0.9945, batch_loss: 0.0004, loss: 0.0182 ||:  65%|######4   | 808/1250 [03:43<01:45,  4.18it/s]
+2022-03-22 15:24:39,863 - INFO - tqdm - f1: 0.9946, accuracy: 0.9946, batch_loss: 0.0007, loss: 0.0188 ||:  68%|######7   | 844/1250 [03:53<01:38,  4.11it/s]
+2022-03-22 15:24:49,950 - INFO - tqdm - f1: 0.9946, accuracy: 0.9946, batch_loss: 0.0010, loss: 0.0187 ||:  70%|#######   | 881/1250 [04:03<01:26,  4.27it/s]
+2022-03-22 15:24:59,973 - INFO - tqdm - f1: 0.9947, accuracy: 0.9947, batch_loss: 0.0022, loss: 0.0190 ||:  73%|#######3  | 917/1250 [04:13<01:22,  4.06it/s]
+2022-03-22 15:25:10,025 - INFO - tqdm - f1: 0.9945, accuracy: 0.9945, batch_loss: 0.0014, loss: 0.0191 ||:  76%|#######6  | 954/1250 [04:23<01:14,  3.96it/s]
+2022-03-22 15:25:20,461 - INFO - tqdm - f1: 0.9946, accuracy: 0.9946, batch_loss: 0.0118, loss: 0.0191 ||:  79%|#######9  | 992/1250 [04:33<01:21,  3.17it/s]
+2022-03-22 15:25:30,638 - INFO - tqdm - f1: 0.9944, accuracy: 0.9944, batch_loss: 0.0038, loss: 0.0200 ||:  82%|########2 | 1029/1250 [04:44<01:00,  3.64it/s]
+2022-03-22 15:25:40,639 - INFO - tqdm - f1: 0.9942, accuracy: 0.9942, batch_loss: 0.0539, loss: 0.0204 ||:  85%|########4 | 1060/1250 [04:54<01:03,  2.99it/s]
+2022-03-22 15:25:50,786 - INFO - tqdm - f1: 0.9942, accuracy: 0.9942, batch_loss: 0.0021, loss: 0.0202 ||:  88%|########7 | 1097/1250 [05:04<00:47,  3.23it/s]
+2022-03-22 15:26:01,075 - INFO - tqdm - f1: 0.9944, accuracy: 0.9944, batch_loss: 0.0020, loss: 0.0200 ||:  91%|######### | 1133/1250 [05:14<00:36,  3.19it/s]
+2022-03-22 15:26:11,225 - INFO - tqdm - f1: 0.9943, accuracy: 0.9943, batch_loss: 0.0583, loss: 0.0197 ||:  94%|#########3| 1171/1250 [05:24<00:27,  2.92it/s]
+2022-03-22 15:26:21,319 - INFO - tqdm - f1: 0.9943, accuracy: 0.9943, batch_loss: 0.1051, loss: 0.0196 ||:  97%|#########6| 1208/1250 [05:34<00:12,  3.44it/s]
+2022-03-22 15:26:31,244 - INFO - tqdm - f1: 0.9943, accuracy: 0.9943, batch_loss: 0.0003, loss: 0.0196 ||: 100%|#########9| 1244/1250 [05:44<00:01,  3.48it/s]
+2022-03-22 15:26:31,521 - INFO - tqdm - f1: 0.9943, accuracy: 0.9943, batch_loss: 0.0471, loss: 0.0196 ||: 100%|#########9| 1245/1250 [05:45<00:01,  3.51it/s]
+2022-03-22 15:26:31,818 - INFO - tqdm - f1: 0.9943, accuracy: 0.9943, batch_loss: 0.0081, loss: 0.0196 ||: 100%|#########9| 1246/1250 [05:45<00:01,  3.47it/s]
+2022-03-22 15:26:32,104 - INFO - tqdm - f1: 0.9943, accuracy: 0.9943, batch_loss: 0.0014, loss: 0.0196 ||: 100%|#########9| 1247/1250 [05:45<00:00,  3.48it/s]
+2022-03-22 15:26:32,342 - INFO - tqdm - f1: 0.9943, accuracy: 0.9943, batch_loss: 0.0004, loss: 0.0195 ||: 100%|#########9| 1248/1250 [05:45<00:00,  3.67it/s]
+2022-03-22 15:26:32,473 - INFO - tqdm - f1: 0.9943, accuracy: 0.9943, batch_loss: 0.0005, loss: 0.0195 ||: 100%|#########9| 1249/1250 [05:45<00:00,  4.34it/s]
+2022-03-22 15:26:32,815 - INFO - tqdm - f1: 0.9943, accuracy: 0.9943, batch_loss: 0.0013, loss: 0.0195 ||: 100%|##########| 1250/1250 [05:46<00:00,  3.79it/s]
+2022-03-22 15:26:32,825 - INFO - tqdm - f1: 0.9943, accuracy: 0.9943, batch_loss: 0.0013, loss: 0.0195 ||: 100%|##########| 1250/1250 [05:46<00:00,  3.61it/s]
+2022-03-22 15:26:32,861 - INFO - allennlp.training.trainer - Validating
+2022-03-22 15:26:32,862 - INFO - tqdm - 0%|          | 0/313 [00:00<?, ?it/s]
+2022-03-22 15:26:42,929 - INFO - tqdm - f1: 0.9459, accuracy: 0.9460, batch_loss: 0.5404, loss: 0.3219 ||:  27%|##7       | 85/313 [00:10<00:27,  8.43it/s]
+2022-03-22 15:26:53,034 - INFO - tqdm - f1: 0.9417, accuracy: 0.9417, batch_loss: 0.1892, loss: 0.3238 ||:  54%|#####4    | 170/313 [00:20<00:18,  7.89it/s]
+2022-03-22 15:27:03,076 - INFO - tqdm - f1: 0.9401, accuracy: 0.9401, batch_loss: 0.0002, loss: 0.3156 ||:  81%|########  | 253/313 [00:30<00:08,  7.09it/s]
+2022-03-22 15:27:10,147 - INFO - tqdm - f1: 0.9432, accuracy: 0.9432, batch_loss: 0.0005, loss: 0.3076 ||: 100%|##########| 313/313 [00:37<00:00,  9.16it/s]
+2022-03-22 15:27:10,149 - INFO - tqdm - f1: 0.9432, accuracy: 0.9432, batch_loss: 0.0005, loss: 0.3076 ||: 100%|##########| 313/313 [00:37<00:00,  8.39it/s]
+2022-03-22 15:27:10,185 - INFO - allennlp.training.callbacks.console_logger -                        Training |  Validation
+2022-03-22 15:27:10,185 - INFO - allennlp.training.callbacks.console_logger - accuracy           |     0.994  |     0.943
+2022-03-22 15:27:10,185 - INFO - allennlp.training.callbacks.console_logger - f1                 |     0.994  |     0.943
+2022-03-22 15:27:10,185 - INFO - allennlp.training.callbacks.console_logger - gpu_0_memory_MB    |     0.000  |       N/A
+2022-03-22 15:27:10,186 - INFO - allennlp.training.callbacks.console_logger - loss               |     0.020  |     0.308
+2022-03-22 15:27:10,186 - INFO - allennlp.training.callbacks.console_logger - worker_0_memory_MB |  10049.504  |       N/A
+2022-03-22 15:27:10,186 - INFO - allennlp.training.trainer - Epoch duration: 0:06:23.679906
+2022-03-22 15:27:10,186 - INFO - allennlp.training.trainer - Estimated training time remaining: 0:06:17
+2022-03-22 15:27:10,186 - INFO - allennlp.training.trainer - Epoch 9/9
+2022-03-22 15:27:10,186 - INFO - allennlp.training.trainer - Worker 0 memory usage: 9.8G
+2022-03-22 15:27:10,186 - INFO - allennlp.training.trainer - GPU 0 memory usage: 0B
+2022-03-22 15:27:10,187 - INFO - allennlp.training.trainer - Training
+2022-03-22 15:27:10,187 - INFO - tqdm - 0%|          | 0/1250 [00:00<?, ?it/s]
+2022-03-22 15:27:20,370 - INFO - tqdm - f1: 0.9951, accuracy: 0.9951, batch_loss: 0.0006, loss: 0.0291 ||:   3%|3         | 38/1250 [00:10<05:07,  3.94it/s]
+2022-03-22 15:27:30,622 - INFO - tqdm - f1: 0.9942, accuracy: 0.9942, batch_loss: 0.0007, loss: 0.0213 ||:   6%|6         | 75/1250 [00:20<06:35,  2.97it/s]
+2022-03-22 15:27:40,629 - INFO - tqdm - f1: 0.9950, accuracy: 0.9950, batch_loss: 0.0090, loss: 0.0160 ||:   9%|9         | 113/1250 [00:30<04:34,  4.14it/s]
+2022-03-22 15:27:50,827 - INFO - tqdm - f1: 0.9933, accuracy: 0.9933, batch_loss: 0.0965, loss: 0.0222 ||:  12%|#2        | 150/1250 [00:40<05:34,  3.29it/s]
+2022-03-22 15:28:00,936 - INFO - tqdm - f1: 0.9946, accuracy: 0.9947, batch_loss: 0.0007, loss: 0.0199 ||:  15%|#4        | 187/1250 [00:50<04:01,  4.40it/s]
+2022-03-22 15:28:11,336 - INFO - tqdm - f1: 0.9941, accuracy: 0.9941, batch_loss: 0.0009, loss: 0.0213 ||:  18%|#7        | 223/1250 [01:01<05:47,  2.95it/s]
+2022-03-22 15:28:21,422 - INFO - tqdm - f1: 0.9937, accuracy: 0.9937, batch_loss: 0.0762, loss: 0.0214 ||:  21%|##        | 257/1250 [01:11<03:57,  4.17it/s]
+2022-03-22 15:28:31,614 - INFO - tqdm - f1: 0.9938, accuracy: 0.9938, batch_loss: 0.0069, loss: 0.0209 ||:  23%|##3       | 293/1250 [01:21<04:53,  3.26it/s]
+2022-03-22 15:28:41,627 - INFO - tqdm - f1: 0.9943, accuracy: 0.9943, batch_loss: 0.0004, loss: 0.0197 ||:  26%|##6       | 328/1250 [01:31<04:36,  3.34it/s]
+2022-03-22 15:28:51,634 - INFO - tqdm - f1: 0.9943, accuracy: 0.9943, batch_loss: 0.0023, loss: 0.0194 ||:  29%|##8       | 361/1250 [01:41<04:53,  3.03it/s]
+2022-03-22 15:29:01,692 - INFO - tqdm - f1: 0.9937, accuracy: 0.9937, batch_loss: 0.0048, loss: 0.0216 ||:  32%|###1      | 399/1250 [01:51<03:56,  3.60it/s]
+2022-03-22 15:29:11,724 - INFO - tqdm - f1: 0.9938, accuracy: 0.9939, batch_loss: 0.0006, loss: 0.0212 ||:  35%|###4      | 437/1250 [02:01<03:14,  4.18it/s]
+2022-03-22 15:29:21,887 - INFO - tqdm - f1: 0.9942, accuracy: 0.9942, batch_loss: 0.0005, loss: 0.0205 ||:  38%|###7      | 473/1250 [02:11<03:23,  3.82it/s]
+2022-03-22 15:29:32,065 - INFO - tqdm - f1: 0.9944, accuracy: 0.9944, batch_loss: 0.0003, loss: 0.0194 ||:  41%|####      | 512/1250 [02:21<03:21,  3.66it/s]
+2022-03-22 15:29:42,399 - INFO - tqdm - f1: 0.9944, accuracy: 0.9944, batch_loss: 0.0005, loss: 0.0197 ||:  44%|####3     | 549/1250 [02:32<03:51,  3.02it/s]
+2022-03-22 15:29:52,509 - INFO - tqdm - f1: 0.9944, accuracy: 0.9944, batch_loss: 0.0450, loss: 0.0201 ||:  47%|####6     | 585/1250 [02:42<03:27,  3.21it/s]
+2022-03-22 15:30:02,563 - INFO - tqdm - f1: 0.9943, accuracy: 0.9943, batch_loss: 0.3428, loss: 0.0204 ||:  50%|#####     | 625/1250 [02:52<02:20,  4.45it/s]
+2022-03-22 15:30:12,885 - INFO - tqdm - f1: 0.9943, accuracy: 0.9943, batch_loss: 0.0008, loss: 0.0198 ||:  53%|#####3    | 663/1250 [03:02<02:54,  3.37it/s]
+2022-03-22 15:30:23,149 - INFO - tqdm - f1: 0.9944, accuracy: 0.9944, batch_loss: 0.0007, loss: 0.0195 ||:  56%|#####5    | 698/1250 [03:12<02:58,  3.10it/s]
+2022-03-22 15:30:33,438 - INFO - tqdm - f1: 0.9944, accuracy: 0.9944, batch_loss: 0.0008, loss: 0.0196 ||:  59%|#####8    | 736/1250 [03:23<02:26,  3.52it/s]
+2022-03-22 15:30:43,462 - INFO - tqdm - f1: 0.9944, accuracy: 0.9944, batch_loss: 0.0091, loss: 0.0198 ||:  62%|######1   | 770/1250 [03:33<02:28,  3.23it/s]
+2022-03-22 15:30:53,784 - INFO - tqdm - f1: 0.9946, accuracy: 0.9946, batch_loss: 0.0004, loss: 0.0193 ||:  65%|######4   | 807/1250 [03:43<02:28,  2.99it/s]
+2022-03-22 15:31:03,998 - INFO - tqdm - f1: 0.9945, accuracy: 0.9945, batch_loss: 0.0005, loss: 0.0192 ||:  67%|######7   | 843/1250 [03:53<01:37,  4.16it/s]
+2022-03-22 15:31:14,063 - INFO - tqdm - f1: 0.9944, accuracy: 0.9944, batch_loss: 0.0008, loss: 0.0196 ||:  70%|#######   | 880/1250 [04:03<02:03,  3.00it/s]
+2022-03-22 15:31:24,256 - INFO - tqdm - f1: 0.9945, accuracy: 0.9945, batch_loss: 0.0049, loss: 0.0195 ||:  73%|#######3  | 917/1250 [04:14<01:28,  3.78it/s]
+2022-03-22 15:31:34,619 - INFO - tqdm - f1: 0.9944, accuracy: 0.9944, batch_loss: 0.0009, loss: 0.0198 ||:  76%|#######6  | 951/1250 [04:24<01:28,  3.39it/s]
+2022-03-22 15:31:44,680 - INFO - tqdm - f1: 0.9942, accuracy: 0.9942, batch_loss: 0.0023, loss: 0.0205 ||:  79%|#######9  | 988/1250 [04:34<01:22,  3.19it/s]
+2022-03-22 15:31:54,777 - INFO - tqdm - f1: 0.9943, accuracy: 0.9943, batch_loss: 0.0654, loss: 0.0201 ||:  82%|########1 | 1024/1250 [04:44<00:59,  3.79it/s]
+2022-03-22 15:32:05,110 - INFO - tqdm - f1: 0.9941, accuracy: 0.9941, batch_loss: 0.0009, loss: 0.0203 ||:  85%|########4 | 1061/1250 [04:54<00:55,  3.42it/s]
+2022-03-22 15:32:15,310 - INFO - tqdm - f1: 0.9942, accuracy: 0.9942, batch_loss: 0.0069, loss: 0.0202 ||:  88%|########8 | 1100/1250 [05:05<00:41,  3.66it/s]
+2022-03-22 15:32:25,380 - INFO - tqdm - f1: 0.9941, accuracy: 0.9941, batch_loss: 0.0079, loss: 0.0205 ||:  91%|######### | 1134/1250 [05:15<00:35,  3.27it/s]
+2022-03-22 15:32:35,529 - INFO - tqdm - f1: 0.9940, accuracy: 0.9940, batch_loss: 0.0009, loss: 0.0210 ||:  94%|#########3| 1173/1250 [05:25<00:26,  2.86it/s]
+2022-03-22 15:32:45,621 - INFO - tqdm - f1: 0.9940, accuracy: 0.9940, batch_loss: 0.0010, loss: 0.0210 ||:  97%|#########6| 1211/1250 [05:35<00:10,  3.72it/s]
+2022-03-22 15:32:54,738 - INFO - tqdm - f1: 0.9941, accuracy: 0.9941, batch_loss: 0.0008, loss: 0.0207 ||: 100%|#########9| 1244/1250 [05:44<00:01,  3.84it/s]
+2022-03-22 15:32:54,987 - INFO - tqdm - f1: 0.9941, accuracy: 0.9941, batch_loss: 0.0008, loss: 0.0207 ||: 100%|#########9| 1245/1250 [05:44<00:01,  3.89it/s]
+2022-03-22 15:32:55,251 - INFO - tqdm - f1: 0.9941, accuracy: 0.9941, batch_loss: 0.0017, loss: 0.0207 ||: 100%|#########9| 1246/1250 [05:45<00:01,  3.86it/s]
+2022-03-22 15:32:55,361 - INFO - tqdm - f1: 0.9941, accuracy: 0.9941, batch_loss: 0.0008, loss: 0.0207 ||: 100%|#########9| 1247/1250 [05:45<00:00,  4.67it/s]
+2022-03-22 15:32:55,815 - INFO - tqdm - f1: 0.9941, accuracy: 0.9941, batch_loss: 0.0010, loss: 0.0207 ||: 100%|#########9| 1248/1250 [05:45<00:00,  3.49it/s]
+2022-03-22 15:32:56,205 - INFO - tqdm - f1: 0.9941, accuracy: 0.9941, batch_loss: 0.0008, loss: 0.0207 ||: 100%|#########9| 1249/1250 [05:46<00:00,  3.15it/s]
+2022-03-22 15:32:56,434 - INFO - tqdm - f1: 0.9941, accuracy: 0.9941, batch_loss: 0.0009, loss: 0.0206 ||: 100%|##########| 1250/1250 [05:46<00:00,  3.44it/s]
+2022-03-22 15:32:56,443 - INFO - tqdm - f1: 0.9941, accuracy: 0.9941, batch_loss: 0.0009, loss: 0.0206 ||: 100%|##########| 1250/1250 [05:46<00:00,  3.61it/s]
+2022-03-22 15:32:56,481 - INFO - allennlp.training.trainer - Validating
+2022-03-22 15:32:56,482 - INFO - tqdm - 0%|          | 0/313 [00:00<?, ?it/s]
+2022-03-22 15:33:06,548 - INFO - tqdm - f1: 0.9510, accuracy: 0.9510, batch_loss: 0.4677, loss: 0.2758 ||:  23%|##3       | 72/313 [00:10<00:27,  8.85it/s]
+2022-03-22 15:33:16,602 - INFO - tqdm - f1: 0.9549, accuracy: 0.9549, batch_loss: 0.0004, loss: 0.2531 ||:  45%|####5     | 142/313 [00:20<00:22,  7.54it/s]
+2022-03-22 15:33:26,692 - INFO - tqdm - f1: 0.9530, accuracy: 0.9530, batch_loss: 0.2038, loss: 0.2650 ||:  72%|#######1  | 224/313 [00:30<00:11,  7.81it/s]
+2022-03-22 15:33:36,848 - INFO - tqdm - f1: 0.9508, accuracy: 0.9508, batch_loss: 0.4664, loss: 0.2812 ||:  99%|#########8| 309/313 [00:40<00:00, 10.74it/s]
+2022-03-22 15:33:37,349 - INFO - tqdm - f1: 0.9508, accuracy: 0.9508, batch_loss: 0.8951, loss: 0.2814 ||: 100%|##########| 313/313 [00:40<00:00,  9.35it/s]
+2022-03-22 15:33:37,352 - INFO - tqdm - f1: 0.9508, accuracy: 0.9508, batch_loss: 0.8951, loss: 0.2814 ||: 100%|##########| 313/313 [00:40<00:00,  7.66it/s]
+2022-03-22 15:33:37,355 - INFO - dont_stop_pretraining.training.roberta_checkpointer - Best validation performance so far. Copying weights to 'model_logs/imdb_base_hyper_small_seed_314/best.th'.
+2022-03-22 15:33:37,896 - INFO - allennlp.training.callbacks.console_logger -                        Training |  Validation
+2022-03-22 15:33:37,896 - INFO - allennlp.training.callbacks.console_logger - accuracy           |     0.994  |     0.951
+2022-03-22 15:33:37,896 - INFO - allennlp.training.callbacks.console_logger - f1                 |     0.994  |     0.951
+2022-03-22 15:33:37,896 - INFO - allennlp.training.callbacks.console_logger - gpu_0_memory_MB    |     0.000  |       N/A
+2022-03-22 15:33:37,896 - INFO - allennlp.training.callbacks.console_logger - loss               |     0.021  |     0.281
+2022-03-22 15:33:37,896 - INFO - allennlp.training.callbacks.console_logger - worker_0_memory_MB |  10049.504  |       N/A
+2022-03-22 15:33:37,896 - INFO - allennlp.training.trainer - Epoch duration: 0:06:27.710593
+2022-03-22 15:33:37,896 - INFO - dont_stop_pretraining.training.roberta_checkpointer - loading best weights
+2022-03-22 15:33:38,279 - INFO - allennlp.commands.train - The model will be evaluated using the best epoch weights.
+2022-03-22 15:33:38,281 - INFO - allennlp.training.util - Iterating over dataset
+2022-03-22 15:33:38,281 - INFO - tqdm - 0it [00:00, ?it/s]
+2022-03-22 15:33:38,312 - INFO - allennlp.data.samplers.bucket_batch_sampler - No sorting keys given; trying to guess a good one
+2022-03-22 15:33:38,312 - INFO - allennlp.data.samplers.bucket_batch_sampler - Using ['tokens'] as the sorting keys
+2022-03-22 15:33:48,376 - INFO - tqdm - f1: 0.96, accuracy: 0.96, loss: 0.25 ||: : 225it [00:10, 12.09it/s]
+2022-03-22 15:33:58,543 - INFO - tqdm - f1: 0.96, accuracy: 0.96, loss: 0.24 ||: : 367it [00:20, 12.17it/s]
+2022-03-22 15:34:08,612 - INFO - tqdm - f1: 0.95, accuracy: 0.95, loss: 0.25 ||: : 501it [00:30, 12.00it/s]
+2022-03-22 15:34:18,631 - INFO - tqdm - f1: 0.95, accuracy: 0.95, loss: 0.26 ||: : 645it [00:40, 14.76it/s]
+2022-03-22 15:34:28,802 - INFO - tqdm - f1: 0.95, accuracy: 0.95, loss: 0.27 ||: : 730it [00:50,  8.06it/s]
+2022-03-22 15:34:38,823 - INFO - tqdm - f1: 0.95, accuracy: 0.95, loss: 0.27 ||: : 812it [01:00,  7.62it/s]
+2022-03-22 15:34:48,925 - INFO - tqdm - f1: 0.95, accuracy: 0.95, loss: 0.27 ||: : 895it [01:10,  6.86it/s]
+2022-03-22 15:34:58,998 - INFO - tqdm - f1: 0.95, accuracy: 0.95, loss: 0.27 ||: : 977it [01:20,  7.33it/s]
+2022-03-22 15:35:09,067 - INFO - tqdm - f1: 0.95, accuracy: 0.95, loss: 0.27 ||: : 1061it [01:30,  8.53it/s]
+2022-03-22 15:35:19,285 - INFO - tqdm - f1: 0.95, accuracy: 0.95, loss: 0.27 ||: : 1146it [01:41,  8.02it/s]
+2022-03-22 15:35:29,310 - INFO - tqdm - f1: 0.95, accuracy: 0.95, loss: 0.27 ||: : 1234it [01:51,  8.66it/s]
+2022-03-22 15:35:39,382 - INFO - tqdm - f1: 0.95, accuracy: 0.95, loss: 0.28 ||: : 1317it [02:01,  7.60it/s]
+2022-03-22 15:35:49,449 - INFO - tqdm - f1: 0.95, accuracy: 0.95, loss: 0.27 ||: : 1401it [02:11,  8.88it/s]
+2022-03-22 15:35:59,461 - INFO - tqdm - f1: 0.95, accuracy: 0.95, loss: 0.27 ||: : 1482it [02:21,  7.93it/s]
+2022-03-22 15:36:08,672 - INFO - allennlp.common.util - Metrics: {
+  "best_epoch": 9,
+  "peak_worker_0_memory_MB": 10049.50390625,
+  "peak_gpu_0_memory_MB": 0,
+  "training_duration": "1:03:07.691468",
+  "training_start_epoch": 0,
+  "training_epochs": 9,
+  "epoch": 9,
+  "training_f1": 0.994100034236908,
+  "training_accuracy": 0.9941,
+  "training_loss": 0.020649094472685828,
+  "training_worker_0_memory_MB": 10049.50390625,
+  "training_gpu_0_memory_MB": 0.0,
+  "validation_f1": 0.9507990181446075,
+  "validation_accuracy": 0.9508,
+  "validation_loss": 0.28138585942507255,
+  "best_validation_f1": 0.9507990181446075,
+  "best_validation_accuracy": 0.9508,
+  "best_validation_loss": 0.28138585942507255,
+  "test_f1": 0.9523572325706482,
+  "test_accuracy": 0.95236,
+  "test_loss": 0.27254987236268247
+}
+2022-03-22 15:36:09,686 - INFO - allennlp.models.archival - archiving weights and vocabulary to model_logs/imdb_base_hyper_small_seed_314/model.tar.gz

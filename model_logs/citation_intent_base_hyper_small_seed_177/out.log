@@ -1,0 +1,792 @@
+2022-03-21 07:07:08,313 - INFO - allennlp.common.params - random_seed = 177
+2022-03-21 07:07:08,336 - INFO - allennlp.common.params - numpy_seed = 177
+2022-03-21 07:07:08,351 - INFO - allennlp.common.params - pytorch_seed = 177
+2022-03-21 07:07:08,358 - INFO - allennlp.common.checks - Pytorch version: 1.8.0+cu111
+2022-03-21 07:07:08,385 - INFO - allennlp.common.params - type = default
+2022-03-21 07:07:08,403 - INFO - allennlp.common.params - dataset_reader.type = text_classification_json_with_sampling
+2022-03-21 07:07:08,421 - INFO - allennlp.common.params - dataset_reader.token_indexers.tokens.type = pretrained_transformer
+2022-03-21 07:07:08,437 - INFO - allennlp.common.params - dataset_reader.token_indexers.tokens.token_min_padding_length = 0
+2022-03-21 07:07:08,455 - INFO - allennlp.common.params - dataset_reader.token_indexers.tokens.model_name = roberta-base
+2022-03-21 07:07:08,499 - INFO - allennlp.common.params - dataset_reader.token_indexers.tokens.namespace = tags
+2022-03-21 07:07:08,517 - INFO - allennlp.common.params - dataset_reader.token_indexers.tokens.max_length = 512
+2022-03-21 07:07:08,520 - INFO - allennlp.common.params - dataset_reader.token_indexers.tokens.tokenizer_kwargs = None
+2022-03-21 07:07:21,762 - INFO - allennlp.common.params - dataset_reader.tokenizer.type = pretrained_transformer
+2022-03-21 07:07:21,785 - INFO - allennlp.common.params - dataset_reader.tokenizer.model_name = roberta-base
+2022-03-21 07:07:21,799 - INFO - allennlp.common.params - dataset_reader.tokenizer.add_special_tokens = True
+2022-03-21 07:07:21,817 - INFO - allennlp.common.params - dataset_reader.tokenizer.max_length = 512
+2022-03-21 07:07:21,865 - INFO - allennlp.common.params - dataset_reader.tokenizer.stride = 0
+2022-03-21 07:07:21,872 - INFO - allennlp.common.params - dataset_reader.tokenizer.tokenizer_kwargs = None
+2022-03-21 07:07:21,890 - INFO - allennlp.common.params - dataset_reader.max_sequence_length = 512
+2022-03-21 07:07:21,911 - INFO - allennlp.common.params - dataset_reader.sample = None
+2022-03-21 07:07:21,914 - INFO - allennlp.common.params - dataset_reader.skip_label_indexing = False
+2022-03-21 07:07:21,917 - INFO - allennlp.common.params - train_data_path = datasets/citation_intent/train.jsonl
+2022-03-21 07:07:21,936 - INFO - allennlp.common.params - vocabulary = <allennlp.common.lazy.Lazy object at 0x7f2cf882b210>
+2022-03-21 07:07:21,954 - INFO - allennlp.common.params - datasets_for_vocab_creation = None
+2022-03-21 07:07:21,975 - INFO - allennlp.common.params - validation_dataset_reader.type = text_classification_json_with_sampling
+2022-03-21 07:07:22,030 - INFO - allennlp.common.params - validation_dataset_reader.token_indexers.tokens.type = pretrained_transformer
+2022-03-21 07:07:22,048 - INFO - allennlp.common.params - validation_dataset_reader.token_indexers.tokens.token_min_padding_length = 0
+2022-03-21 07:07:22,066 - INFO - allennlp.common.params - validation_dataset_reader.token_indexers.tokens.model_name = roberta-base
+2022-03-21 07:07:22,068 - INFO - allennlp.common.params - validation_dataset_reader.token_indexers.tokens.namespace = tags
+2022-03-21 07:07:22,071 - INFO - allennlp.common.params - validation_dataset_reader.token_indexers.tokens.max_length = 512
+2022-03-21 07:07:22,092 - INFO - allennlp.common.params - validation_dataset_reader.token_indexers.tokens.tokenizer_kwargs = None
+2022-03-21 07:07:22,096 - INFO - allennlp.common.params - validation_dataset_reader.tokenizer.type = pretrained_transformer
+2022-03-21 07:07:22,099 - INFO - allennlp.common.params - validation_dataset_reader.tokenizer.model_name = roberta-base
+2022-03-21 07:07:22,102 - INFO - allennlp.common.params - validation_dataset_reader.tokenizer.add_special_tokens = True
+2022-03-21 07:07:22,145 - INFO - allennlp.common.params - validation_dataset_reader.tokenizer.max_length = 512
+2022-03-21 07:07:22,149 - INFO - allennlp.common.params - validation_dataset_reader.tokenizer.stride = 0
+2022-03-21 07:07:22,166 - INFO - allennlp.common.params - validation_dataset_reader.tokenizer.tokenizer_kwargs = None
+2022-03-21 07:07:22,185 - INFO - allennlp.common.params - validation_dataset_reader.max_sequence_length = 512
+2022-03-21 07:07:22,190 - INFO - allennlp.common.params - validation_dataset_reader.sample = None
+2022-03-21 07:07:22,206 - INFO - allennlp.common.params - validation_dataset_reader.skip_label_indexing = False
+2022-03-21 07:07:22,208 - INFO - allennlp.common.params - validation_data_path = datasets/citation_intent/dev.jsonl
+2022-03-21 07:07:22,211 - INFO - allennlp.common.params - validation_data_loader = None
+2022-03-21 07:07:22,231 - INFO - allennlp.common.params - test_data_path = datasets/citation_intent/test.jsonl
+2022-03-21 07:07:22,241 - INFO - allennlp.common.params - evaluate_on_test = True
+2022-03-21 07:07:22,261 - INFO - allennlp.common.params - batch_weight_key = 
+2022-03-21 07:07:22,281 - INFO - allennlp.common.params - data_loader.type = multiprocess
+2022-03-21 07:07:22,321 - INFO - allennlp.common.params - data_loader.batch_size = None
+2022-03-21 07:07:22,339 - INFO - allennlp.common.params - data_loader.drop_last = False
+2022-03-21 07:07:22,379 - INFO - allennlp.common.params - data_loader.shuffle = False
+2022-03-21 07:07:22,381 - INFO - allennlp.common.params - data_loader.batch_sampler.type = bucket
+2022-03-21 07:07:22,401 - INFO - allennlp.common.params - data_loader.batch_sampler.batch_size = 16
+2022-03-21 07:07:22,418 - INFO - allennlp.common.params - data_loader.batch_sampler.sorting_keys = None
+2022-03-21 07:07:22,475 - INFO - allennlp.common.params - data_loader.batch_sampler.padding_noise = 0.1
+2022-03-21 07:07:22,521 - INFO - allennlp.common.params - data_loader.batch_sampler.drop_last = False
+2022-03-21 07:07:22,541 - INFO - allennlp.common.params - data_loader.batches_per_epoch = None
+2022-03-21 07:07:22,544 - INFO - allennlp.common.params - data_loader.num_workers = 0
+2022-03-21 07:07:22,548 - INFO - allennlp.common.params - data_loader.max_instances_in_memory = None
+2022-03-21 07:07:22,567 - INFO - allennlp.common.params - data_loader.start_method = fork
+2022-03-21 07:07:22,570 - INFO - allennlp.common.params - data_loader.cuda_device = None
+2022-03-21 07:07:22,575 - INFO - tqdm - loading instances: 0it [00:00, ?it/s]
+2022-03-21 07:07:23,353 - INFO - allennlp.common.params - data_loader.type = multiprocess
+2022-03-21 07:07:23,363 - INFO - allennlp.common.params - data_loader.batch_size = None
+2022-03-21 07:07:23,380 - INFO - allennlp.common.params - data_loader.drop_last = False
+2022-03-21 07:07:23,398 - INFO - allennlp.common.params - data_loader.shuffle = False
+2022-03-21 07:07:23,416 - INFO - allennlp.common.params - data_loader.batch_sampler.type = bucket
+2022-03-21 07:07:23,419 - INFO - allennlp.common.params - data_loader.batch_sampler.batch_size = 16
+2022-03-21 07:07:23,421 - INFO - allennlp.common.params - data_loader.batch_sampler.sorting_keys = None
+2022-03-21 07:07:23,444 - INFO - allennlp.common.params - data_loader.batch_sampler.padding_noise = 0.1
+2022-03-21 07:07:23,465 - INFO - allennlp.common.params - data_loader.batch_sampler.drop_last = False
+2022-03-21 07:07:23,482 - INFO - allennlp.common.params - data_loader.batches_per_epoch = None
+2022-03-21 07:07:23,517 - INFO - allennlp.common.params - data_loader.num_workers = 0
+2022-03-21 07:07:23,524 - INFO - allennlp.common.params - data_loader.max_instances_in_memory = None
+2022-03-21 07:07:23,539 - INFO - allennlp.common.params - data_loader.start_method = fork
+2022-03-21 07:07:23,556 - INFO - allennlp.common.params - data_loader.cuda_device = None
+2022-03-21 07:07:23,575 - INFO - tqdm - loading instances: 0it [00:00, ?it/s]
+2022-03-21 07:07:23,620 - INFO - allennlp.common.params - data_loader.type = multiprocess
+2022-03-21 07:07:23,634 - INFO - allennlp.common.params - data_loader.batch_size = None
+2022-03-21 07:07:23,651 - INFO - allennlp.common.params - data_loader.drop_last = False
+2022-03-21 07:07:23,670 - INFO - allennlp.common.params - data_loader.shuffle = False
+2022-03-21 07:07:23,721 - INFO - allennlp.common.params - data_loader.batch_sampler.type = bucket
+2022-03-21 07:07:23,725 - INFO - allennlp.common.params - data_loader.batch_sampler.batch_size = 16
+2022-03-21 07:07:23,752 - INFO - allennlp.common.params - data_loader.batch_sampler.sorting_keys = None
+2022-03-21 07:07:23,767 - INFO - allennlp.common.params - data_loader.batch_sampler.padding_noise = 0.1
+2022-03-21 07:07:23,791 - INFO - allennlp.common.params - data_loader.batch_sampler.drop_last = False
+2022-03-21 07:07:23,810 - INFO - allennlp.common.params - data_loader.batches_per_epoch = None
+2022-03-21 07:07:23,813 - INFO - allennlp.common.params - data_loader.num_workers = 0
+2022-03-21 07:07:23,816 - INFO - allennlp.common.params - data_loader.max_instances_in_memory = None
+2022-03-21 07:07:23,835 - INFO - allennlp.common.params - data_loader.start_method = fork
+2022-03-21 07:07:23,860 - INFO - allennlp.common.params - data_loader.cuda_device = None
+2022-03-21 07:07:23,872 - INFO - tqdm - loading instances: 0it [00:00, ?it/s]
+2022-03-21 07:07:23,930 - INFO - allennlp.common.params - type = from_instances
+2022-03-21 07:07:23,944 - INFO - allennlp.common.params - min_count = None
+2022-03-21 07:07:23,951 - INFO - allennlp.common.params - max_vocab_size = None
+2022-03-21 07:07:23,968 - INFO - allennlp.common.params - non_padded_namespaces = ('*tags', '*labels')
+2022-03-21 07:07:23,986 - INFO - allennlp.common.params - pretrained_files = None
+2022-03-21 07:07:24,004 - INFO - allennlp.common.params - only_include_pretrained_words = False
+2022-03-21 07:07:24,010 - INFO - allennlp.common.params - tokens_to_add = None
+2022-03-21 07:07:24,043 - INFO - allennlp.common.params - min_pretrained_embeddings = None
+2022-03-21 07:07:24,056 - INFO - allennlp.common.params - padding_token = @@PADDING@@
+2022-03-21 07:07:24,114 - INFO - allennlp.common.params - oov_token = @@UNKNOWN@@
+2022-03-21 07:07:24,130 - INFO - allennlp.data.vocabulary - Fitting token dictionary from dataset.
+2022-03-21 07:07:24,146 - INFO - tqdm - building vocab: 0it [00:00, ?it/s]
+2022-03-21 07:07:24,185 - INFO - allennlp.common.params - model.type = basic_classifier_with_f1
+2022-03-21 07:07:24,201 - INFO - allennlp.common.params - model.text_field_embedder.type = basic
+2022-03-21 07:07:24,219 - INFO - allennlp.common.params - model.text_field_embedder.token_embedders.tokens.type = pretrained_transformer
+2022-03-21 07:07:24,262 - INFO - allennlp.common.params - model.text_field_embedder.token_embedders.tokens.model_name = roberta-base
+2022-03-21 07:07:24,270 - INFO - allennlp.common.params - model.text_field_embedder.token_embedders.tokens.max_length = 512
+2022-03-21 07:07:24,276 - INFO - allennlp.common.params - model.text_field_embedder.token_embedders.tokens.sub_module = None
+2022-03-21 07:07:24,304 - INFO - allennlp.common.params - model.text_field_embedder.token_embedders.tokens.train_parameters = True
+2022-03-21 07:07:24,321 - INFO - allennlp.common.params - model.text_field_embedder.token_embedders.tokens.last_layer_only = True
+2022-03-21 07:07:24,339 - INFO - allennlp.common.params - model.text_field_embedder.token_embedders.tokens.override_weights_file = None
+2022-03-21 07:07:24,356 - INFO - allennlp.common.params - model.text_field_embedder.token_embedders.tokens.override_weights_strip_prefix = None
+2022-03-21 07:07:24,375 - INFO - allennlp.common.params - model.text_field_embedder.token_embedders.tokens.gradient_checkpointing = None
+2022-03-21 07:07:24,391 - INFO - allennlp.common.params - model.text_field_embedder.token_embedders.tokens.tokenizer_kwargs = None
+2022-03-21 07:07:24,417 - INFO - allennlp.common.params - model.text_field_embedder.token_embedders.tokens.transformer_kwargs = None
+2022-03-21 07:07:32,184 - INFO - allennlp.common.params - model.seq2vec_encoder.type = cls_pooler
+2022-03-21 07:07:32,197 - INFO - allennlp.common.params - model.seq2vec_encoder.embedding_dim = 768
+2022-03-21 07:07:32,210 - INFO - allennlp.common.params - model.seq2vec_encoder.cls_is_last_token = False
+2022-03-21 07:07:32,259 - INFO - allennlp.common.params - model.feedforward_layer.input_dim = 768
+2022-03-21 07:07:32,276 - INFO - allennlp.common.params - model.feedforward_layer.num_layers = 1
+2022-03-21 07:07:32,294 - INFO - allennlp.common.params - model.feedforward_layer.hidden_dims = 768
+2022-03-21 07:07:32,314 - INFO - allennlp.common.params - model.feedforward_layer.activations = tanh
+2022-03-21 07:07:32,330 - INFO - allennlp.common.params - type = tanh
+2022-03-21 07:07:32,348 - INFO - allennlp.common.params - model.feedforward_layer.dropout = 0.0
+2022-03-21 07:07:32,372 - INFO - allennlp.common.params - model.seq2seq_encoder = None
+2022-03-21 07:07:32,384 - INFO - allennlp.common.params - model.dropout = 0.1
+2022-03-21 07:07:32,401 - INFO - allennlp.common.params - model.num_labels = None
+2022-03-21 07:07:32,419 - INFO - allennlp.common.params - model.label_namespace = labels
+2022-03-21 07:07:32,436 - INFO - allennlp.common.params - model.initializer = <allennlp.nn.initializers.InitializerApplicator object at 0x7f2e6a887490>
+2022-03-21 07:07:32,454 - INFO - allennlp.common.params - model.regularizer = None
+2022-03-21 07:07:32,473 - INFO - allennlp.common.params - model.track_weights = False
+2022-03-21 07:07:32,491 - INFO - allennlp.common.params - model.disable_layers = []
+2022-03-21 07:07:32,513 - INFO - allennlp.nn.initializers - Initializing parameters
+2022-03-21 07:07:32,532 - INFO - allennlp.nn.initializers - Done initializing parameters; the following parameters are using their default initialization from their code
+2022-03-21 07:07:32,535 - INFO - allennlp.nn.initializers -    _classification_layer.bias
+2022-03-21 07:07:32,553 - INFO - allennlp.nn.initializers -    _classification_layer.weight
+2022-03-21 07:07:32,604 - INFO - allennlp.nn.initializers -    _feedforward_layer._linear_layers.0.bias
+2022-03-21 07:07:32,622 - INFO - allennlp.nn.initializers -    _feedforward_layer._linear_layers.0.weight
+2022-03-21 07:07:32,640 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.embeddings.LayerNorm.bias
+2022-03-21 07:07:32,657 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.embeddings.LayerNorm.weight
+2022-03-21 07:07:32,675 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.embeddings.position_embeddings.weight
+2022-03-21 07:07:32,693 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.embeddings.token_type_embeddings.weight
+2022-03-21 07:07:32,711 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.embeddings.word_embeddings.weight
+2022-03-21 07:07:32,729 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.0.attention.output.LayerNorm.bias
+2022-03-21 07:07:32,749 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.0.attention.output.LayerNorm.weight
+2022-03-21 07:07:32,767 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.0.attention.output.dense.bias
+2022-03-21 07:07:32,786 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.0.attention.output.dense.weight
+2022-03-21 07:07:32,802 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.0.attention.self.key.bias
+2022-03-21 07:07:32,819 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.0.attention.self.key.weight
+2022-03-21 07:07:32,837 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.0.attention.self.query.bias
+2022-03-21 07:07:32,857 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.0.attention.self.query.weight
+2022-03-21 07:07:32,874 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.0.attention.self.value.bias
+2022-03-21 07:07:32,897 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.0.attention.self.value.weight
+2022-03-21 07:07:32,911 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.0.intermediate.dense.bias
+2022-03-21 07:07:32,926 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.0.intermediate.dense.weight
+2022-03-21 07:07:32,944 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.0.output.LayerNorm.bias
+2022-03-21 07:07:32,961 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.0.output.LayerNorm.weight
+2022-03-21 07:07:32,980 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.0.output.dense.bias
+2022-03-21 07:07:33,037 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.0.output.dense.weight
+2022-03-21 07:07:33,040 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.1.attention.output.LayerNorm.bias
+2022-03-21 07:07:33,057 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.1.attention.output.LayerNorm.weight
+2022-03-21 07:07:33,075 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.1.attention.output.dense.bias
+2022-03-21 07:07:33,118 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.1.attention.output.dense.weight
+2022-03-21 07:07:33,136 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.1.attention.self.key.bias
+2022-03-21 07:07:33,154 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.1.attention.self.key.weight
+2022-03-21 07:07:33,175 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.1.attention.self.query.bias
+2022-03-21 07:07:33,190 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.1.attention.self.query.weight
+2022-03-21 07:07:33,234 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.1.attention.self.value.bias
+2022-03-21 07:07:33,251 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.1.attention.self.value.weight
+2022-03-21 07:07:33,269 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.1.intermediate.dense.bias
+2022-03-21 07:07:33,287 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.1.intermediate.dense.weight
+2022-03-21 07:07:33,304 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.1.output.LayerNorm.bias
+2022-03-21 07:07:33,323 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.1.output.LayerNorm.weight
+2022-03-21 07:07:33,342 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.1.output.dense.bias
+2022-03-21 07:07:33,360 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.1.output.dense.weight
+2022-03-21 07:07:33,408 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.10.attention.output.LayerNorm.bias
+2022-03-21 07:07:33,463 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.10.attention.output.LayerNorm.weight
+2022-03-21 07:07:33,481 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.10.attention.output.dense.bias
+2022-03-21 07:07:33,501 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.10.attention.output.dense.weight
+2022-03-21 07:07:33,518 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.10.attention.self.key.bias
+2022-03-21 07:07:33,539 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.10.attention.self.key.weight
+2022-03-21 07:07:33,557 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.10.attention.self.query.bias
+2022-03-21 07:07:33,611 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.10.attention.self.query.weight
+2022-03-21 07:07:33,629 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.10.attention.self.value.bias
+2022-03-21 07:07:33,632 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.10.attention.self.value.weight
+2022-03-21 07:07:33,653 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.10.intermediate.dense.bias
+2022-03-21 07:07:33,671 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.10.intermediate.dense.weight
+2022-03-21 07:07:33,689 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.10.output.LayerNorm.bias
+2022-03-21 07:07:33,706 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.10.output.LayerNorm.weight
+2022-03-21 07:07:33,725 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.10.output.dense.bias
+2022-03-21 07:07:33,785 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.10.output.dense.weight
+2022-03-21 07:07:33,805 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.11.attention.output.LayerNorm.bias
+2022-03-21 07:07:33,819 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.11.attention.output.LayerNorm.weight
+2022-03-21 07:07:33,837 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.11.attention.output.dense.bias
+2022-03-21 07:07:33,855 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.11.attention.output.dense.weight
+2022-03-21 07:07:33,873 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.11.attention.self.key.bias
+2022-03-21 07:07:33,931 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.11.attention.self.key.weight
+2022-03-21 07:07:33,948 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.11.attention.self.query.bias
+2022-03-21 07:07:33,966 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.11.attention.self.query.weight
+2022-03-21 07:07:33,983 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.11.attention.self.value.bias
+2022-03-21 07:07:34,000 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.11.attention.self.value.weight
+2022-03-21 07:07:34,019 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.11.intermediate.dense.bias
+2022-03-21 07:07:34,039 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.11.intermediate.dense.weight
+2022-03-21 07:07:34,056 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.11.output.LayerNorm.bias
+2022-03-21 07:07:34,083 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.11.output.LayerNorm.weight
+2022-03-21 07:07:34,094 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.11.output.dense.bias
+2022-03-21 07:07:34,131 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.11.output.dense.weight
+2022-03-21 07:07:34,148 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.2.attention.output.LayerNorm.bias
+2022-03-21 07:07:34,165 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.2.attention.output.LayerNorm.weight
+2022-03-21 07:07:34,183 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.2.attention.output.dense.bias
+2022-03-21 07:07:34,201 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.2.attention.output.dense.weight
+2022-03-21 07:07:34,237 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.2.attention.self.key.bias
+2022-03-21 07:07:34,242 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.2.attention.self.key.weight
+2022-03-21 07:07:34,259 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.2.attention.self.query.bias
+2022-03-21 07:07:34,262 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.2.attention.self.query.weight
+2022-03-21 07:07:34,265 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.2.attention.self.value.bias
+2022-03-21 07:07:34,268 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.2.attention.self.value.weight
+2022-03-21 07:07:34,287 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.2.intermediate.dense.bias
+2022-03-21 07:07:34,305 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.2.intermediate.dense.weight
+2022-03-21 07:07:34,322 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.2.output.LayerNorm.bias
+2022-03-21 07:07:34,339 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.2.output.LayerNorm.weight
+2022-03-21 07:07:34,357 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.2.output.dense.bias
+2022-03-21 07:07:34,375 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.2.output.dense.weight
+2022-03-21 07:07:34,416 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.3.attention.output.LayerNorm.bias
+2022-03-21 07:07:34,453 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.3.attention.output.LayerNorm.weight
+2022-03-21 07:07:34,470 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.3.attention.output.dense.bias
+2022-03-21 07:07:34,487 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.3.attention.output.dense.weight
+2022-03-21 07:07:34,509 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.3.attention.self.key.bias
+2022-03-21 07:07:34,524 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.3.attention.self.key.weight
+2022-03-21 07:07:34,540 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.3.attention.self.query.bias
+2022-03-21 07:07:34,576 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.3.attention.self.query.weight
+2022-03-21 07:07:34,578 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.3.attention.self.value.bias
+2022-03-21 07:07:34,596 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.3.attention.self.value.weight
+2022-03-21 07:07:34,613 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.3.intermediate.dense.bias
+2022-03-21 07:07:34,631 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.3.intermediate.dense.weight
+2022-03-21 07:07:34,648 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.3.output.LayerNorm.bias
+2022-03-21 07:07:34,674 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.3.output.LayerNorm.weight
+2022-03-21 07:07:34,694 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.3.output.dense.bias
+2022-03-21 07:07:34,709 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.3.output.dense.weight
+2022-03-21 07:07:34,727 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.4.attention.output.LayerNorm.bias
+2022-03-21 07:07:34,766 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.4.attention.output.LayerNorm.weight
+2022-03-21 07:07:34,783 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.4.attention.output.dense.bias
+2022-03-21 07:07:34,800 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.4.attention.output.dense.weight
+2022-03-21 07:07:34,820 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.4.attention.self.key.bias
+2022-03-21 07:07:34,841 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.4.attention.self.key.weight
+2022-03-21 07:07:34,857 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.4.attention.self.query.bias
+2022-03-21 07:07:34,875 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.4.attention.self.query.weight
+2022-03-21 07:07:34,891 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.4.attention.self.value.bias
+2022-03-21 07:07:34,909 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.4.attention.self.value.weight
+2022-03-21 07:07:34,911 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.4.intermediate.dense.bias
+2022-03-21 07:07:34,928 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.4.intermediate.dense.weight
+2022-03-21 07:07:34,947 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.4.output.LayerNorm.bias
+2022-03-21 07:07:34,963 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.4.output.LayerNorm.weight
+2022-03-21 07:07:34,982 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.4.output.dense.bias
+2022-03-21 07:07:35,004 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.4.output.dense.weight
+2022-03-21 07:07:35,009 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.5.attention.output.LayerNorm.bias
+2022-03-21 07:07:35,033 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.5.attention.output.LayerNorm.weight
+2022-03-21 07:07:35,073 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.5.attention.output.dense.bias
+2022-03-21 07:07:35,090 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.5.attention.output.dense.weight
+2022-03-21 07:07:35,107 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.5.attention.self.key.bias
+2022-03-21 07:07:35,124 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.5.attention.self.key.weight
+2022-03-21 07:07:35,142 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.5.attention.self.query.bias
+2022-03-21 07:07:35,161 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.5.attention.self.query.weight
+2022-03-21 07:07:35,174 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.5.attention.self.value.bias
+2022-03-21 07:07:35,205 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.5.attention.self.value.weight
+2022-03-21 07:07:35,224 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.5.intermediate.dense.bias
+2022-03-21 07:07:35,242 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.5.intermediate.dense.weight
+2022-03-21 07:07:35,244 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.5.output.LayerNorm.bias
+2022-03-21 07:07:35,246 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.5.output.LayerNorm.weight
+2022-03-21 07:07:35,267 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.5.output.dense.bias
+2022-03-21 07:07:35,285 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.5.output.dense.weight
+2022-03-21 07:07:35,305 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.6.attention.output.LayerNorm.bias
+2022-03-21 07:07:35,327 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.6.attention.output.LayerNorm.weight
+2022-03-21 07:07:35,353 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.6.attention.output.dense.bias
+2022-03-21 07:07:35,367 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.6.attention.output.dense.weight
+2022-03-21 07:07:35,385 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.6.attention.self.key.bias
+2022-03-21 07:07:35,390 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.6.attention.self.key.weight
+2022-03-21 07:07:35,393 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.6.attention.self.query.bias
+2022-03-21 07:07:35,396 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.6.attention.self.query.weight
+2022-03-21 07:07:35,419 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.6.attention.self.value.bias
+2022-03-21 07:07:35,422 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.6.attention.self.value.weight
+2022-03-21 07:07:35,440 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.6.intermediate.dense.bias
+2022-03-21 07:07:35,460 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.6.intermediate.dense.weight
+2022-03-21 07:07:35,463 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.6.output.LayerNorm.bias
+2022-03-21 07:07:35,466 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.6.output.LayerNorm.weight
+2022-03-21 07:07:35,469 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.6.output.dense.bias
+2022-03-21 07:07:35,477 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.6.output.dense.weight
+2022-03-21 07:07:35,488 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.7.attention.output.LayerNorm.bias
+2022-03-21 07:07:35,495 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.7.attention.output.LayerNorm.weight
+2022-03-21 07:07:35,504 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.7.attention.output.dense.bias
+2022-03-21 07:07:35,507 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.7.attention.output.dense.weight
+2022-03-21 07:07:35,510 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.7.attention.self.key.bias
+2022-03-21 07:07:35,531 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.7.attention.self.key.weight
+2022-03-21 07:07:35,549 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.7.attention.self.query.bias
+2022-03-21 07:07:35,566 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.7.attention.self.query.weight
+2022-03-21 07:07:35,583 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.7.attention.self.value.bias
+2022-03-21 07:07:35,604 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.7.attention.self.value.weight
+2022-03-21 07:07:35,622 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.7.intermediate.dense.bias
+2022-03-21 07:07:35,676 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.7.intermediate.dense.weight
+2022-03-21 07:07:35,693 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.7.output.LayerNorm.bias
+2022-03-21 07:07:35,712 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.7.output.LayerNorm.weight
+2022-03-21 07:07:35,731 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.7.output.dense.bias
+2022-03-21 07:07:35,785 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.7.output.dense.weight
+2022-03-21 07:07:35,802 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.8.attention.output.LayerNorm.bias
+2022-03-21 07:07:35,821 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.8.attention.output.LayerNorm.weight
+2022-03-21 07:07:35,841 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.8.attention.output.dense.bias
+2022-03-21 07:07:35,858 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.8.attention.output.dense.weight
+2022-03-21 07:07:35,873 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.8.attention.self.key.bias
+2022-03-21 07:07:35,890 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.8.attention.self.key.weight
+2022-03-21 07:07:35,908 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.8.attention.self.query.bias
+2022-03-21 07:07:35,963 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.8.attention.self.query.weight
+2022-03-21 07:07:35,981 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.8.attention.self.value.bias
+2022-03-21 07:07:35,999 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.8.attention.self.value.weight
+2022-03-21 07:07:36,036 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.8.intermediate.dense.bias
+2022-03-21 07:07:36,079 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.8.intermediate.dense.weight
+2022-03-21 07:07:36,097 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.8.output.LayerNorm.bias
+2022-03-21 07:07:36,114 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.8.output.LayerNorm.weight
+2022-03-21 07:07:36,131 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.8.output.dense.bias
+2022-03-21 07:07:36,149 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.8.output.dense.weight
+2022-03-21 07:07:36,167 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.9.attention.output.LayerNorm.bias
+2022-03-21 07:07:36,185 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.9.attention.output.LayerNorm.weight
+2022-03-21 07:07:36,225 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.9.attention.output.dense.bias
+2022-03-21 07:07:36,243 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.9.attention.output.dense.weight
+2022-03-21 07:07:36,260 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.9.attention.self.key.bias
+2022-03-21 07:07:36,279 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.9.attention.self.key.weight
+2022-03-21 07:07:36,297 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.9.attention.self.query.bias
+2022-03-21 07:07:36,348 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.9.attention.self.query.weight
+2022-03-21 07:07:36,363 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.9.attention.self.value.bias
+2022-03-21 07:07:36,380 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.9.attention.self.value.weight
+2022-03-21 07:07:36,398 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.9.intermediate.dense.bias
+2022-03-21 07:07:36,424 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.9.intermediate.dense.weight
+2022-03-21 07:07:36,445 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.9.output.LayerNorm.bias
+2022-03-21 07:07:36,462 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.9.output.LayerNorm.weight
+2022-03-21 07:07:36,480 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.9.output.dense.bias
+2022-03-21 07:07:36,497 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.9.output.dense.weight
+2022-03-21 07:07:36,541 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.pooler.dense.bias
+2022-03-21 07:07:36,560 - INFO - allennlp.nn.initializers -    _text_field_embedder.token_embedder_tokens.transformer_model.pooler.dense.weight
+2022-03-21 07:07:38,371 - INFO - allennlp.common.params - trainer.type = gradient_descent
+2022-03-21 07:07:38,385 - INFO - allennlp.common.params - trainer.patience = 3
+2022-03-21 07:07:38,398 - INFO - allennlp.common.params - trainer.validation_metric = +f1
+2022-03-21 07:07:38,415 - INFO - allennlp.common.params - trainer.num_epochs = 10
+2022-03-21 07:07:38,433 - INFO - allennlp.common.params - trainer.cuda_device = 2
+2022-03-21 07:07:38,450 - INFO - allennlp.common.params - trainer.grad_norm = None
+2022-03-21 07:07:38,467 - INFO - allennlp.common.params - trainer.grad_clipping = None
+2022-03-21 07:07:38,483 - INFO - allennlp.common.params - trainer.distributed = False
+2022-03-21 07:07:38,529 - INFO - allennlp.common.params - trainer.world_size = 1
+2022-03-21 07:07:38,551 - INFO - allennlp.common.params - trainer.num_gradient_accumulation_steps = 1
+2022-03-21 07:07:38,565 - INFO - allennlp.common.params - trainer.use_amp = False
+2022-03-21 07:07:38,583 - INFO - allennlp.common.params - trainer.no_grad = None
+2022-03-21 07:07:38,601 - INFO - allennlp.common.params - trainer.learning_rate_scheduler = None
+2022-03-21 07:07:38,618 - INFO - allennlp.common.params - trainer.momentum_scheduler = None
+2022-03-21 07:07:38,636 - INFO - allennlp.common.params - trainer.moving_average = None
+2022-03-21 07:07:38,691 - INFO - allennlp.common.params - trainer.callbacks = None
+2022-03-21 07:07:38,693 - INFO - allennlp.common.params - trainer.enable_default_callbacks = True
+2022-03-21 07:07:44,487 - INFO - allennlp.common.params - trainer.optimizer.type = huggingface_adamw_str_lr
+2022-03-21 07:07:44,506 - INFO - allennlp.common.params - trainer.optimizer.lr = 2e-05
+2022-03-21 07:07:44,544 - INFO - allennlp.common.params - trainer.optimizer.betas = [0.9, 0.98]
+2022-03-21 07:07:44,548 - INFO - allennlp.common.params - trainer.optimizer.eps = 1e-06
+2022-03-21 07:07:44,551 - INFO - allennlp.common.params - trainer.optimizer.weight_decay = 0.1
+2022-03-21 07:07:44,569 - INFO - allennlp.common.params - trainer.optimizer.correct_bias = False
+2022-03-21 07:07:44,591 - INFO - allennlp.training.optimizers - Done constructing parameter groups.
+2022-03-21 07:07:44,606 - INFO - allennlp.training.optimizers - Group 0: ['_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.10.attention.output.LayerNorm.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.5.intermediate.dense.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.3.output.dense.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.5.attention.self.query.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.4.attention.output.LayerNorm.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.2.attention.self.query.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.10.output.dense.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.8.attention.self.query.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.1.intermediate.dense.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.2.output.LayerNorm.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.4.attention.self.query.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.0.attention.self.value.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.7.attention.self.key.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.6.attention.output.dense.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.11.output.LayerNorm.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.10.attention.self.value.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.1.attention.self.value.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.8.intermediate.dense.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.3.attention.self.query.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.6.intermediate.dense.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.4.output.LayerNorm.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.8.attention.output.dense.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.6.output.dense.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.2.attention.self.value.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.embeddings.LayerNorm.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.8.output.LayerNorm.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.0.output.LayerNorm.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.3.output.LayerNorm.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.11.attention.output.dense.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.2.attention.output.LayerNorm.bias', '_classification_layer.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.0.attention.self.key.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.7.attention.output.LayerNorm.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.4.output.dense.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.6.output.LayerNorm.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.11.attention.self.query.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.2.intermediate.dense.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.6.attention.self.value.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.7.output.LayerNorm.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.1.attention.output.dense.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.1.output.LayerNorm.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.4.intermediate.dense.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.6.output.LayerNorm.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.7.attention.self.query.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.3.output.LayerNorm.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.0.attention.self.query.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.6.attention.output.LayerNorm.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.10.attention.output.LayerNorm.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.10.output.LayerNorm.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.3.attention.self.value.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.8.attention.self.key.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.9.attention.output.LayerNorm.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.10.attention.self.key.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.9.output.LayerNorm.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.8.attention.self.value.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.10.intermediate.dense.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.5.attention.output.LayerNorm.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.6.attention.self.query.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.3.attention.output.dense.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.9.attention.output.dense.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.10.attention.self.query.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.9.intermediate.dense.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.9.attention.self.value.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.1.attention.output.LayerNorm.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.4.output.LayerNorm.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.2.attention.self.key.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.7.output.LayerNorm.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.11.attention.output.LayerNorm.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.5.output.dense.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.11.output.dense.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.3.attention.output.LayerNorm.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.7.attention.output.LayerNorm.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.7.intermediate.dense.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.9.output.LayerNorm.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.6.attention.output.LayerNorm.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.11.attention.self.key.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.11.intermediate.dense.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.3.attention.self.key.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.8.attention.output.LayerNorm.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.7.attention.output.dense.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.8.output.dense.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.2.output.LayerNorm.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.5.attention.output.LayerNorm.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.9.output.dense.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.3.attention.output.LayerNorm.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.2.output.dense.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.0.attention.output.LayerNorm.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.4.attention.output.dense.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.embeddings.LayerNorm.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.2.attention.output.LayerNorm.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.5.attention.self.key.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.pooler.dense.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.11.attention.self.value.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.1.attention.output.LayerNorm.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.1.output.dense.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.6.attention.self.key.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.1.output.LayerNorm.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.1.attention.self.key.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.10.attention.output.dense.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.0.attention.output.dense.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.0.intermediate.dense.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.7.attention.self.value.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.5.output.LayerNorm.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.3.intermediate.dense.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.9.attention.output.LayerNorm.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.11.attention.output.LayerNorm.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.4.attention.self.key.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.8.output.LayerNorm.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.8.attention.output.LayerNorm.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.2.attention.output.dense.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.0.output.LayerNorm.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.1.attention.self.query.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.5.attention.output.dense.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.10.output.LayerNorm.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.5.attention.self.value.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.0.attention.output.LayerNorm.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.11.output.LayerNorm.bias', '_feedforward_layer._linear_layers.0.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.5.output.LayerNorm.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.0.output.dense.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.7.output.dense.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.9.attention.self.query.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.4.attention.self.value.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.9.attention.self.key.bias', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.4.attention.output.LayerNorm.weight'], {'weight_decay': 0}
+2022-03-21 07:07:44,610 - INFO - allennlp.training.optimizers - Group 1: ['_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.9.attention.self.query.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.pooler.dense.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.9.attention.output.dense.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.7.intermediate.dense.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.4.attention.self.query.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.10.attention.output.dense.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.1.intermediate.dense.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.7.attention.output.dense.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.11.attention.self.query.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.10.intermediate.dense.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.0.attention.output.dense.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.10.attention.self.key.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.1.output.dense.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.2.output.dense.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.9.attention.self.key.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.2.attention.self.query.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.0.intermediate.dense.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.3.attention.self.query.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.10.attention.self.query.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.5.intermediate.dense.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.5.attention.output.dense.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.3.attention.output.dense.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.11.attention.self.key.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.3.attention.self.key.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.4.attention.self.key.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.embeddings.word_embeddings.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.9.intermediate.dense.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.6.attention.self.query.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.4.attention.self.value.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.embeddings.token_type_embeddings.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.8.intermediate.dense.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.8.attention.self.query.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.10.attention.self.value.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.1.attention.output.dense.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.8.attention.output.dense.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.11.attention.output.dense.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.3.output.dense.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.7.output.dense.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.2.attention.self.value.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.11.attention.self.value.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.6.attention.self.key.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.8.output.dense.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.2.attention.output.dense.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.10.output.dense.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.4.output.dense.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.0.attention.self.value.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.11.intermediate.dense.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.2.intermediate.dense.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.0.attention.self.query.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.1.attention.self.value.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.8.attention.self.value.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.1.attention.self.key.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.7.attention.self.key.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.3.intermediate.dense.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.9.attention.self.value.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.6.attention.self.value.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.8.attention.self.key.weight', '_classification_layer.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.7.attention.self.value.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.5.attention.self.query.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.6.attention.output.dense.weight', '_feedforward_layer._linear_layers.0.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.embeddings.position_embeddings.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.2.attention.self.key.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.5.attention.self.key.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.4.attention.output.dense.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.5.attention.self.value.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.5.output.dense.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.3.attention.self.value.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.0.output.dense.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.9.output.dense.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.11.output.dense.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.6.output.dense.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.7.attention.self.query.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.6.intermediate.dense.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.0.attention.self.key.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.1.attention.self.query.weight', '_text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.4.intermediate.dense.weight'], {}
+2022-03-21 07:07:44,633 - WARNING - allennlp.training.optimizers - When constructing parameter groups, layer_norm.weight does not match any parameter name
+2022-03-21 07:07:44,651 - INFO - allennlp.training.optimizers - Number of trainable parameters: 125240838
+2022-03-21 07:07:44,671 - INFO - allennlp.common.util - The following parameters are Frozen (without gradient):
+2022-03-21 07:07:44,718 - INFO - allennlp.common.util - The following parameters are Tunable (with gradient):
+2022-03-21 07:07:44,737 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.embeddings.word_embeddings.weight
+2022-03-21 07:07:44,773 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.embeddings.position_embeddings.weight
+2022-03-21 07:07:44,775 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.embeddings.token_type_embeddings.weight
+2022-03-21 07:07:44,799 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.embeddings.LayerNorm.weight
+2022-03-21 07:07:44,821 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.embeddings.LayerNorm.bias
+2022-03-21 07:07:44,836 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.0.attention.self.query.weight
+2022-03-21 07:07:44,857 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.0.attention.self.query.bias
+2022-03-21 07:07:44,873 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.0.attention.self.key.weight
+2022-03-21 07:07:44,875 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.0.attention.self.key.bias
+2022-03-21 07:07:44,877 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.0.attention.self.value.weight
+2022-03-21 07:07:44,879 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.0.attention.self.value.bias
+2022-03-21 07:07:44,880 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.0.attention.output.dense.weight
+2022-03-21 07:07:44,961 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.0.attention.output.dense.bias
+2022-03-21 07:07:44,978 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.0.attention.output.LayerNorm.weight
+2022-03-21 07:07:44,980 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.0.attention.output.LayerNorm.bias
+2022-03-21 07:07:44,982 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.0.intermediate.dense.weight
+2022-03-21 07:07:44,986 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.0.intermediate.dense.bias
+2022-03-21 07:07:44,990 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.0.output.dense.weight
+2022-03-21 07:07:45,018 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.0.output.dense.bias
+2022-03-21 07:07:45,033 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.0.output.LayerNorm.weight
+2022-03-21 07:07:45,049 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.0.output.LayerNorm.bias
+2022-03-21 07:07:45,109 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.1.attention.self.query.weight
+2022-03-21 07:07:45,145 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.1.attention.self.query.bias
+2022-03-21 07:07:45,163 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.1.attention.self.key.weight
+2022-03-21 07:07:45,167 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.1.attention.self.key.bias
+2022-03-21 07:07:45,175 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.1.attention.self.value.weight
+2022-03-21 07:07:45,194 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.1.attention.self.value.bias
+2022-03-21 07:07:45,211 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.1.attention.output.dense.weight
+2022-03-21 07:07:45,229 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.1.attention.output.dense.bias
+2022-03-21 07:07:45,231 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.1.attention.output.LayerNorm.weight
+2022-03-21 07:07:45,269 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.1.attention.output.LayerNorm.bias
+2022-03-21 07:07:45,277 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.1.intermediate.dense.weight
+2022-03-21 07:07:45,290 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.1.intermediate.dense.bias
+2022-03-21 07:07:45,308 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.1.output.dense.weight
+2022-03-21 07:07:45,325 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.1.output.dense.bias
+2022-03-21 07:07:45,343 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.1.output.LayerNorm.weight
+2022-03-21 07:07:45,363 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.1.output.LayerNorm.bias
+2022-03-21 07:07:45,382 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.2.attention.self.query.weight
+2022-03-21 07:07:45,387 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.2.attention.self.query.bias
+2022-03-21 07:07:45,390 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.2.attention.self.key.weight
+2022-03-21 07:07:45,392 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.2.attention.self.key.bias
+2022-03-21 07:07:45,394 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.2.attention.self.value.weight
+2022-03-21 07:07:45,397 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.2.attention.self.value.bias
+2022-03-21 07:07:45,435 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.2.attention.output.dense.weight
+2022-03-21 07:07:45,466 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.2.attention.output.dense.bias
+2022-03-21 07:07:45,481 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.2.attention.output.LayerNorm.weight
+2022-03-21 07:07:45,499 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.2.attention.output.LayerNorm.bias
+2022-03-21 07:07:45,522 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.2.intermediate.dense.weight
+2022-03-21 07:07:45,535 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.2.intermediate.dense.bias
+2022-03-21 07:07:45,554 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.2.output.dense.weight
+2022-03-21 07:07:45,571 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.2.output.dense.bias
+2022-03-21 07:07:45,589 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.2.output.LayerNorm.weight
+2022-03-21 07:07:45,613 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.2.output.LayerNorm.bias
+2022-03-21 07:07:45,633 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.3.attention.self.query.weight
+2022-03-21 07:07:45,643 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.3.attention.self.query.bias
+2022-03-21 07:07:45,663 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.3.attention.self.key.weight
+2022-03-21 07:07:45,678 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.3.attention.self.key.bias
+2022-03-21 07:07:45,696 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.3.attention.self.value.weight
+2022-03-21 07:07:45,715 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.3.attention.self.value.bias
+2022-03-21 07:07:45,722 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.3.attention.output.dense.weight
+2022-03-21 07:07:45,740 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.3.attention.output.dense.bias
+2022-03-21 07:07:45,757 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.3.attention.output.LayerNorm.weight
+2022-03-21 07:07:45,781 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.3.attention.output.LayerNorm.bias
+2022-03-21 07:07:45,818 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.3.intermediate.dense.weight
+2022-03-21 07:07:45,837 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.3.intermediate.dense.bias
+2022-03-21 07:07:45,855 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.3.output.dense.weight
+2022-03-21 07:07:45,874 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.3.output.dense.bias
+2022-03-21 07:07:45,891 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.3.output.LayerNorm.weight
+2022-03-21 07:07:45,917 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.3.output.LayerNorm.bias
+2022-03-21 07:07:45,929 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.4.attention.self.query.weight
+2022-03-21 07:07:45,951 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.4.attention.self.query.bias
+2022-03-21 07:07:45,965 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.4.attention.self.key.weight
+2022-03-21 07:07:45,982 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.4.attention.self.key.bias
+2022-03-21 07:07:46,000 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.4.attention.self.value.weight
+2022-03-21 07:07:46,017 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.4.attention.self.value.bias
+2022-03-21 07:07:46,036 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.4.attention.output.dense.weight
+2022-03-21 07:07:46,040 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.4.attention.output.dense.bias
+2022-03-21 07:07:46,084 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.4.attention.output.LayerNorm.weight
+2022-03-21 07:07:46,109 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.4.attention.output.LayerNorm.bias
+2022-03-21 07:07:46,168 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.4.intermediate.dense.weight
+2022-03-21 07:07:46,189 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.4.intermediate.dense.bias
+2022-03-21 07:07:46,205 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.4.output.dense.weight
+2022-03-21 07:07:46,229 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.4.output.dense.bias
+2022-03-21 07:07:46,247 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.4.output.LayerNorm.weight
+2022-03-21 07:07:46,264 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.4.output.LayerNorm.bias
+2022-03-21 07:07:46,267 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.5.attention.self.query.weight
+2022-03-21 07:07:46,270 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.5.attention.self.query.bias
+2022-03-21 07:07:46,273 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.5.attention.self.key.weight
+2022-03-21 07:07:46,276 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.5.attention.self.key.bias
+2022-03-21 07:07:46,318 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.5.attention.self.value.weight
+2022-03-21 07:07:46,341 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.5.attention.self.value.bias
+2022-03-21 07:07:46,358 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.5.attention.output.dense.weight
+2022-03-21 07:07:46,375 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.5.attention.output.dense.bias
+2022-03-21 07:07:46,404 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.5.attention.output.LayerNorm.weight
+2022-03-21 07:07:46,412 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.5.attention.output.LayerNorm.bias
+2022-03-21 07:07:46,428 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.5.intermediate.dense.weight
+2022-03-21 07:07:46,493 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.5.intermediate.dense.bias
+2022-03-21 07:07:46,497 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.5.output.dense.weight
+2022-03-21 07:07:46,499 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.5.output.dense.bias
+2022-03-21 07:07:46,520 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.5.output.LayerNorm.weight
+2022-03-21 07:07:46,540 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.5.output.LayerNorm.bias
+2022-03-21 07:07:46,563 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.6.attention.self.query.weight
+2022-03-21 07:07:46,602 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.6.attention.self.query.bias
+2022-03-21 07:07:46,622 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.6.attention.self.key.weight
+2022-03-21 07:07:46,642 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.6.attention.self.key.bias
+2022-03-21 07:07:46,663 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.6.attention.self.value.weight
+2022-03-21 07:07:46,680 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.6.attention.self.value.bias
+2022-03-21 07:07:46,694 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.6.attention.output.dense.weight
+2022-03-21 07:07:46,724 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.6.attention.output.dense.bias
+2022-03-21 07:07:46,746 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.6.attention.output.LayerNorm.weight
+2022-03-21 07:07:46,753 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.6.attention.output.LayerNorm.bias
+2022-03-21 07:07:46,760 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.6.intermediate.dense.weight
+2022-03-21 07:07:46,800 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.6.intermediate.dense.bias
+2022-03-21 07:07:46,818 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.6.output.dense.weight
+2022-03-21 07:07:46,838 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.6.output.dense.bias
+2022-03-21 07:07:46,856 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.6.output.LayerNorm.weight
+2022-03-21 07:07:46,876 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.6.output.LayerNorm.bias
+2022-03-21 07:07:46,909 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.7.attention.self.query.weight
+2022-03-21 07:07:46,928 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.7.attention.self.query.bias
+2022-03-21 07:07:46,989 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.7.attention.self.key.weight
+2022-03-21 07:07:47,003 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.7.attention.self.key.bias
+2022-03-21 07:07:47,019 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.7.attention.self.value.weight
+2022-03-21 07:07:47,023 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.7.attention.self.value.bias
+2022-03-21 07:07:47,068 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.7.attention.output.dense.weight
+2022-03-21 07:07:47,085 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.7.attention.output.dense.bias
+2022-03-21 07:07:47,117 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.7.attention.output.LayerNorm.weight
+2022-03-21 07:07:47,121 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.7.attention.output.LayerNorm.bias
+2022-03-21 07:07:47,123 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.7.intermediate.dense.weight
+2022-03-21 07:07:47,125 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.7.intermediate.dense.bias
+2022-03-21 07:07:47,127 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.7.output.dense.weight
+2022-03-21 07:07:47,129 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.7.output.dense.bias
+2022-03-21 07:07:47,133 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.7.output.LayerNorm.weight
+2022-03-21 07:07:47,151 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.7.output.LayerNorm.bias
+2022-03-21 07:07:47,170 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.8.attention.self.query.weight
+2022-03-21 07:07:47,189 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.8.attention.self.query.bias
+2022-03-21 07:07:47,205 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.8.attention.self.key.weight
+2022-03-21 07:07:47,229 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.8.attention.self.key.bias
+2022-03-21 07:07:47,250 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.8.attention.self.value.weight
+2022-03-21 07:07:47,290 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.8.attention.self.value.bias
+2022-03-21 07:07:47,341 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.8.attention.output.dense.weight
+2022-03-21 07:07:47,353 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.8.attention.output.dense.bias
+2022-03-21 07:07:47,381 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.8.attention.output.LayerNorm.weight
+2022-03-21 07:07:47,416 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.8.attention.output.LayerNorm.bias
+2022-03-21 07:07:47,439 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.8.intermediate.dense.weight
+2022-03-21 07:07:47,454 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.8.intermediate.dense.bias
+2022-03-21 07:07:47,484 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.8.output.dense.weight
+2022-03-21 07:07:47,506 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.8.output.dense.bias
+2022-03-21 07:07:47,528 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.8.output.LayerNorm.weight
+2022-03-21 07:07:47,544 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.8.output.LayerNorm.bias
+2022-03-21 07:07:47,563 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.9.attention.self.query.weight
+2022-03-21 07:07:47,583 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.9.attention.self.query.bias
+2022-03-21 07:07:47,599 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.9.attention.self.key.weight
+2022-03-21 07:07:47,618 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.9.attention.self.key.bias
+2022-03-21 07:07:47,701 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.9.attention.self.value.weight
+2022-03-21 07:07:47,720 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.9.attention.self.value.bias
+2022-03-21 07:07:47,722 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.9.attention.output.dense.weight
+2022-03-21 07:07:47,741 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.9.attention.output.dense.bias
+2022-03-21 07:07:47,759 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.9.attention.output.LayerNorm.weight
+2022-03-21 07:07:47,761 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.9.attention.output.LayerNorm.bias
+2022-03-21 07:07:47,764 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.9.intermediate.dense.weight
+2022-03-21 07:07:47,766 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.9.intermediate.dense.bias
+2022-03-21 07:07:47,769 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.9.output.dense.weight
+2022-03-21 07:07:47,771 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.9.output.dense.bias
+2022-03-21 07:07:47,773 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.9.output.LayerNorm.weight
+2022-03-21 07:07:47,776 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.9.output.LayerNorm.bias
+2022-03-21 07:07:47,801 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.10.attention.self.query.weight
+2022-03-21 07:07:47,817 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.10.attention.self.query.bias
+2022-03-21 07:07:47,839 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.10.attention.self.key.weight
+2022-03-21 07:07:47,856 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.10.attention.self.key.bias
+2022-03-21 07:07:47,873 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.10.attention.self.value.weight
+2022-03-21 07:07:47,894 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.10.attention.self.value.bias
+2022-03-21 07:07:47,909 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.10.attention.output.dense.weight
+2022-03-21 07:07:47,928 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.10.attention.output.dense.bias
+2022-03-21 07:07:48,007 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.10.attention.output.LayerNorm.weight
+2022-03-21 07:07:48,018 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.10.attention.output.LayerNorm.bias
+2022-03-21 07:07:48,043 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.10.intermediate.dense.weight
+2022-03-21 07:07:48,063 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.10.intermediate.dense.bias
+2022-03-21 07:07:48,065 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.10.output.dense.weight
+2022-03-21 07:07:48,066 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.10.output.dense.bias
+2022-03-21 07:07:48,150 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.10.output.LayerNorm.weight
+2022-03-21 07:07:48,166 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.10.output.LayerNorm.bias
+2022-03-21 07:07:48,184 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.11.attention.self.query.weight
+2022-03-21 07:07:48,202 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.11.attention.self.query.bias
+2022-03-21 07:07:48,221 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.11.attention.self.key.weight
+2022-03-21 07:07:48,239 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.11.attention.self.key.bias
+2022-03-21 07:07:48,258 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.11.attention.self.value.weight
+2022-03-21 07:07:48,277 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.11.attention.self.value.bias
+2022-03-21 07:07:48,295 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.11.attention.output.dense.weight
+2022-03-21 07:07:48,313 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.11.attention.output.dense.bias
+2022-03-21 07:07:48,316 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.11.attention.output.LayerNorm.weight
+2022-03-21 07:07:48,335 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.11.attention.output.LayerNorm.bias
+2022-03-21 07:07:48,409 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.11.intermediate.dense.weight
+2022-03-21 07:07:48,426 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.11.intermediate.dense.bias
+2022-03-21 07:07:48,446 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.11.output.dense.weight
+2022-03-21 07:07:48,464 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.11.output.dense.bias
+2022-03-21 07:07:48,484 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.11.output.LayerNorm.weight
+2022-03-21 07:07:48,502 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.encoder.layer.11.output.LayerNorm.bias
+2022-03-21 07:07:48,521 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.pooler.dense.weight
+2022-03-21 07:07:48,541 - INFO - allennlp.common.util - _text_field_embedder.token_embedder_tokens.transformer_model.pooler.dense.bias
+2022-03-21 07:07:48,545 - INFO - allennlp.common.util - _feedforward_layer._linear_layers.0.weight
+2022-03-21 07:07:48,551 - INFO - allennlp.common.util - _feedforward_layer._linear_layers.0.bias
+2022-03-21 07:07:48,571 - INFO - allennlp.common.util - _classification_layer.weight
+2022-03-21 07:07:48,589 - INFO - allennlp.common.util - _classification_layer.bias
+2022-03-21 07:07:48,608 - INFO - allennlp.common.params - trainer.checkpointer.type = roberta_default
+2022-03-21 07:07:48,626 - INFO - allennlp.common.params - trainer.checkpointer.keep_serialized_model_every_num_seconds = None
+2022-03-21 07:07:48,646 - INFO - allennlp.common.params - trainer.checkpointer.num_serialized_models_to_keep = 0
+2022-03-21 07:07:48,668 - INFO - allennlp.common.params - trainer.checkpointer.model_save_interval = None
+2022-03-21 07:07:48,680 - INFO - allennlp.common.params - trainer.checkpointer.num_epochs = 10
+2022-03-21 07:07:48,698 - INFO - allennlp.common.params - trainer.checkpointer.skip_early_stopping = False
+2022-03-21 07:07:48,771 - INFO - allennlp.training.trainer - Beginning training.
+2022-03-21 07:07:48,791 - INFO - allennlp.training.trainer - Epoch 0/9
+2022-03-21 07:07:48,828 - INFO - allennlp.training.trainer - Worker 0 memory usage: 5.7G
+2022-03-21 07:07:48,847 - INFO - allennlp.training.trainer - GPU 0 memory usage: 0B
+2022-03-21 07:07:48,867 - INFO - allennlp.training.trainer - Training
+2022-03-21 07:07:48,882 - INFO - tqdm - 0%|          | 0/106 [00:00<?, ?it/s]
+2022-03-21 07:07:48,903 - INFO - allennlp.data.samplers.bucket_batch_sampler - No sorting keys given; trying to guess a good one
+2022-03-21 07:07:48,918 - INFO - allennlp.data.samplers.bucket_batch_sampler - Using ['tokens'] as the sorting keys
+2022-03-21 07:07:59,026 - INFO - tqdm - f1: 0.1697, accuracy: 0.5258, batch_loss: 1.6048, loss: 1.3328 ||:  94%|#########4| 100/106 [00:10<00:00, 11.47it/s]
+2022-03-21 07:07:59,609 - INFO - tqdm - f1: 0.1735, accuracy: 0.5267, batch_loss: 1.1565, loss: 1.3303 ||: 100%|##########| 106/106 [00:10<00:00, 10.68it/s]
+2022-03-21 07:07:59,622 - INFO - tqdm - f1: 0.1735, accuracy: 0.5267, batch_loss: 1.1565, loss: 1.3303 ||: 100%|##########| 106/106 [00:10<00:00,  9.89it/s]
+2022-03-21 07:07:59,647 - INFO - allennlp.training.trainer - Validating
+2022-03-21 07:07:59,659 - INFO - tqdm - 0%|          | 0/8 [00:00<?, ?it/s]
+2022-03-21 07:07:59,663 - INFO - allennlp.data.samplers.bucket_batch_sampler - No sorting keys given; trying to guess a good one
+2022-03-21 07:07:59,670 - INFO - allennlp.data.samplers.bucket_batch_sampler - Using ['tokens'] as the sorting keys
+2022-03-21 07:08:00,006 - INFO - tqdm - f1: 0.2902, accuracy: 0.6491, batch_loss: 0.9354, loss: 1.2112 ||: 100%|##########| 8/8 [00:00<00:00, 24.31it/s]
+2022-03-21 07:08:00,027 - INFO - tqdm - f1: 0.2902, accuracy: 0.6491, batch_loss: 0.9354, loss: 1.2112 ||: 100%|##########| 8/8 [00:00<00:00, 21.98it/s]
+2022-03-21 07:08:00,071 - INFO - dont_stop_pretraining.training.roberta_checkpointer - Best validation performance so far. Copying weights to 'model_logs/citation_intent_base_hyper_small_seed_177/best.th'.
+2022-03-21 07:08:05,243 - INFO - allennlp.training.callbacks.console_logger -                        Training |  Validation
+2022-03-21 07:08:05,246 - INFO - allennlp.training.callbacks.console_logger - accuracy           |     0.527  |     0.649
+2022-03-21 07:08:05,264 - INFO - allennlp.training.callbacks.console_logger - f1                 |     0.173  |     0.290
+2022-03-21 07:08:05,282 - INFO - allennlp.training.callbacks.console_logger - gpu_0_memory_MB    |     0.000  |       N/A
+2022-03-21 07:08:05,300 - INFO - allennlp.training.callbacks.console_logger - loss               |     1.330  |     1.211
+2022-03-21 07:08:05,318 - INFO - allennlp.training.callbacks.console_logger - worker_0_memory_MB |  5843.254  |       N/A
+2022-03-21 07:08:05,336 - INFO - allennlp.training.trainer - Epoch duration: 0:00:16.545014
+2022-03-21 07:08:05,355 - INFO - allennlp.training.trainer - Estimated training time remaining: 0:02:29
+2022-03-21 07:08:05,377 - INFO - allennlp.training.trainer - Epoch 1/9
+2022-03-21 07:08:05,390 - INFO - allennlp.training.trainer - Worker 0 memory usage: 5.9G
+2022-03-21 07:08:05,408 - INFO - allennlp.training.trainer - GPU 0 memory usage: 0B
+2022-03-21 07:08:05,412 - INFO - allennlp.training.trainer - Training
+2022-03-21 07:08:05,415 - INFO - tqdm - 0%|          | 0/106 [00:00<?, ?it/s]
+2022-03-21 07:08:14,190 - INFO - tqdm - f1: 0.2959, accuracy: 0.6617, batch_loss: 0.8304, loss: 1.0354 ||: 100%|##########| 106/106 [00:08<00:00, 12.43it/s]
+2022-03-21 07:08:14,211 - INFO - tqdm - f1: 0.2959, accuracy: 0.6617, batch_loss: 0.8304, loss: 1.0354 ||: 100%|##########| 106/106 [00:08<00:00, 12.05it/s]
+2022-03-21 07:08:14,246 - INFO - allennlp.training.trainer - Validating
+2022-03-21 07:08:14,286 - INFO - tqdm - 0%|          | 0/8 [00:00<?, ?it/s]
+2022-03-21 07:08:14,482 - INFO - tqdm - f1: 0.3607, accuracy: 0.7193, batch_loss: 1.1069, loss: 1.0425 ||: 100%|##########| 8/8 [00:00<00:00, 44.55it/s]
+2022-03-21 07:08:14,543 - INFO - dont_stop_pretraining.training.roberta_checkpointer - Best validation performance so far. Copying weights to 'model_logs/citation_intent_base_hyper_small_seed_177/best.th'.
+2022-03-21 07:08:19,396 - INFO - allennlp.training.callbacks.console_logger -                        Training |  Validation
+2022-03-21 07:08:19,429 - INFO - allennlp.training.callbacks.console_logger - accuracy           |     0.662  |     0.719
+2022-03-21 07:08:19,467 - INFO - allennlp.training.callbacks.console_logger - f1                 |     0.296  |     0.361
+2022-03-21 07:08:19,488 - INFO - allennlp.training.callbacks.console_logger - gpu_0_memory_MB    |     0.000  |       N/A
+2022-03-21 07:08:19,503 - INFO - allennlp.training.callbacks.console_logger - loss               |     1.035  |     1.043
+2022-03-21 07:08:19,521 - INFO - allennlp.training.callbacks.console_logger - worker_0_memory_MB |  6032.957  |       N/A
+2022-03-21 07:08:19,540 - INFO - allennlp.training.trainer - Epoch duration: 0:00:14.162875
+2022-03-21 07:08:19,560 - INFO - allennlp.training.trainer - Estimated training time remaining: 0:02:03
+2022-03-21 07:08:19,620 - INFO - allennlp.training.trainer - Epoch 2/9
+2022-03-21 07:08:19,640 - INFO - allennlp.training.trainer - Worker 0 memory usage: 5.9G
+2022-03-21 07:08:19,677 - INFO - allennlp.training.trainer - GPU 0 memory usage: 0B
+2022-03-21 07:08:19,696 - INFO - allennlp.training.trainer - Training
+2022-03-21 07:08:19,713 - INFO - tqdm - 0%|          | 0/106 [00:00<?, ?it/s]
+2022-03-21 07:08:29,043 - INFO - tqdm - f1: 0.4312, accuracy: 0.7263, batch_loss: 0.9554, loss: 0.8094 ||: 100%|##########| 106/106 [00:09<00:00, 10.45it/s]
+2022-03-21 07:08:29,071 - INFO - tqdm - f1: 0.4312, accuracy: 0.7263, batch_loss: 0.9554, loss: 0.8094 ||: 100%|##########| 106/106 [00:09<00:00, 11.35it/s]
+2022-03-21 07:08:29,092 - INFO - allennlp.training.trainer - Validating
+2022-03-21 07:08:29,107 - INFO - tqdm - 0%|          | 0/8 [00:00<?, ?it/s]
+2022-03-21 07:08:29,410 - INFO - tqdm - f1: 0.4659, accuracy: 0.7281, batch_loss: 1.3609, loss: 0.8104 ||: 100%|##########| 8/8 [00:00<00:00, 27.85it/s]
+2022-03-21 07:08:29,530 - INFO - dont_stop_pretraining.training.roberta_checkpointer - Best validation performance so far. Copying weights to 'model_logs/citation_intent_base_hyper_small_seed_177/best.th'.
+2022-03-21 07:08:33,908 - INFO - allennlp.training.callbacks.console_logger -                        Training |  Validation
+2022-03-21 07:08:33,916 - INFO - allennlp.training.callbacks.console_logger - accuracy           |     0.726  |     0.728
+2022-03-21 07:08:33,921 - INFO - allennlp.training.callbacks.console_logger - f1                 |     0.431  |     0.466
+2022-03-21 07:08:33,966 - INFO - allennlp.training.callbacks.console_logger - gpu_0_memory_MB    |     0.000  |       N/A
+2022-03-21 07:08:33,998 - INFO - allennlp.training.callbacks.console_logger - loss               |     0.809  |     0.810
+2022-03-21 07:08:34,019 - INFO - allennlp.training.callbacks.console_logger - worker_0_memory_MB |  6032.957  |       N/A
+2022-03-21 07:08:34,026 - INFO - allennlp.training.trainer - Epoch duration: 0:00:14.405706
+2022-03-21 07:08:34,041 - INFO - allennlp.training.trainer - Estimated training time remaining: 0:01:45
+2022-03-21 07:08:34,043 - INFO - allennlp.training.trainer - Epoch 3/9
+2022-03-21 07:08:34,062 - INFO - allennlp.training.trainer - Worker 0 memory usage: 5.9G
+2022-03-21 07:08:34,064 - INFO - allennlp.training.trainer - GPU 0 memory usage: 0B
+2022-03-21 07:08:34,068 - INFO - allennlp.training.trainer - Training
+2022-03-21 07:08:34,086 - INFO - tqdm - 0%|          | 0/106 [00:00<?, ?it/s]
+2022-03-21 07:08:43,193 - INFO - tqdm - f1: 0.6802, accuracy: 0.8128, batch_loss: 0.5522, loss: 0.6025 ||: 100%|##########| 106/106 [00:09<00:00, 10.58it/s]
+2022-03-21 07:08:43,215 - INFO - tqdm - f1: 0.6802, accuracy: 0.8128, batch_loss: 0.5522, loss: 0.6025 ||: 100%|##########| 106/106 [00:09<00:00, 11.61it/s]
+2022-03-21 07:08:43,242 - INFO - allennlp.training.trainer - Validating
+2022-03-21 07:08:43,259 - INFO - tqdm - 0%|          | 0/8 [00:00<?, ?it/s]
+2022-03-21 07:08:43,622 - INFO - tqdm - f1: 0.6427, accuracy: 0.7982, batch_loss: 0.3413, loss: 0.6573 ||: 100%|##########| 8/8 [00:00<00:00, 23.43it/s]
+2022-03-21 07:08:43,661 - INFO - dont_stop_pretraining.training.roberta_checkpointer - Best validation performance so far. Copying weights to 'model_logs/citation_intent_base_hyper_small_seed_177/best.th'.
+2022-03-21 07:08:48,287 - INFO - allennlp.training.callbacks.console_logger -                        Training |  Validation
+2022-03-21 07:08:48,291 - INFO - allennlp.training.callbacks.console_logger - accuracy           |     0.813  |     0.798
+2022-03-21 07:08:48,309 - INFO - allennlp.training.callbacks.console_logger - f1                 |     0.680  |     0.643
+2022-03-21 07:08:48,327 - INFO - allennlp.training.callbacks.console_logger - gpu_0_memory_MB    |     0.000  |       N/A
+2022-03-21 07:08:48,346 - INFO - allennlp.training.callbacks.console_logger - loss               |     0.602  |     0.657
+2022-03-21 07:08:48,365 - INFO - allennlp.training.callbacks.console_logger - worker_0_memory_MB |  6032.984  |       N/A
+2022-03-21 07:08:48,389 - INFO - allennlp.training.trainer - Epoch duration: 0:00:14.345663
+2022-03-21 07:08:48,408 - INFO - allennlp.training.trainer - Estimated training time remaining: 0:01:29
+2022-03-21 07:08:48,411 - INFO - allennlp.training.trainer - Epoch 4/9
+2022-03-21 07:08:48,429 - INFO - allennlp.training.trainer - Worker 0 memory usage: 5.9G
+2022-03-21 07:08:48,433 - INFO - allennlp.training.trainer - GPU 0 memory usage: 0B
+2022-03-21 07:08:48,437 - INFO - allennlp.training.trainer - Training
+2022-03-21 07:08:48,468 - INFO - tqdm - 0%|          | 0/106 [00:00<?, ?it/s]
+2022-03-21 07:08:57,402 - INFO - tqdm - f1: 0.7918, accuracy: 0.8815, batch_loss: 0.3427, loss: 0.4096 ||: 100%|##########| 106/106 [00:08<00:00, 10.57it/s]
+2022-03-21 07:08:57,414 - INFO - tqdm - f1: 0.7918, accuracy: 0.8815, batch_loss: 0.3427, loss: 0.4096 ||: 100%|##########| 106/106 [00:08<00:00, 11.88it/s]
+2022-03-21 07:08:57,426 - INFO - allennlp.training.trainer - Validating
+2022-03-21 07:08:57,451 - INFO - tqdm - 0%|          | 0/8 [00:00<?, ?it/s]
+2022-03-21 07:08:57,727 - INFO - tqdm - f1: 0.7063, accuracy: 0.7895, batch_loss: 0.0404, loss: 0.6918 ||: 100%|##########| 8/8 [00:00<00:00, 33.17it/s]
+2022-03-21 07:08:57,733 - INFO - tqdm - f1: 0.7063, accuracy: 0.7895, batch_loss: 0.0404, loss: 0.6918 ||: 100%|##########| 8/8 [00:00<00:00, 32.91it/s]
+2022-03-21 07:08:57,814 - INFO - dont_stop_pretraining.training.roberta_checkpointer - Best validation performance so far. Copying weights to 'model_logs/citation_intent_base_hyper_small_seed_177/best.th'.
+2022-03-21 07:09:02,914 - INFO - allennlp.training.callbacks.console_logger -                        Training |  Validation
+2022-03-21 07:09:02,917 - INFO - allennlp.training.callbacks.console_logger - accuracy           |     0.882  |     0.789
+2022-03-21 07:09:02,935 - INFO - allennlp.training.callbacks.console_logger - f1                 |     0.792  |     0.706
+2022-03-21 07:09:02,957 - INFO - allennlp.training.callbacks.console_logger - gpu_0_memory_MB    |     0.000  |       N/A
+2022-03-21 07:09:03,022 - INFO - allennlp.training.callbacks.console_logger - loss               |     0.410  |     0.692
+2022-03-21 07:09:03,025 - INFO - allennlp.training.callbacks.console_logger - worker_0_memory_MB |  6032.984  |       N/A
+2022-03-21 07:09:03,028 - INFO - allennlp.training.trainer - Epoch duration: 0:00:14.617190
+2022-03-21 07:09:03,033 - INFO - allennlp.training.trainer - Estimated training time remaining: 0:01:14
+2022-03-21 07:09:03,055 - INFO - allennlp.training.trainer - Epoch 5/9
+2022-03-21 07:09:03,074 - INFO - allennlp.training.trainer - Worker 0 memory usage: 5.9G
+2022-03-21 07:09:03,092 - INFO - allennlp.training.trainer - GPU 0 memory usage: 0B
+2022-03-21 07:09:03,111 - INFO - allennlp.training.trainer - Training
+2022-03-21 07:09:03,192 - INFO - tqdm - 0%|          | 0/106 [00:00<?, ?it/s]
+2022-03-21 07:09:12,324 - INFO - tqdm - f1: 0.8829, accuracy: 0.9277, batch_loss: 0.4155, loss: 0.2541 ||: 100%|##########| 106/106 [00:09<00:00, 12.46it/s]
+2022-03-21 07:09:12,341 - INFO - tqdm - f1: 0.8829, accuracy: 0.9277, batch_loss: 0.4155, loss: 0.2541 ||: 100%|##########| 106/106 [00:09<00:00, 11.61it/s]
+2022-03-21 07:09:12,368 - INFO - allennlp.training.trainer - Validating
+2022-03-21 07:09:12,378 - INFO - tqdm - 0%|          | 0/8 [00:00<?, ?it/s]
+2022-03-21 07:09:12,587 - INFO - tqdm - f1: 0.6824, accuracy: 0.7807, batch_loss: 0.0203, loss: 0.6907 ||: 100%|##########| 8/8 [00:00<00:00, 41.57it/s]
+2022-03-21 07:09:12,648 - INFO - allennlp.training.callbacks.console_logger -                        Training |  Validation
+2022-03-21 07:09:12,667 - INFO - allennlp.training.callbacks.console_logger - accuracy           |     0.928  |     0.781
+2022-03-21 07:09:12,686 - INFO - allennlp.training.callbacks.console_logger - f1                 |     0.883  |     0.682
+2022-03-21 07:09:12,703 - INFO - allennlp.training.callbacks.console_logger - gpu_0_memory_MB    |     0.000  |       N/A
+2022-03-21 07:09:12,721 - INFO - allennlp.training.callbacks.console_logger - loss               |     0.254  |     0.691
+2022-03-21 07:09:12,740 - INFO - allennlp.training.callbacks.console_logger - worker_0_memory_MB |  6033.039  |       N/A
+2022-03-21 07:09:12,757 - INFO - allennlp.training.trainer - Epoch duration: 0:00:09.702705
+2022-03-21 07:09:12,774 - INFO - allennlp.training.trainer - Estimated training time remaining: 0:00:55
+2022-03-21 07:09:12,792 - INFO - allennlp.training.trainer - Epoch 6/9
+2022-03-21 07:09:12,810 - INFO - allennlp.training.trainer - Worker 0 memory usage: 5.9G
+2022-03-21 07:09:12,829 - INFO - allennlp.training.trainer - GPU 0 memory usage: 0B
+2022-03-21 07:09:12,874 - INFO - allennlp.training.trainer - Training
+2022-03-21 07:09:12,893 - INFO - tqdm - 0%|          | 0/106 [00:00<?, ?it/s]
+2022-03-21 07:09:22,005 - INFO - tqdm - f1: 0.9106, accuracy: 0.9437, batch_loss: 0.3902, loss: 0.1975 ||: 100%|##########| 106/106 [00:09<00:00, 10.65it/s]
+2022-03-21 07:09:22,023 - INFO - tqdm - f1: 0.9106, accuracy: 0.9437, batch_loss: 0.3902, loss: 0.1975 ||: 100%|##########| 106/106 [00:09<00:00, 11.63it/s]
+2022-03-21 07:09:22,045 - INFO - allennlp.training.trainer - Validating
+2022-03-21 07:09:22,058 - INFO - tqdm - 0%|          | 0/8 [00:00<?, ?it/s]
+2022-03-21 07:09:22,420 - INFO - tqdm - f1: 0.7539, accuracy: 0.8070, batch_loss: 1.0873, loss: 0.6997 ||: 100%|##########| 8/8 [00:00<00:00, 24.28it/s]
+2022-03-21 07:09:22,476 - INFO - dont_stop_pretraining.training.roberta_checkpointer - Best validation performance so far. Copying weights to 'model_logs/citation_intent_base_hyper_small_seed_177/best.th'.
+2022-03-21 07:09:27,769 - INFO - allennlp.training.callbacks.console_logger -                        Training |  Validation
+2022-03-21 07:09:27,789 - INFO - allennlp.training.callbacks.console_logger - accuracy           |     0.944  |     0.807
+2022-03-21 07:09:27,807 - INFO - allennlp.training.callbacks.console_logger - f1                 |     0.911  |     0.754
+2022-03-21 07:09:27,827 - INFO - allennlp.training.callbacks.console_logger - gpu_0_memory_MB    |     0.000  |       N/A
+2022-03-21 07:09:27,843 - INFO - allennlp.training.callbacks.console_logger - loss               |     0.198  |     0.700
+2022-03-21 07:09:27,846 - INFO - allennlp.training.callbacks.console_logger - worker_0_memory_MB |  6033.039  |       N/A
+2022-03-21 07:09:27,849 - INFO - allennlp.training.trainer - Epoch duration: 0:00:15.057106
+2022-03-21 07:09:27,853 - INFO - allennlp.training.trainer - Estimated training time remaining: 0:00:42
+2022-03-21 07:09:27,876 - INFO - allennlp.training.trainer - Epoch 7/9
+2022-03-21 07:09:27,880 - INFO - allennlp.training.trainer - Worker 0 memory usage: 5.9G
+2022-03-21 07:09:27,898 - INFO - allennlp.training.trainer - GPU 0 memory usage: 0B
+2022-03-21 07:09:27,917 - INFO - allennlp.training.trainer - Training
+2022-03-21 07:09:27,934 - INFO - tqdm - 0%|          | 0/106 [00:00<?, ?it/s]
+2022-03-21 07:09:37,186 - INFO - tqdm - f1: 0.9162, accuracy: 0.9437, batch_loss: 0.7155, loss: 0.1891 ||: 100%|##########| 106/106 [00:09<00:00, 11.48it/s]
+2022-03-21 07:09:37,207 - INFO - allennlp.training.trainer - Validating
+2022-03-21 07:09:37,224 - INFO - tqdm - 0%|          | 0/8 [00:00<?, ?it/s]
+2022-03-21 07:09:37,542 - INFO - tqdm - f1: 0.7078, accuracy: 0.7895, batch_loss: 0.0102, loss: 0.6937 ||: 100%|##########| 8/8 [00:00<00:00, 26.52it/s]
+2022-03-21 07:09:37,604 - INFO - allennlp.training.callbacks.console_logger -                        Training |  Validation
+2022-03-21 07:09:37,615 - INFO - allennlp.training.callbacks.console_logger - accuracy           |     0.944  |     0.789
+2022-03-21 07:09:37,637 - INFO - allennlp.training.callbacks.console_logger - f1                 |     0.916  |     0.708
+2022-03-21 07:09:37,652 - INFO - allennlp.training.callbacks.console_logger - gpu_0_memory_MB    |     0.000  |       N/A
+2022-03-21 07:09:37,669 - INFO - allennlp.training.callbacks.console_logger - loss               |     0.189  |     0.694
+2022-03-21 07:09:37,690 - INFO - allennlp.training.callbacks.console_logger - worker_0_memory_MB |  6033.141  |       N/A
+2022-03-21 07:09:37,693 - INFO - allennlp.training.trainer - Epoch duration: 0:00:09.816835
+2022-03-21 07:09:37,696 - INFO - allennlp.training.trainer - Estimated training time remaining: 0:00:27
+2022-03-21 07:09:37,715 - INFO - allennlp.training.trainer - Epoch 8/9
+2022-03-21 07:09:37,718 - INFO - allennlp.training.trainer - Worker 0 memory usage: 5.9G
+2022-03-21 07:09:37,737 - INFO - allennlp.training.trainer - GPU 0 memory usage: 0B
+2022-03-21 07:09:37,755 - INFO - allennlp.training.trainer - Training
+2022-03-21 07:09:37,772 - INFO - tqdm - 0%|          | 0/106 [00:00<?, ?it/s]
+2022-03-21 07:09:46,217 - INFO - tqdm - f1: 0.9449, accuracy: 0.9627, batch_loss: 0.7014, loss: 0.1315 ||: 100%|##########| 106/106 [00:08<00:00, 12.78it/s]
+2022-03-21 07:09:46,242 - INFO - tqdm - f1: 0.9449, accuracy: 0.9627, batch_loss: 0.7014, loss: 0.1315 ||: 100%|##########| 106/106 [00:08<00:00, 12.54it/s]
+2022-03-21 07:09:46,283 - INFO - allennlp.training.trainer - Validating
+2022-03-21 07:09:46,298 - INFO - tqdm - 0%|          | 0/8 [00:00<?, ?it/s]
+2022-03-21 07:09:46,547 - INFO - tqdm - f1: 0.6523, accuracy: 0.7632, batch_loss: 1.1747, loss: 0.7504 ||: 100%|##########| 8/8 [00:00<00:00, 34.52it/s]
+2022-03-21 07:09:46,567 - INFO - allennlp.training.callbacks.console_logger -                        Training |  Validation
+2022-03-21 07:09:46,580 - INFO - allennlp.training.callbacks.console_logger - accuracy           |     0.963  |     0.763
+2022-03-21 07:09:46,598 - INFO - allennlp.training.callbacks.console_logger - f1                 |     0.945  |     0.652
+2022-03-21 07:09:46,639 - INFO - allennlp.training.callbacks.console_logger - gpu_0_memory_MB    |     0.000  |       N/A
+2022-03-21 07:09:46,655 - INFO - allennlp.training.callbacks.console_logger - loss               |     0.132  |     0.750
+2022-03-21 07:09:46,675 - INFO - allennlp.training.callbacks.console_logger - worker_0_memory_MB |  6033.141  |       N/A
+2022-03-21 07:09:46,680 - INFO - allennlp.training.trainer - Epoch duration: 0:00:08.964921
+2022-03-21 07:09:46,732 - INFO - allennlp.training.trainer - Estimated training time remaining: 0:00:13
+2022-03-21 07:09:46,751 - INFO - allennlp.training.trainer - Epoch 9/9
+2022-03-21 07:09:46,769 - INFO - allennlp.training.trainer - Worker 0 memory usage: 5.9G
+2022-03-21 07:09:46,788 - INFO - allennlp.training.trainer - GPU 0 memory usage: 0B
+2022-03-21 07:09:46,792 - INFO - allennlp.training.trainer - Training
+2022-03-21 07:09:46,795 - INFO - tqdm - 0%|          | 0/106 [00:00<?, ?it/s]
+2022-03-21 07:09:55,469 - INFO - tqdm - f1: 0.9524, accuracy: 0.9716, batch_loss: 0.3128, loss: 0.1085 ||: 100%|##########| 106/106 [00:08<00:00, 12.13it/s]
+2022-03-21 07:09:55,488 - INFO - tqdm - f1: 0.9524, accuracy: 0.9716, batch_loss: 0.3128, loss: 0.1085 ||: 100%|##########| 106/106 [00:08<00:00, 12.25it/s]
+2022-03-21 07:09:55,510 - INFO - allennlp.training.trainer - Validating
+2022-03-21 07:09:55,522 - INFO - tqdm - 0%|          | 0/8 [00:00<?, ?it/s]
+2022-03-21 07:09:55,722 - INFO - tqdm - f1: 0.6689, accuracy: 0.7719, batch_loss: 0.6630, loss: 0.7844 ||: 100%|##########| 8/8 [00:00<00:00, 43.48it/s]
+2022-03-21 07:09:55,740 - INFO - allennlp.training.trainer - Ran out of patience.  Stopping training.
+2022-03-21 07:09:55,751 - INFO - dont_stop_pretraining.training.roberta_checkpointer - loading best weights
+2022-03-21 07:09:56,111 - INFO - allennlp.commands.train - The model will be evaluated using the best epoch weights.
+2022-03-21 07:09:56,119 - INFO - allennlp.training.util - Iterating over dataset
+2022-03-21 07:09:56,140 - INFO - tqdm - 0it [00:00, ?it/s]
+2022-03-21 07:09:56,158 - INFO - allennlp.data.samplers.bucket_batch_sampler - No sorting keys given; trying to guess a good one
+2022-03-21 07:09:56,176 - INFO - allennlp.data.samplers.bucket_batch_sampler - Using ['tokens'] as the sorting keys
+2022-03-21 07:09:56,542 - INFO - allennlp.common.util - Metrics: {
+  "best_epoch": 6,
+  "peak_worker_0_memory_MB": 6033.140625,
+  "peak_gpu_0_memory_MB": 0,
+  "training_duration": "0:01:57.767052",
+  "training_start_epoch": 0,
+  "training_epochs": 8,
+  "epoch": 8,
+  "training_f1": 0.9449000855286916,
+  "training_accuracy": 0.9626777251184834,
+  "training_loss": 0.13150592830102398,
+  "training_worker_0_memory_MB": 6033.140625,
+  "training_gpu_0_memory_MB": 0.0,
+  "validation_f1": 0.6522660503784815,
+  "validation_accuracy": 0.7631578947368421,
+  "validation_loss": 0.7503907920327038,
+  "best_validation_f1": 0.7538604438304901,
+  "best_validation_accuracy": 0.8070175438596491,
+  "best_validation_loss": 0.6997305806726217,
+  "test_f1": 0.6554375439882278,
+  "test_accuracy": 0.7553956834532374,
+  "test_loss": 0.8907153705755869
+}
+2022-03-21 07:09:56,583 - INFO - allennlp.models.archival - archiving weights and vocabulary to model_logs/citation_intent_base_hyper_small_seed_177/model.tar.gz

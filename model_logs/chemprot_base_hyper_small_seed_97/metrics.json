@@ -1,0 +1,23 @@
+{
+  "best_epoch": 2,
+  "peak_worker_0_memory_MB": 6139.26953125,
+  "peak_gpu_0_memory_MB": 0,
+  "training_duration": "0:03:49.634277",
+  "training_start_epoch": 0,
+  "training_epochs": 4,
+  "epoch": 4,
+  "training_f1": 0.6535997803394611,
+  "training_accuracy": 0.9237227152794435,
+  "training_loss": 0.26785360677774384,
+  "training_worker_0_memory_MB": 6139.26953125,
+  "training_gpu_0_memory_MB": 0.0,
+  "validation_f1": 0.5144077596756128,
+  "validation_accuracy": 0.8145859085290482,
+  "validation_loss": 0.7403563203437156,
+  "best_validation_f1": 0.5295967688927283,
+  "best_validation_accuracy": 0.8281829419035847,
+  "best_validation_loss": 0.6335099373797053,
+  "test_f1": 0.5013704781348889,
+  "test_accuracy": 0.8198328048428942,
+  "test_loss": 0.665454801463861
+}
